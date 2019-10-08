@@ -1,0 +1,129 @@
+#workskin .phone {
+  max-width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+#workskin .messagebody {
+  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  display: table;
+}
+
+#workskin .header {
+  min-width: 300px;
+  background-color: #075E54;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding-top: .5em;
+  padding-bottom: 0.5em;
+  margin-bottom: -2em;
+  text-align: left;
+  text-indent: 55px;
+  text-transform: capitalize;
+  display: table;
+}
+
+#workskin .status {
+  min-width: 300px;
+  background-color: #075E54;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  color: #FFFFFF;
+  font-size: 0.75em;
+  padding-top: 0.25em;
+  padding-bottom: 0.75em;
+  margin-bottom: -2em;
+  text-align: left;
+  text-indent: 55px;
+  display: table;
+}
+
+#workskin .avatar {
+  content: "";
+  width: 40px;
+  height: 40px;
+  margin: 0.5em;
+  background-image: url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
+  background-size: 100%;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+#workskin .reply {
+  float: right;
+  color: #000000;
+  margin: 0.4em 1em;
+  border-radius: 0.5em 0 0.5em 0.5em;
+  padding: 0.25em 15px 0.25em 1em;
+  background: #E1FFC7;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .reply::before {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  top: 0;
+  width: 0.5em;
+  height: 1em;
+  border-right: 0.5em solid #E1FFC7;
+  border-bottom-right-radius: 0.5em 1em;
+}
+
+#workskin .text {
+  float: left;
+  color: #000000;
+  margin: 0.4em 1em;
+  border-radius: 0 0.5em 0.5em 0.5em;
+  padding: 0.25em 15px 0.25em 1em;
+  background: #FFFFFF;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .text::before {
+  content: "";
+  position: absolute;
+  left: -.5em;
+  top: 0;
+  width: 0.5em;
+  height: 1em;
+  border-left: 0.5em solid #FFFFFF;
+  border-bottom-left-radius: 0.5em 1em;
+}
+
+#workskin .text1 {
+  float: left;
+  color: #000000;
+  margin: 0.4em 1em;
+  border-radius: 0.5em;
+  padding: 0.25em 15px 0.25em 1em;
+  background: #FFFFFF;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .reply1 {
+  float: right;
+  color: #000000;
+  margin: 0.4em 1em;
+  border-radius: 0.5em;
+  padding: 0.25em 15px 0.25em 1em;
+  background: #E1FFC7;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
