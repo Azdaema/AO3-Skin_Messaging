@@ -1,0 +1,14 @@
+#workskin table {
+	width: auto;
+	margin: auto;
+}
+
+#workskin .dialogue {
+	font-size: 2em;
+}
+
+#workskin img.icon {
+	height: 1.5em;
+	width: 1.5em;
+	vertical-align: top;
+}
