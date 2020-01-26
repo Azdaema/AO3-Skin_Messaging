@@ -1,36 +1,35 @@
-/* Wrapper */
+/* Wrapper for this whole thing */
 #workskin .ios {
   width: 100%;
   max-width: 300px;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: table;
   margin: auto;
-  padding: 0.5em 1em;
+  padding: 10px 20px;
   background: white;
   border-bottom: solid;
 }
 
-/* Characteristics of both incoming and outgoing texts */
+/* Characteristics for both incoming and outgoing texts */
 #workskin .ios p {
-  margin: 0 0 0.2em;
-  border-radius: 1em;
-  padding: 0.5em 1em;
+  margin: 0;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  padding: 8px 15px;
   max-width: 70%;
   clear: both;
   position: relative;
 }
-
 #workskin .ios p:last-child {
-  margin: 0 0 0.5em;
+  margin-bottom: 10px;
 }
-
-/* Characteristics of both incoming and outgoing text tails */
+/* Tail characteristics for both incoming and outgoing texts */
 #workskin .ios p:after {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 0.5em;
-  height: 1em;
+  width: 10px;
+  height: 20px;
 }
 
 /* Outgoing texts */
@@ -40,9 +39,9 @@
   color: #FFF;
 }
 #workskin .ios .out p:last-child:after {
-  right: -0.5em;
-  border-left: 0.5em solid #1289fe;
-  border-bottom-left-radius: 1em 0.5em;
+  right: -10px;
+  border-left: 10px solid #1289fe;
+  border-bottom-left-radius: 20px 10px;
 }
 
 /* Incoming texts */
@@ -52,45 +51,75 @@
   color: #000;
 }
 #workskin .ios .in p:last-child:after {
-  left: -0.5em;
-  border-right: 0.5em solid #e5e5ea;
-  border-bottom-right-radius: 1em 0.5em;
+  left: -10px;
+  border-right: 10px solid #e5e5ea;
+  border-bottom-right-radius: 20px 10px;
 }
 
-/* Sending photos */
+/* Both for photos, and for up to 3 big emojis.
+   No background, no tail. */
 #workskin .ios p.pic {
-  background: none !important;
-  padding: 0;
-}
-#workskin .ios .pic img {
-  border-radius: 1em;
-  width: 100%;
-  display: block;
-}
-#workskin .ios p.pic:after {
-  content: none !important;
-}
-
-/* Up to 3 large, no-background emojis */
-#workskin .ios .emoji {
   background: none !important;
   padding: 0;
   font-size: 2em;
 }
-#workskin .ios p.emoji:after {
+#workskin .ios p.pic:after {
   content: none !important;
 }
+#workskin .ios .pic img {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
 
-/* Time header */
+/* Timestamp */
 #workskin .ios .time {
-  min-width: 295px;
+  max-width: 100%;
+  border-radius: 0;
   color: #7B7C80;
   font-size: 0.75em;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  margin-left: -0.5em;
-  margin-right: -0.5em;
-  margin-bottom: -0.5em;
   text-align: center;
-  display: table;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+/* Header for the contact you're texting with */
+#workskin .ios .header {
+  max-width: 100%;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  box-shadow: 0 1px 2px rgba(1,1,1,0.2);
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 58px;
+  white-space: nowrap;
+}
+
+/* Back arrow for the header */
+#workskin .ios .header .arrow {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  font-size: 18px;
+}
+#workskin .ios .header .arrow:after {
+  border: 3px solid #2095FE;
+  border-right: 3px solid transparent;
+  border-top: 3px solid transparent;
+  content: " ";
+  height: 14px;
+  left: -20px;
+  position: absolute;
+  top: 20px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 14px;
 }
