@@ -46,6 +46,9 @@ First, `ios` is the wrapper class. The whole skin is set up to only effect thing
 `time` is for times. On my phone, for texts older than one week, iOS does it in the format of:
 > **[3-letter day of the week abrv], [3-letter month abrv] [day of the month]**, [time] [AM/PM]
 
+So for example:
+> **Sun, Jan 19**, 5:20 PM
+
 And it gives the full thing every time. But to make it more readable, if you want to keep it giving the day for the first text of the day, and only the time for subsequent ones, that would be a fair stylistic choice.
 
 ```html
