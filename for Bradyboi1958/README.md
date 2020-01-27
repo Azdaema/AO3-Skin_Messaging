@@ -37,3 +37,6 @@ Margin after texts that are the last one in their wrapper.
   margin-bottom: 10px;
 }
 ```
+
+## Font size
+`em` = current font-size. So `0.5em` is half the current font-size, `2em` is double the current font-size, etc.
