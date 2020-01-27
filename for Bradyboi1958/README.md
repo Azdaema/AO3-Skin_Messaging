@@ -13,7 +13,7 @@ First, `ios` is the wrapper class. The whole skin is set up to only effect thing
 ```
 
 # `in` and `out`
-`in` and `out` are for incoming and outgoing texts respectively. Texts within the same one will be grouped together, treated like they were sent in rapid succession. You can use two `in` or `out` in a row to show that someone waited a minute, with no reply.
+`in` and `out` are for incoming and outgoing texts respectively. Texts within the same one will be grouped together, treated like they were sent in rapid succession. You can use two of the same in a row to show that someone waited a minute, with no reply, before texting again.
 
 ```html
 <div class="ios">
