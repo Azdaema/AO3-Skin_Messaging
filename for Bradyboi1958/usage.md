@@ -1,17 +1,53 @@
-First, `ios` is the wrapper class. The whole skin is set to only effect things in the wrapper class, so you could also use it in a fic which was mostly paragraphs of prose but had one text conversion.
+# `ios`
+First, `ios` is the wrapper class. The whole skin is set up to only effect things _inside the wrapper_. So you could also use this skin for which was mostly paragraph of prose, but had one text conversion.
 
 ```css
 <div class="ios">
-	<p class="time"><b>Jan 1</b>, 3:27 AM</p>
-	<div class="in"><p>I love sening you tinight.</p></div>
-	<div class="out"><p>Jaime you're drunk. Go to sleep.</p></div>
-	<div class="in"><p>I'm nit drink yiure drunk</p></div>
-	<div class="out"><p>right. I'm going to bed. Best of luck in the morning. Drink some water. Xx</p></div>
 	<div class="in">
-		<p>I kive yu</p>
-		<p>kivr</p>
-		<p>kove</p>
-		<p>fucj. I love yiy</p>
+		<p>incoming text</p>
+	</div>
+	<div class="out">
+		<p>outgoing text</p>
 	</div>
 </div>
 ```
+
+# `in` and `out`
+`in` and `out` are for incoming and outgoing texts respectively. Texts within the same one will be grouped together, treated like they were sent in rapid succession. You can use two `in` or `out` in a row to show that someone waited a minute, with no reply.
+
+```css
+<div class="ios">
+	<div class="in">
+		<p>are you there yet?</p>
+		<p>Where are you?</p>
+	</div>
+	<div class="in">
+		<p>hello?? seriously where are you???</p>
+	</div>
+</div>
+```
+
+# `pic`
+`pic` can be used for 2 different things:
+1. Sending photos
+2. That up to 3 big emojis thing
+```css
+<div class="ios">
+	<div class="in">
+		<p class="pic"><img src="https://picture_image_link.jpg" /></p>
+	</div>
+	<div class="out">
+		<p class="pic">💖💖💖</p>
+	</div>
+</div>
+```
+
+# `time`
+`time` is for times. On my phone, iOS does it in the format of: [3 letter e week
+
+<div class="ios">
+	<p class="time"><b>Jan 1</b>, 3:27 AM</p>
+	<div class="in">
+		<p>I love sening you tinight.</p>
+	</div>
+</div>
