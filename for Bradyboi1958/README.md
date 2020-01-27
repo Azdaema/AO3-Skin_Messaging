@@ -7,7 +7,7 @@ If you give 2 numbers in margin/padding, without top/bottom/left/right, the firs
 
 You _can_ do 3 and 4 in the same style (see ["Shorthand Property"](https://www.w3schools.com/css/css_margin.asp)), but I can never remember what's what then. So I prefer:
 ```
-  margin: 0;
-  margin-bottom: 3px;
+margin: 0;
+margin-bottom: 3px;
 ```
 0 margin on all sides except bottom.
