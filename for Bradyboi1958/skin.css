@@ -1,6 +1,6 @@
 /* Wrapper for this whole thing */
 #workskin .ios {
-  width: 100%; /* On a phone screen that is less that 300px wide, it will be whatever 100% of the width is.
+  width: 100%; /* On a phone screen that is less that 300px wide, it will be whatever 100% of the width is. */
   max-width: 300px; /* On larger screens, it will be 300px. */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: table;
@@ -11,9 +11,9 @@
 
 /* Characteristics for both incoming and outgoing texts */
 #workskin .ios p {
-  margin: 0;
+  margin: 0; /* removing <p></p> default characteristics*/
   margin-bottom: 3px;
-  border-radius: 20px;
+  border-radius: 20px; /* curved corners */
   padding: 8px 15px;
   max-width: 70%;
   clear: both;
@@ -31,24 +31,28 @@
   height: 20px;
 }
 
-/* Outgoing texts */
+/* Outgoing texts:
+    righthand side, blue background, white text */
 #workskin .ios .out p {
   float: right;
   background: #1289fe;
   color: #FFF;
 }
+/* Tail */
 #workskin .ios .out p:last-child:after {
   right: -10px;
   border-left: 10px solid #1289fe;
   border-bottom-left-radius: 20px 10px;
 }
 
-/* Incoming texts */
+/* Incoming texts:
+    lefthand side, gray background, black text */
 #workskin .ios .in p {
   float: left;
   background: #e5e5ea;
   color: #000;
 }
+/* Tail */
 #workskin .ios .in p:last-child:after {
   left: -10px;
   border-right: 10px solid #e5e5ea;
@@ -56,29 +60,31 @@
 }
 
 /* Both for photos, and for up to 3 big emojis.
-   No background, no tail. */
+    No bubble (no background, no padding)  no tail. */
 #workskin .ios p.pic {
   background: none !important;
   padding: 0;
-  font-size: 2em;
+  font-size: 3em; /* the only text in here should be emojis, so this is to make emojis big */
 }
 #workskin .ios p.pic:after {
-  content: none !important;
+  content: none !important; /* No tail, even if it's the last one in its group */
 }
 #workskin .ios .pic img {
-  border-radius: 20px;
-  width: 100%;
-  display: block;
+  border-radius: 20px; /* curved corners */
+  width: 100%; /* takes up all the space avaliable (aka the 70% width from the text group it's in */
+  display: block; /* Otherwise there's extra space after image,
+                    https://stackoverflow.com/questions/17771230/img-has-5px-extra-padding-at-bottom-of-div */
 }
 
 /* Timestamp */
 #workskin .ios .time {
+  color: #7B7C80;
+  font-size: 0.75em; /* 75% size font */
+  text-align: center;
+  /* removing the <p> characteristics from when <p> means a text */
   max-width: 100%;
   border-radius: 0;
-  color: #7B7C80;
-  font-size: 0.75em;
-  text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 20px;
+  padding-top: 20px; /* extra space above */
 }
