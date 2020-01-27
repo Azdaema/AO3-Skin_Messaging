@@ -1,13 +1,12 @@
 /* Wrapper for this whole thing */
 #workskin .ios {
-  width: 100%;
-  max-width: 300px;
+  width: 100%; /* On a phone screen that is less that 300px wide, it will be whatever 100% of the width is.
+  max-width: 300px; /* On larger screens, it will be 300px. */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: table;
-  margin: auto;
+  margin: auto; /* centers the texting container in the middle of the page */
   padding: 10px 20px;
-  background: white;
-  border-bottom: solid;
+  border-bottom: solid; /* Because you were adding <hr> between the different days, I figured I would build that in. */
 }
 
 /* Characteristics for both incoming and outgoing texts */
