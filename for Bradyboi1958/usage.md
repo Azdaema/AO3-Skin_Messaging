@@ -43,11 +43,14 @@ First, `ios` is the wrapper class. The whole skin is set up to only effect thing
 ```
 
 # `time`
-`time` is for times. On my phone, iOS does it in the format of: [3 letter e week
+`time` is for times. On my phone, for texts older than one week, iOS does it in the format of:
+>> **[3-letter day of the week abrv], [3-letter month abrv] [day of the month]**, [time] [AM/PM]
 
+```
 <div class="ios">
 	<p class="time"><b>Jan 1</b>, 3:27 AM</p>
 	<div class="in">
 		<p>I love sening you tinight.</p>
 	</div>
 </div>
+```
