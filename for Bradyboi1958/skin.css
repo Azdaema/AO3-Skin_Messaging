@@ -1,0 +1,85 @@
+/* Wrapper for this whole thing */
+#workskin .ios {
+  width: 100%;
+  max-width: 300px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: solid;
+}
+
+/* Characteristics for both incoming and outgoing texts */
+#workskin .ios p {
+  margin: 0;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  max-width: 70%;
+  clear: both;
+  position: relative;
+}
+#workskin .ios p:last-child {
+  margin-bottom: 10px;
+}
+/* Tail characteristics for both incoming and outgoing texts */
+#workskin .ios p:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 20px;
+}
+
+/* Outgoing texts */
+#workskin .ios .out p {
+  float: right;
+  background: #1289fe;
+  color: #FFF;
+}
+#workskin .ios .out p:last-child:after {
+  right: -10px;
+  border-left: 10px solid #1289fe;
+  border-bottom-left-radius: 20px 10px;
+}
+
+/* Incoming texts */
+#workskin .ios .in p {
+  float: left;
+  background: #e5e5ea;
+  color: #000;
+}
+#workskin .ios .in p:last-child:after {
+  left: -10px;
+  border-right: 10px solid #e5e5ea;
+  border-bottom-right-radius: 20px 10px;
+}
+
+/* Both for photos, and for up to 3 big emojis.
+   No background, no tail. */
+#workskin .ios p.pic {
+  background: none !important;
+  padding: 0;
+  font-size: 2em;
+}
+#workskin .ios p.pic:after {
+  content: none !important;
+}
+#workskin .ios .pic img {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
+
+/* Timestamp */
+#workskin .ios .time {
+  max-width: 100%;
+  border-radius: 0;
+  color: #7B7C80;
+  font-size: 0.75em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
