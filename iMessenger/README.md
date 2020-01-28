@@ -13,13 +13,13 @@ Wrap your whole texting section in this:
 <dl class="imessenger">
 
 	<div class="in">
-    <dt>Character1</dt>
+		<dt>Character1</dt>
 		<dd>are you there yet?</dd>
 		<dd>Where are you?</dd>
 	</div>
 
 	<div class="out">
-    <dt>Character2</dt>
+		<dt>Character2</dt>
 		<dd>I'm waiting outside</dd>
 		<dd>wait I can see you now</dd>
 	</div>
@@ -38,25 +38,25 @@ Wrap your whole texting section in this:
 ### Photos
 ```html
 <div class="out">
-  <dt>Cersei</dt>
-  <dd>Look what they got at the tap</dd>
-  <dd class="pic"><img src="https://thumbs.worthpoint.com/zoom/images3/1/0817/09/bally-baby-pac-man-pacman-commercial_1_325f8047914c5ee8676857358454b56f.jpg" /></dd>
+	<dt>Cersei</dt>
+	<dd>Look what they got at the tap</dd>
+	<dd class="pic"><img src="https://thumbs.worthpoint.com/zoom/images3/1/0817/09/bally-baby-pac-man-pacman-commercial_1_325f8047914c5ee8676857358454b56f.jpg" /></dd>
 </div>
 ```
 
 ### Emojis
 ```html
 <div class="in">
-  <dt>Mabel</dt>
-  <dd class="pic">💖💖💖</dd>
+	<dt>Mabel</dt>
+	<dd class="pic">💖💖💖</dd>
 </div>
 ```
 
 ### Rich links
 ```html
 <div class="in">
-  <dt>Jaime</dt>
-  <dd class="pic"><iframe src="https://www.youtube.com/embed/2an_WWubKmU?controls=0&amp;start=325&amp;modestbranding=1"></iframe></dd>
-  <dd>Fitting name, no?</dd>
+	<dt>Jaime</dt>
+	<dd class="pic"><iframe src="https://www.youtube.com/embed/2an_WWubKmU?controls=0&amp;start=325&amp;modestbranding=1"></iframe></dd>
+	<dd>Fitting name, no?</dd>
 </div>
 ```
