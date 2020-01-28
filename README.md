@@ -6,3 +6,13 @@
   * The header from the one by **2ne** [here](https://codepen.io/2ne/pen/osvpj)
 
 <!--- * The WhatsApp skin was created by **ran_a_dom** [here](https://archiveofourown.org/works/15842043/chapters/36893073) --->
+
+# Other
+https://archiveofourown.org/admin_posts/1370
+* https://archiveofourown.org/works/18844690 other ios
+* https://archiveofourown.org/works/15842043/chapters/36893073 WhatsApp
+* LINE
+  * https://archiveofourown.org/works/19150123/chapters/45514369
+  * https://archiveofourown.org/works/17489243
+* https://archiveofourown.org/works/19249828 Facebook Messenger Chat
+* https://archiveofourown.org/works/12142470 Discord
