@@ -1,0 +1,103 @@
+/* wrapper */
+#workskin .imessenger {
+  width: 100%;
+  max-width: 320px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+/* Hiding the <dt></dt>, where you will put the characters's names.
+  When the skin is turned off, they will be revealed. */
+#workskin .imessenger dt {
+  display: none;
+}
+
+/* The characteristics of both incoming and outgoing texts */
+#workskin .imessenger dd {
+  margin: 0;
+  margin-bottom: 3px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  max-width: 70%;
+  clear: both;
+  position: relative;
+}
+
+/* The larger space after the last text in a group */
+#workskin .imessenger dd:last-child {
+  margin-bottom: 10px;
+}
+
+/* The characteristics of both incoming and outgoing text tails */
+#workskin .imessenger dd:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  height: 20px;
+}
+
+/* Outgoing texts */
+#workskin .imessenger .out dd {
+  float: right;
+  background: #1289fe;
+  color: #FFF;
+}
+#workskin .imessenger .out dd:last-child:after {
+  right: -10px;
+  border-left: 10px solid #1289fe;
+  border-bottom-left-radius: 20px 10px;
+}
+
+/* Incoming texts */
+#workskin .imessenger .in dd {
+  float: left;
+  background: #e5e5ea;
+  color: #000;
+}
+#workskin .imessenger .in dd:last-child:after {
+  left: -10px;
+  border-right: 10px solid #e5e5ea;
+  border-bottom-right-radius: 20px 10px;
+}
+
+/* No background and no tail:
+  photos, emojis, and rich links */
+#workskin .imessenger .pic {
+  background: none !important;
+  padding: 0;
+  font-size: 3em;
+}
+#workskin .imessenger dd.pic:after {
+  content: none !important;
+}
+
+#workskin .imessenger .pic img {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+}
+
+#workskin .imessenger .pic iframe {
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* Links */
+#workskin .imessenger a {
+  word-break: break-all;
+  color: inherit;
+}
+
+/* Time stamp */
+#workskin .imessenger .time {
+  font-family: inherit;
+  font-weight: normal;
+  color: #7B7C80;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
