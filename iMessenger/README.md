@@ -27,6 +27,12 @@ Wrap your whole texting section in this:
 </dl>
 ```
 
+; `<dt></dt>` 
+: For the characters' names. They will he hidden unless a reader turns off the work skin. Then they will show up, so it's still clear who is sending which messages.
+
+; `<dd></dd>`
+: For the texts themselves.
+
 # Timestamps
 ```html
 <h4 class="time">timestamp content</h4>
