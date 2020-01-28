@@ -16,3 +16,7 @@ https://archiveofourown.org/admin_posts/1370
   * https://archiveofourown.org/works/17489243
 * https://archiveofourown.org/works/19249828 Facebook Messenger Chat
 * https://archiveofourown.org/works/12142470 Discord
+* https://archiveofourown.org/works/8631214/chapters/20774911 android
+* https://archiveofourown.org/works/21038993 KakaoTalk
+
+* https://archiveofourown.org/works/21099596/chapters/50203892 tumblr
