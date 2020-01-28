@@ -27,8 +27,8 @@ Wrap your whole texting section in this:
 </dl>
 ```
 
-* `<dt></dt>` isr the characters' names. They will he hidden unless a reader turns off the work skin. Then they will show up, so it's still clear who is sending which messages.
-* `<dd></dd>` is forexts themselves.
+* `<dt></dt>` is for the characters' names. They will he hidden unless a reader turns off the work skin. Then they will show up, so it's still clear who is sending which messages.
+* `<dd></dd>` is for texts themselves.
 
 # Timestamps
 ```html
