@@ -1,19 +1,37 @@
-# Timestamps
+# Wrapper
+Wrap your whole texting section in this:
 ```html
-<h4 class="time">timestamp content</h4>
-```
+<dl class="imessenger">
 
+</dl>
+```
 # Texts
 * `in` is for incoming texts: the ones on the lefthand side, being sent from another phone.
 * `out` is for outgoing texts: the ones on the righthand side, being sent from from phone.
 
 ```html
-<div class="in/out">
-  <dt>character's name</dt>
-  <dd>text</dd>
-  <dd>second text sent just after the first</dd>
-</div>
+<dl class="imessenger">
+
+	<div class="in">
+    <dt>Character1</dt>
+		<dd>are you there yet?</dd>
+		<dd>Where are you?</dd>
+	</div>
+
+	<div class="out">
+    <dt>Character2</dt>
+		<dd>I'm waiting outside</dd>
+		<dd>wait I can see you now</dd>
+	</div>
+
+</dl>
 ```
+
+# Timestamps
+```html
+<h4 class="time">timestamp content</h4>
+```
+
 # Atypical texts
 `pic` is a class for texts which do not have a bubble around them. Typically this means pictures, up to 3 emojis, and rich links.
 
