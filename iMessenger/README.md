@@ -6,6 +6,14 @@ Wrap your whole texting section in this:
 </dl>
 ```
 
+### Group texts
+In a group text situation, incoming texts will show the sender's name.
+```html
+<dl class="imessenger grouptext">
+
+</dl>
+```
+
 # Texts
 * `<dt></dt>` is for the characters' names. They will he hidden unless a reader turns off the work skin. Then they will show up, so it's still clear who is sending which messages.
 * `<dd></dd>` is for texts themselves.
@@ -73,14 +81,6 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 ### Time
 ```html
 <h4 class="time"><b>Today,</b> 11:49 AM</h4>
-```
-
-### Group texts
-In a group text situation, incoming texts will show the sender's name.
-```html
-<dl class="imessenger grouptext">
-
-</dl>
 ```
 
 ### Read receipts
