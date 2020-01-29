@@ -10,11 +10,22 @@
 }
 
 
-/* Hiding the <dt></dt>, where you will put the characters's names.
-  When the skin is turned off, they will be revealed. */
+/*
+ * characters's names
+ */
 #workskin .imessenger dt {
   display: none;
 }
+/* Show the names with incoming texts for grouptext mode */
+#workskin .grouptext .in dt {
+  font-weight: normal;
+  color: #7B7C80;
+  font-size: .75em;
+  padding: .5em;
+  display: table !important;
+  clear: both;
+}
+
 
 
 /* The characteristics of all texts */
