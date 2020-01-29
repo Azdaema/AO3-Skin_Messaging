@@ -82,6 +82,7 @@
 #workskin .imessenger .pic iframe {
   border-radius: 20px;
   width: 100%;
+  display: block;
 }
 
 /* Links */
