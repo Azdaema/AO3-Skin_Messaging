@@ -27,10 +27,10 @@
 	clear: both;
 	position: relative;
 }
+/* the last text in a series has more space after it, and a tail */
 #workskin .imessenger dd:last-child {
-	margin-bottom: 10px; /* The larger space after the last text in a <div> */
+	margin-bottom: 10px;
 }
-/* text tails */
 #workskin .imessenger dd:last-child:after {
 	content: "";
 	position: absolute;
@@ -115,7 +115,7 @@
  * Time receipts
  */
 #workskin .imessenger .time,
-#workskin .grouptext .in dt,
+#workskin .imessenger.grouptext .in dt,
 #workskin .imessenger .read {
 	clear: both;
 	font-family: inherit; /* font match */
@@ -131,7 +131,7 @@
 }
 
 /* Show the names with incoming texts for grouptext mode */
-#workskin .grouptext .in dt {
+#workskin .imessenger.grouptext .in dt {
 	padding-left: 10px;
 	display: table !important;
 }
