@@ -1,12 +1,18 @@
+/* The same as my main iMessenger folder, but with the features that you won't need cut out,
+   to make it shorter and easier to understand.
+   Also more comments explaining stuff :) */
+
 /*
  * wrapper
  */
 #workskin .imessenger {
 	width: 100%;
 	max-width: 320px;
+	/* On phones less than 320px, it's the full width wide.
+	   On larger screens than that, it's 320px. */
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	display: table;
-	margin: auto;
+	margin: auto; /* centering it in the middle of the page */
 }
 
 
@@ -21,17 +27,17 @@
 #workskin .imessenger dd {
 	margin: 0;
 	margin-bottom: 3px;
-	border-radius: 20px;
+	border-radius: 20px; /* rounded corners */
 	padding: 8px 15px;
 	max-width: 70%;
-	clear: both;
+	clear: both; /* no stacking small bubbles on the same line */
 	position: relative;
 }
 /* the last text in a series has more space after it, and a tail */
 #workskin .imessenger dd:last-child {
 	margin-bottom: 10px;
 }
-#workskin .imessenger dd:last-child:after {
+#workskin .imessenger dd:last-child:after { /* tail */
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -48,7 +54,7 @@
 	background: #1289fe;
 	color: #FFF;
 }
-#workskin .imessenger .out dd:last-child:after {
+#workskin .imessenger .out dd:last-child:after { /* tail */
 	right: -10px;
 	border-left: 10px solid #1289fe;
 	border-bottom-left-radius: 20px 10px;
@@ -62,7 +68,7 @@
 	background: #e5e5ea;
 	color: #000;
 }
-#workskin .imessenger .in dd:last-child:after {
+#workskin .imessenger .in dd:last-child:after { /* tail */
 	left: -10px;
 	border-right: 10px solid #e5e5ea;
 	border-bottom-right-radius: 20px 10px;
@@ -74,12 +80,12 @@
  */
 #workskin .imessenger .pic,
 #workskin .imessenger .emoji {
-	background: none !important;
+	background: none !important;/* !important = override the other rule that says to have a background */
 	padding: 0;
 }
 #workskin .imessenger dd.emoji:after,
 #workskin .imessenger dd.pic:after {
-	content: none !important;
+	content: none !important; /* no tail */
 }
 
 #workskin .imessenger .pic img,
@@ -90,7 +96,7 @@
 }
 
 #workskin .imessenger .emoji {
-	font-size: 3em; /* 3x font for emojis */
+	font-size: 3em; /* 3x size font for emojis */
 }
 
 
@@ -107,11 +113,11 @@
  * Time receipts
  */
 #workskin .imessenger .time {
-	clear: both;
+	clear: both; /* no stacking it on the same line as other stuff */
 	font-family: inherit; /* font match */
 	font-weight: normal;
 	color: #7B7C80;
-	font-size: 0.75em;
+	font-size: 0.75em; /* 75% size font */
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 10px;
