@@ -1,4 +1,4 @@
-(How to use an AO3 skin)[https://archiveofourown.org/admin_posts/1370]
+[How to use an AO3 skin](https://archiveofourown.org/admin_posts/1370)
 
 # Credits
 * iMessenger: dervied from a mix of:
