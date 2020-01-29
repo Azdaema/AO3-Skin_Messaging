@@ -11,9 +11,9 @@ Wrap your whole texting section in this:
 * `<dd></dd>` is for texts themselves.
 
 Classes:
-* `in` is for incoming texts: the ones on the lefthand side, being sent from another phone.
-* `out` is for outgoing texts: the ones on the righthand side, being sent from from phone.
-* `g_out` is for green outgoing texts.
+* `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
+* `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
+	* `class="out gr"` is for green outgoing texts.
 
 ```html
 <dl class="imessenger">
@@ -32,36 +32,33 @@ Classes:
 
 </dl>
 ```
-## Atypical texts
-`pic` is a class for texts which do not have a bubble around them. Typically this means:
-* pictures
-* up to 3 emojis
-* rich links (that thing where you send a youtube video link and then there's a little video thingy rather than a link)
 
-### Photos
+## Texts without bubbles
+### Photos and rich links
+`class="pic"` is for pictures and rich links (that thing where you send a youtube video link, and then there's a little video thingy rather than a link).
+
 ```html
 <div class="out">
 	<dt>Aulus Agerius</dt>
 	<dd>Look what they're selling at the forum</dd>
 	<dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
 </div>
-```
 
-### Emojis
-```html
-<div class="in">
-	<dt>Mabel</dt>
-	<dd class="pic">💖💖💖</dd>
-</div>
-```
-
-### Rich links
-```html
 <div class="in">
 	<dt>Ricky</dt>
 	<dd class="pic"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe></dd>
 </div>
 ```
+
+### Emojis
+`class="emoji"` is for up to 3 large emojis.
+```html
+<div class="in">
+	<dt>Mabel</dt>
+	<dd class="emoji">💖💖💖</dd>
+</div>
+```
+
 
 # Other things
 I use header tags for these, so than when someone clicks "Hide Creator's Style", they are still clearly distinct from the body of the conversation.
@@ -71,7 +68,26 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 <h1 class="contact"><span class="arrow"></span>Momo</h1>
 ```
 
+`<span class="arrow"></span>` creates the "back" arrow, and is optional.
+
 ### Time
 ```html
 <h4 class="time"><b>Today,</b> 11:49 AM</h4>
+```
+
+### Group texts
+In a group text situation, incoming texts will show the sender's name.
+```html
+<dl class="imessenger grouptext">
+
+</dl>
+```
+
+### Read receipts
+```html
+<div class="gr out">
+	<dt>Mimi</dt>
+	<dd>Can I copy your homework?</dd>
+</div>
+<p class="read"><b>Read</b> 5:55 PM</p>
 ```
