@@ -21,14 +21,16 @@
   font-weight: normal;
   color: #7B7C80;
   font-size: .75em;
-  padding: .5em;
+  padding: 0.5em;
   display: table !important;
   clear: both;
 }
 
 
 
-/* The characteristics of all texts */
+/*
+ * All texts
+ */
 #workskin .imessenger dd {
   margin: 0;
   margin-bottom: 3px;
@@ -69,15 +71,11 @@
 /*
  * Green outgoing texts
  */
-#workskin .imessenger .g_out dd {
-  float: right;
-  background: #35cb24;
-  color: #FFF;
+#workskin .imessenger .gr dd {
+  background: #35cb24 !important;
 }
-#workskin .imessenger .g_out dd:last-child:after {
-  right: -10px;
-  border-left: 10px solid #35cb24;
-  border-bottom-left-radius: 20px 10px;
+#workskin .imessenger .gr dd:after {
+  border-color: #35cb24 !important;
 }
 
 /*
@@ -158,9 +156,7 @@
   font-weight: bold;
   white-space: nowrap;
 }
-/*
- * Back arrow
- */
+/* Back arrow */
 #workskin .imessenger .contact .arrow {
   float: left;
   padding: 22px 15px;
