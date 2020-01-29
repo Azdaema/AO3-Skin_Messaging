@@ -106,23 +106,13 @@
 /*
  * Time receipts
  */
-#workskin .imessenger .time,
-#workskin .imessenger.grouptext .in dt {
+#workskin .imessenger .time {
 	clear: both;
 	font-family: inherit; /* font match */
 	font-weight: normal;
 	color: #7B7C80;
 	font-size: 0.75em;
-}
-
-#workskin .imessenger .time {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 10px;
-}
-
-/* Show the names with incoming texts for grouptext mode */
-#workskin .imessenger.grouptext .in dt {
-	padding-left: 10px;
-	display: table !important;
 }
