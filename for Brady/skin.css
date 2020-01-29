@@ -1,0 +1,128 @@
+/*
+ * wrapper
+ */
+#workskin .imessenger {
+	width: 100%;
+	max-width: 320px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: table;
+	margin: auto;
+}
+
+
+#workskin .imessenger dt {
+	display: none; /* characters's names hidden */
+}
+
+
+/*
+ * All texts
+ */
+#workskin .imessenger dd {
+	margin: 0;
+	margin-bottom: 3px;
+	border-radius: 20px;
+	padding: 8px 15px;
+	max-width: 70%;
+	clear: both;
+	position: relative;
+}
+/* the last text in a series has more space after it, and a tail */
+#workskin .imessenger dd:last-child {
+	margin-bottom: 10px;
+}
+#workskin .imessenger dd:last-child:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 10px;
+	height: 20px;
+}
+
+
+/*
+ * Outgoing texts
+ */
+#workskin .imessenger .out dd {
+	float: right;
+	background: #1289fe;
+	color: #FFF;
+}
+#workskin .imessenger .out dd:last-child:after {
+	right: -10px;
+	border-left: 10px solid #1289fe;
+	border-bottom-left-radius: 20px 10px;
+}
+
+/*
+ * Incoming texts
+ */
+#workskin .imessenger .in dd {
+	float: left;
+	background: #e5e5ea;
+	color: #000;
+}
+#workskin .imessenger .in dd:last-child:after {
+	left: -10px;
+	border-right: 10px solid #e5e5ea;
+	border-bottom-right-radius: 20px 10px;
+}
+
+
+/*
+ * No-bubble texts
+ */
+#workskin .imessenger .pic,
+#workskin .imessenger .emoji {
+	background: none !important;
+	padding: 0;
+}
+#workskin .imessenger dd.emoji:after,
+#workskin .imessenger dd.pic:after {
+	content: none !important;
+}
+
+#workskin .imessenger .pic img,
+#workskin .imessenger .pic iframe {
+	border-radius: 20px; /* rounded corners */
+	width: 100%;
+	display: block; /* without "block" there's extra space after */
+}
+
+#workskin .imessenger .emoji {
+	font-size: 3em; /* 3x font for emojis */
+}
+
+
+/*
+ * Links
+ */
+#workskin .imessenger a {
+	word-break: break-all; /* linebreak when space runs out */
+	color: inherit; /* color match */
+}
+
+
+/*
+ * Time receipts
+ */
+#workskin .imessenger .time,
+#workskin .imessenger.grouptext .in dt {
+	clear: both;
+	font-family: inherit; /* font match */
+	font-weight: normal;
+	color: #7B7C80;
+	font-size: 0.75em;
+}
+
+#workskin .imessenger .time {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+/* Show the names with incoming texts for grouptext mode */
+#workskin .imessenger.grouptext .in dt {
+	padding-left: 10px;
+	display: table !important;
+}
