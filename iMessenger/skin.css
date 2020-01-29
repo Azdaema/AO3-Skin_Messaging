@@ -170,13 +170,3 @@
   width: 14px;
   transform: rotate(45deg);
 }
-
-#workskin .imessenger .readreceipt {
-  color: #7B7C80;
-  font-size: .75em;
-  float: right;
-  position: relative;
-  clear: both;
-  margin: -.75em -1.25em 0.5em 0;
-  padding: 0 1em 0.5em;
-}
