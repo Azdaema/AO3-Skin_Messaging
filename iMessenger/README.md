@@ -92,3 +92,4 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 </div>
 <p class="read"><b>Read</b> 5:55 PM</p>
 ```
+Could also be used with a `<dt></dt>` tag or something, depending on how you prefer it to look in "Hide Creator's Style" mode.
