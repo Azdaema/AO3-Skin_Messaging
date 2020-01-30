@@ -1,4 +1,9 @@
-[How to use an AO3 skin](https://archiveofourown.org/admin_posts/1370)
+# Overview
+These are designed ot be used as [AO3 skins](https://archiveofourown.org/admin_posts/1370), which is to say, they were designed to be used in a literary context, where as part of the story, characters text each other. This code can definitely be used for other things too, but there are a few things to be aware of.
+
+AO3 has an "Hide Creator's Style" option, which basically turns off the CSS, and falling back on the original characteristics of the tags. In that case, you still want it to be clear who is sending which texts.
+
+That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be relived.
 
 # Credits
 * iMessenger: draws upon:
