@@ -1,0 +1,72 @@
+#workskin .snapchat .icon {
+	width: 48px;
+	height: 48px;
+}
+/* for "Hide Creator's Style" backup */
+#workskin .snapchat .icon i {
+	display: none;
+}
+
+
+/* sent */
+#workskin .snapchat .icon.sent.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.3.png");
+}
+#workskin .snapchat .icon.sent.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.0.png");
+}
+#workskin .snapchat .icon.sent.blue {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.6.png");
+}
+
+/* opened */
+#workskin .snapchat .icon.opened.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.6.png");
+}
+#workskin .snapchat .icon.opened.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.9.png");
+}
+#workskin .snapchat .icon.opened.blue {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.5.png");
+}
+
+/* received */
+#workskin .snapchat .icon.received.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.4.png");
+}
+#workskin .snapchat .icon.received.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.1.png");
+}
+#workskin .snapchat .icon.received.blue {
+	content: url("https://support-tools.storage.googleapis.com/articles/support16.2.png");
+}
+
+/* viewed */
+#workskin .snapchat .icon.viewed.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.5.png");
+}
+#workskin .snapchat .icon.viewed.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.2.png");
+}
+#workskin .snapchat .icon.viewed.blue {
+	content: url("https://support-tools.storage.googleapis.com/articles/support16.1.png");
+}
+
+/* screenshot */
+#workskin .snapchat .icon.screenshot.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.7.png");
+}
+#workskin .snapchat .icon.screenshot.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.3.png");
+}
+#workskin .snapchat .icon.screenshot.blue {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.9.png");
+}
+
+/* replayed */
+#workskin .snapchat .icon.replayed.red {
+	content: url("https://support-tools.storage.googleapis.com/articles/support14.8.png");
+}
+#workskin .snapchat .icon.replayed.purple {
+	content: url("https://support-tools.storage.googleapis.com/articles/support15.4.png");
+}
