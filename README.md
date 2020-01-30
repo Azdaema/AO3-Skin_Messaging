@@ -6,7 +6,7 @@
   * [Mark Swardstrom's](https://codepen.io/swards/pen/gxQmbj)
   * [2ne's header](https://codepen.io/2ne/pen/osvpj)
 * Vintage iPhone: draws upon
-  * [Sean Thomas Burke's](https://gist.github.com/seantomburke/3381999)
+  * [Sean Thomas Burke's memebro](https://gist.github.com/seantomburke/3381999)
   * [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/)
 
 # Other
