@@ -57,6 +57,7 @@
 
 
 /* sent */
+#workskin .snapchat .icon.sent,
 #workskin .snapchat .icon.sent.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.3.png");
 }
@@ -68,6 +69,7 @@
 }
 
 /* opened */
+#workskin .snapchat .icon.opened,
 #workskin .snapchat .icon.opened.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.6.png");
 }
@@ -79,6 +81,7 @@
 }
 
 /* received */
+#workskin .snapchat .icon.received,
 #workskin .snapchat .icon.received.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.4.png");
 }
@@ -90,6 +93,7 @@
 }
 
 /* viewed */
+#workskin .snapchat .icon.viewed,
 #workskin .snapchat .icon.viewed.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.5.png");
 }
@@ -101,6 +105,7 @@
 }
 
 /* screenshot */
+#workskin .snapchat .icon.screenshot,
 #workskin .snapchat .icon.screenshot.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.7.png");
 }
@@ -112,6 +117,7 @@
 }
 
 /* replayed */
+#workskin .snapchat .icon.replayed,
 #workskin .snapchat .icon.replayed.red {
 	content: url("https://support-tools.storage.googleapis.com/articles/support14.8.png");
 }
