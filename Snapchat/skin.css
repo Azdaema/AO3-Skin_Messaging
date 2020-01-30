@@ -16,8 +16,29 @@
 	padding: 0.25em 0.5em;
 }
 
-#workskin .snapchat div {
+#workskin .snapchat .red,
+#workskin .snapchat .blue {
 	clear: both;
+}
+
+/*
+ * Red
+ */
+#workskin .snapchat .red dt {
+	color: #e74057;
+}
+#workskin .snapchat .red dd {
+	border-left: solid #e74057;
+}
+
+/*
+ * Blue
+ */
+#workskin .snapchat .blue dt {
+	color: #10a7f0;
+}
+#workskin .snapchat .blue dd {
+	border-left: solid #10a7f0;
 }
 
 
