@@ -16,11 +16,12 @@
 #workskin .whatsapp dd {
   color: #000000;
   padding: 5px 10px;
-  border-radius: 7px;
-  max-width: 75%;
+  border-radius: 5px;
+  max-width: 65%;
   margin: 2px 15px;
   clear: both;
   position: relative;
+  z-index: 2;
 }
 
 #workskin .whatsapp .out dd {
@@ -31,7 +32,6 @@
 #workskin .whatsapp .in dd {
   float: left;
   background: #fbfbfb;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 #workskin .whatsapp dd:last-child {
@@ -39,27 +39,26 @@
 }
 
 #workskin .whatsapp dd:last-child:after {
+  z-index: 1;
   content: "";
   position: absolute;
-  width: 15px;
-  height: 30px;
-  bottom: 0;
-  border-top: 10px solid;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  width: 25px;
+  height: 15px;
+  bottom: 7px;
+  border-top: 9px solid;
+  border-radius: 20px;
 }
 
 #workskin .whatsapp .in dd:last-child:after {
-  border-top-right-radius: 20px;
   border-color: #fbfbfb;
-  transform: rotate(140deg);
-  left: -18px;
+  transform: rotate(-240deg);
+  left: -16px;
 }
 
 #workskin .whatsapp .out dd:last-child:after {
-  border-top-left-radius: 20px;
   border-color: #E1FFC7;
-  transform: rotate(-140deg);
-  right: -18px;
+  transform: rotate(240deg);
+  right: -16px;
 }
 
 #workskin .whatsapp .day {
