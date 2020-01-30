@@ -8,16 +8,18 @@ AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So 
 That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be relived.
 
 # Credits
-* iMessenger: draws upon:
+* **iMessenger** draws upon:
   * [CodenameCarrot and La_Temperanza's](https://archiveofourown.org/works/6434845/chapters/14729722)
   * [Mark Swardstrom's](https://codepen.io/swards/pen/gxQmbj)
   * [2ne's header](https://codepen.io/2ne/pen/osvpj)
-* Vintage iPhone: draws upon
+* **Vintage iPhone** draws upon:
   * [Sean Thomas Burke's memebro](https://gist.github.com/seantomburke/3381999)
   * [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/)
+* **WhatsApp** draws upon:
+  * [ran_a_dom's](https://archiveofourown.org/works/15842043/chapters/36893073)
+  * [Benni's](https://codepen.io/8eni/pen/YWoRGm)
 
 # Other
-* https://archiveofourown.org/works/15842043/chapters/36893073 WhatsApp
 * LINE
   * https://archiveofourown.org/works/19150123/chapters/45514369
   * https://archiveofourown.org/works/17489243
