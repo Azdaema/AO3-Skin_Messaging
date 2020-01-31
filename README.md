@@ -12,13 +12,14 @@ That is why I designed all these based around a `<dl>` list. The basic setup is 
   * [CodenameCarrot and La_Temperanza's](https://archiveofourown.org/works/6434845/chapters/14729722)
   * [Mark Swardstrom's](https://codepen.io/swards/pen/gxQmbj)
   * [2ne's header](https://codepen.io/2ne/pen/osvpj)
-* **Vintage iPhone** draws upon:
+* **iMessenger Vintage** draws upon:
   * [Sean Thomas Burke's memebro](https://gist.github.com/seantomburke/3381999)
   * [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/)
 * **WhatsApp** draws upon:
   * [ran_a_dom's](https://archiveofourown.org/works/15842043/chapters/36893073)
   * [Benni's](https://codepen.io/8eni/pen/YWoRGm)
   * [Rumbiiha swaibu's](https://codepen.io/swaibu/pen/QxJjwN)
+* **Snapchat** is pretty much a wholecloth original.
 
 # Other
 * LINE
