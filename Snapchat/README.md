@@ -30,7 +30,7 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 # Optional shitpost addition:
 ```css
 #workskin .snapchat .icon:active:after {
-  font-size: 0.6em;
+  font-size: 0.8em;
   content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
 }
 ```
