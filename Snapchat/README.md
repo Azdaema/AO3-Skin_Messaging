@@ -23,7 +23,7 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 
 # Optional shitpost addition:
 ```css
-#workskin .snapchat.nonudes .icon:active:after {
+#workskin .nonudes .icon:active:after {
   opacity: 0.5;
   font-size: 0.8em;
   content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
@@ -31,3 +31,9 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 ```
 
 The wrapper for this is `class="snapchat nonudes"`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic, which is gen, where they're sending each other pictures of their dogs, and you don't want to use it there.
+
+It can also selectively be applied to only certain snaps like this:
+
+```html
+<dd class="nonudes"><span class="icon opened"><i>Snap (without audio) sent and opened</i></span></dd>
+```
