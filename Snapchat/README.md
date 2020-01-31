@@ -30,4 +30,4 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 }
 ```
 
-Make the wrapper `class="snapchat nonudes"`, so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting and you want to use it _there_, but you've got another gen fic where they're sending each other pictures of their dogs, and you don't want it there.
+The wrapper for this is `class="snapchat nonudes"`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic, which is gen, where they're sending each other pictures of their dogs, and you don't want to use it there.
