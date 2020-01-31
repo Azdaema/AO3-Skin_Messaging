@@ -2,27 +2,30 @@
   width: 100%;
   max-width: 320px;
   margin: auto;
-  font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next", Avenir, Arial, sans-serif;
 }
 
+/* Name labels */
 #workskin .snapchat dt {
   text-transform: uppercase;
   font-size: 0.75em;
-  margin: 1em;
-  margin-left: 0em;
+  margin: 1em 0em;
 }
 
+/* Text sections */
 #workskin .snapchat dd {
   margin: 0;
+  margin-left: 0.25em;
   padding: 0.25em 0.5em;
 }
 
+/* Ingoing and outgoing */
 #workskin .snapchat .out,
 #workskin .snapchat .in {
   clear: both;
 }
 
-/* Red */
+/* Outgoing/red */
 #workskin .snapchat .out dt {
   color: #e74057;
 }
@@ -30,14 +33,13 @@
   border-left: solid #e74057;
 }
 
-/* Blue */
+/* Incoming/blue */
 #workskin .snapchat .in dt {
   color: #10a7f0;
 }
 #workskin .snapchat .in dd {
   border-left: solid #10a7f0;
 }
-
 
 
 /*
@@ -51,7 +53,7 @@
   border: 1px solid #eee;
   padding: 0.5em 0;
 }
-
+/* Hidden backup */
 #workskin .snapchat .icon i {
   display: none;
 }
