@@ -147,6 +147,9 @@
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");
 }
 /* Incoming (box) */
+#workskin .snapchat .in .icon.unopened:after {
+  content: "Press and hold to view";
+}
 #workskin .snapchat .in .icon.unopened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");
 }
