@@ -21,16 +21,13 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 <dd><span class="icon replayed purple"><i>Snap (with audio) has been replayed</i></span></dd>
 ```
 
-# Date
-* Within a week https://pics.me.me/l-telstra-3-35-pm-team-snapchat-dav-nine-tuesday-me-46831517.png
-* Past a week - day month year
-  * https://pics.me.me/wz-a-046-8-22-pm-team-snapchat-team-a-now-42370891.png
-  * https://pics.me.me/verizon-lte-2-00-pm-146-4-anna-anna-what-did-42166575.png
-
 # Optional shitpost addition:
 ```css
-#workskin .snapchat .icon:active:after {
+#workskin .snapchat.nonudes .icon:active:after {
+  opacity: 0.5;
   font-size: 0.8em;
   content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
 }
 ```
+
+Make the wrapper `class="snapchat nonudes"`, so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting and you want to use it _there_, but you've got another gen fic where they're sending each other pictures of their dogs, and you don't want it there.
