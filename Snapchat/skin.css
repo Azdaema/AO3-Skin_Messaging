@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 320px;
   margin: auto;
+  font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #workskin .snapchat dt {
@@ -80,10 +81,10 @@
   content: "Opened";
 }
 #workskin .snapchat .in .icon.opened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/viewed_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_red.png");
 }
 #workskin .snapchat .out .icon.opened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/opened_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_red.png");
 }
 
 /*
@@ -93,10 +94,10 @@
   content: "Unopened";
 }
 #workskin .snapchat .in .icon.unopened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/received_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");
 }
 #workskin .snapchat .out .icon.unopened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/sent_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_red.png");
 }
 
 
@@ -107,7 +108,7 @@
   content: "Screenshot";
 }
 #workskin .snapchat .icon.screenshot:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/screenshot_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_red.png");
 }
 
 
@@ -118,5 +119,5 @@
   content: "Replay!";
 }
 #workskin .snapchat .icon.replay:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/replay_red.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_red.png");
 }
