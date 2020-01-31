@@ -63,6 +63,7 @@
 }
 
 /* shared time font */
+#workskin .whatsapp .day,
 #workskin .whatsapp dd sub {
   font-family: inherit;
   font-size: 0.75em;
