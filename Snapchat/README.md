@@ -23,4 +23,6 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 
 # Date
 * Within a week https://pics.me.me/l-telstra-3-35-pm-team-snapchat-dav-nine-tuesday-me-46831517.png
-* Past a week https://pics.me.me/wz-a-046-8-22-pm-team-snapchat-team-a-now-42370891.png - day month year
+* Past a week - day month year
+  * https://pics.me.me/wz-a-046-8-22-pm-team-snapchat-team-a-now-42370891.png
+  * https://pics.me.me/verizon-lte-2-00-pm-146-4-anna-anna-what-did-42166575.png
