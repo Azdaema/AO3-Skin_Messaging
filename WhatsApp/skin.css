@@ -62,17 +62,14 @@
   left: -16px;
 }
 
-/*
- * time
- */
-#workskin .whatsapp .day,
+/* shared time font */
 #workskin .whatsapp dd sub {
   font-family: inherit;
   font-size: 0.75em;
   color: #999;
   text-transform: uppercase;
 }
-  
+/ * day bubble */
 #workskin .whatsapp .day {
   max-width: 100px;
   background: #D4EAF4;
@@ -82,32 +79,34 @@
   text-align: center;
   display: table;
 }
-
-/* Timestamp */
+/* timestamp */
 #workskin .whatsapp dd sub {
   display: inline-block;
   float: right;
   line-height: 1.3em;
   padding-top: 0.5em;
-  padding-left: 1em;
+  padding-left: 1.5em;
+  margin: 0;
 }
 
 #workskin .whatsapp .out dd sub:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
   margin-left: 3px;
 }
-
 #workskin .whatsapp .out dd sub.received:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
 }
-
 #workskin .whatsapp .out dd sub.notreceived:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
 /*
- * Emojis
+ * Big emojis
  */
 #workskin .whatsapp .emoji {
   font-size: 2em;
+}
+#workskin .whatsapp dd.emoji sub {
+  font-size: 0.375em;
+  padding-top: 2.66em;
 }
