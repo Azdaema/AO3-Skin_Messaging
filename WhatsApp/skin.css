@@ -4,7 +4,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: table;
   margin: auto;
-  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
   background-repeat: repeat-y;
   background-size: 100%;
 }
@@ -79,6 +79,7 @@
   display: table;
 }
 
+/* Timestamp */
 #workskin .whatsapp dd sub {
   font-size: 11px;
   color: #999;
@@ -91,14 +92,14 @@
 }
 
 #workskin .whatsapp dd sub:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/Checkmark_read_small.png");
+  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
   margin-left: 3px;
 }
 
 #workskin .whatsapp dd sub.received:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/Checkmark_received_small.png");
+  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
 }
 
 #workskin .whatsapp dd sub.notreceived:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/Checkmark_noreceived_small.png");
+  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
