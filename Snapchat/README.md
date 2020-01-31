@@ -26,3 +26,11 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 * Past a week - day month year
   * https://pics.me.me/wz-a-046-8-22-pm-team-snapchat-team-a-now-42370891.png
   * https://pics.me.me/verizon-lte-2-00-pm-146-4-anna-anna-what-did-42166575.png
+
+# Optional shitpost addition:
+```css
+#workskin .snapchat .icon:active:after {
+  font-size: 0.6em;
+  content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
+}
+```
