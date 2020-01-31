@@ -17,12 +17,7 @@
   margin: 0;
   margin-left: 0.25em;
   padding: 0.25em 0.5em;
-}
-
-/* Ingoing and outgoing */
-#workskin .snapchat .out,
-#workskin .snapchat .in {
-  clear: both;
+  border-left: solid 2px;
 }
 
 /* Outgoing/red */
@@ -30,7 +25,7 @@
   color: #e74057;
 }
 #workskin .snapchat .out dd {
-  border-left: solid #e74057;
+  border-color: #e74057;
 }
 
 /* Incoming/blue */
@@ -38,9 +33,8 @@
   color: #10a7f0;
 }
 #workskin .snapchat .in dd {
-  border-left: solid #10a7f0;
+  border-color: #10a7f0;
 }
-
 
 /*
  * Icons
