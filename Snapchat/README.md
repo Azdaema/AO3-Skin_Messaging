@@ -20,3 +20,7 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 <dd><span class="icon replayed"><i>Snap (without audio) has been replayed</i></span></dd>
 <dd><span class="icon replayed purple"><i>Snap (with audio) has been replayed</i></span></dd>
 ```
+
+# Date
+* Within a week https://pics.me.me/l-telstra-3-35-pm-team-snapchat-dav-nine-tuesday-me-46831517.png
+* Past a week https://pics.me.me/wz-a-046-8-22-pm-team-snapchat-team-a-now-42370891.png - day month year
