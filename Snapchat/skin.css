@@ -193,7 +193,7 @@
 /*
  * "No nudes" shitpost feature
  */
-#workskin .snapchat.nonudes .icon:active:after {
+#workskin .nonudes .icon:active:after {
   opacity: 0.5;
   font-size: 0.8em;
   content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
