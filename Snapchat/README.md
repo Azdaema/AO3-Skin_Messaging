@@ -14,7 +14,7 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 <dd><span class="icon unopened blue"><i>Chat sent</i></span></dd>
 
 <dd><span class="icon screenshot"><i>Screenshot taken of Snap (without audio)</i></span></dd>
-<dd><span class="icon screenshot purple"><i>Screenshot taken of your Snap (with audio)</i></span></dd>
+<dd><span class="icon screenshot purple"><i>Screenshot taken of Snap (with audio)</i></span></dd>
 <dd><span class="icon screenshot blue"><i>Screenshot taken of chat</i></span></dd>
 
 <dd><span class="icon replayed"><i>Snap (without audio) has been replayed</i></span></dd>
