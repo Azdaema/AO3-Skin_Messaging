@@ -188,3 +188,13 @@
 #workskin .snapchat .icon.replay.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_purple.png");
 }
+
+
+/*
+ * "No nudes" shitpost feature
+ */
+#workskin .snapchat.nonudes .icon:active:after {
+  opacity: 0.5;
+  font-size: 0.8em;
+  content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
+}
