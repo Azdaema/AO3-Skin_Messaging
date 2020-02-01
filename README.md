@@ -10,7 +10,7 @@ They all have the basic structure of:
 * `<dt></dt>` for the characters' names
 * `<dd></dd>` for texts themselves
 
-Each section is wrapped in a `<div></div`
+Each section is wrapped in a `<div>`
 * `class="out"` is for outgoing texts; the ones being sent from from the POV phone.
 * `class="in"` is for incoming texts; the ones being sent from another phone
 ```html
