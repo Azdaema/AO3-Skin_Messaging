@@ -29,7 +29,6 @@
 }
 
 #workskin .whatsapp dd:last-child:after {
-  z-index: 1;
   content: "";
   position: absolute;
   width: 25px;
