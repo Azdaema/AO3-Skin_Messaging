@@ -101,14 +101,35 @@
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
-#workskin .whatsapp dd.emoji {
+#workskin .whatsapp dd.emoji1 {
+  font-size: 2.5em;
+}
+
+#workskin .whatsapp dd.emoji2 {
   font-size: 2em;
 }
 
-#workskin .whatsapp dd.emoji sub {
-  font-size: 0.375em;
+#workskin .whatsapp dd.emoji3 {
+  font-size: 1.5em;
+}
+
+#workskin .whatsapp dd.emoji1 sub,
+#workskin .whatsapp dd.emoji2 sub,
+#workskin .whatsapp dd.emoji3 sub {
   display: block;
   float: none;
   text-align: right;
   padding: 0 !important;
+}
+
+#workskin .whatsapp dd.emoji1 sub {
+  font-size: 0.3em;
+}
+
+#workskin .whatsapp dd.emoji2 sub {
+  font-size: 0.375em;
+}
+
+#workskin .whatsapp dd.emoji3 sub {
+  font-size: 0.5em;
 }
