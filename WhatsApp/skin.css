@@ -13,9 +13,6 @@
   display: none;
 }
 
-/*
- * All texts
- */
 #workskin .whatsapp dd {
   max-width: 65%;
   clear: both;
@@ -26,9 +23,11 @@
   margin: 1px 15px;
   border-bottom: 1px solid rgba(0,0,0, 0.2);
 }
+
 #workskin .whatsapp dd:last-child {
   margin-bottom: 10px;
 }
+
 #workskin .whatsapp dd:last-child:after {
   z-index: 1;
   content: "";
@@ -40,29 +39,28 @@
   border-radius: 20px;
 }
 
-/* Outgoing texts */
 #workskin .whatsapp .out dd {
   float: right;
   background: #E1FFC7;
 }
+
 #workskin .whatsapp .out dd:last-child:after {
   border-color: #E1FFC7;
   transform: rotate(240deg);
   right: -16px;
 }
 
-/* Incoming texts */
 #workskin .whatsapp .in dd {
   float: left;
   background: #fbfbfb;
 }
+
 #workskin .whatsapp .in dd:last-child:after {
   border-color: #fbfbfb;
   transform: rotate(-240deg);
   left: -16px;
 }
 
-/* shared time font */
 #workskin .whatsapp .day,
 #workskin .whatsapp dd sub {
   font-family: inherit;
@@ -70,9 +68,9 @@
   color: #999;
   text-transform: uppercase;
 }
-/* day bubble */
+
 #workskin .whatsapp .day {
-  max-width: 100px;
+  width: 100px;
   background: #D4EAF4;
   border-radius: 5px;
   padding: 5px;
@@ -80,7 +78,7 @@
   text-align: center;
   display: table;
 }
-/* timestamp */
+
 #workskin .whatsapp dd sub {
   display: inline-block;
   float: right;
@@ -94,20 +92,23 @@
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
   margin-left: 3px;
 }
+
 #workskin .whatsapp .out dd sub.received:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
 }
+
 #workskin .whatsapp .out dd sub.notreceived:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
-/*
- * Big emojis
- */
-#workskin .whatsapp .emoji {
+#workskin .whatsapp dd.emoji {
   font-size: 2em;
 }
+
 #workskin .whatsapp dd.emoji sub {
   font-size: 0.375em;
-  padding-top: 2.66em;
+  display: block;
+  float: none;
+  text-align: right;
+  padding: 0 !important;
 }
