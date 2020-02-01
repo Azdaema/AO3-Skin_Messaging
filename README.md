@@ -7,6 +7,26 @@ AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So 
 
 That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be relived.
 
+The basic setup for all of them is:
+```html
+<dl class="wrapper">
+
+	<div class="in">
+		<dt>Alice</dt>
+		<dd>are you there yet?</dd>
+		<dd>Where are you?</dd>
+	</div>
+
+	<div class="out">
+		<dt>Bob</dt>
+		<dd>I'm waiting outside</dd>
+		<dd>wait I can see you now</dd>
+	</div>
+
+</dl>
+```
+Although they all have small alterations, depending on how the app works.
+
 # Credits
 * **iMessenger** draws upon:
   * [CodenameCarrot and La_Temperanza's](https://archiveofourown.org/works/6434845/chapters/14729722)
