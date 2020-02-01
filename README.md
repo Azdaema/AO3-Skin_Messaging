@@ -55,3 +55,5 @@ Although each one has small alterations, depending on how that app works.
 * https://archiveofourown.org/works/8631214/chapters/20774911 android
 * https://archiveofourown.org/works/21038993 KakaoTalk
 * https://archiveofourown.org/works/21099596/chapters/50203892 tumblr
+
+<!-- https://www.viget.com/articles/equating-color-and-transparency/ -->
