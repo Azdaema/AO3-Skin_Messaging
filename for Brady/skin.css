@@ -3,22 +3,23 @@
 #workskin .snapchat {
 	width: 100%;
 	max-width: 320px;
-	/* On phones less than 320px, it's the full width wide.
+		/* On phones less than 320px, it's the full width wide.
 		On larger screens than that, it's 320px. */
-	margin: 15px auto; /* Auto margin on the sides centers your thing in the middle of the screen
-			(plus 15px on the top and bottom, so the bordered sections don't touch each other) */
+	margin: 15px auto;
+		/* Auto margin on the sides = centers your thing in the middle of the screen
+		(plus 15px on the top and bottom, so the bordered sections don't touch each other) */
 	border: 1px solid #7B7C80;
-	padding: 0 10px; /* We don't want the bubbles TOUCHING the border, we want a little padding on the sides */
+	padding: 0 10px; /* We don't want the contents TOUCHING the border, so little padding on the sides */
 	box-sizing: border-box; /* so padding doesn't mess up the width on small screen (ie phones) */
 }
 
 
 /*************************************************************************************
-																		 iMessenger
+* iMessenger
 *************************************************************************************/
 /* wrapper */
 #workskin .imessenger {
-	display: table; /* So the bubbles work correctly */
+	display: table; /* So the bubbles stack correctly */
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -29,7 +30,7 @@
 #workskin .imessenger .time {
 	clear: both; /* no stacking it on the same line as other stuff */
 	font-family: inherit; /* font match */
-	font-weight: normal;
+	font-weight: normal; /* not bold */
 	color: #7B7C80;
 	font-size: 0.75em;
 	text-align: center;
@@ -44,9 +45,10 @@
 
 /* Shared properties of all texts */
 #workskin .imessenger dd {
-	border-radius: 20px; /* rounded corners */
 	position: relative;
-	clear: both; /* no stacking small bubbles on the same line */
+	clear: both;
+		/* no stacking small bubbles on the same line */
+	border-radius: 20px; /* rounded corners */
 	max-width: 70%;
 	margin: 0;
 	margin-bottom: 3px;
@@ -104,11 +106,11 @@
 	background: none !important;/* !important = override the other rule that says to have a background */
 	padding: 0;
 }
-/* no tail */
 #workskin .imessenger dd.emoji:after,
 #workskin .imessenger dd.pic:after {
-	content: none !important;
+	content: none !important; /* no tail */
 }
+
 /* images and iframes (aka embeded stuff) in pic class */
 #workskin .imessenger .pic img,
 #workskin .imessenger .pic iframe {
@@ -116,6 +118,7 @@
 	width: 100%;
 	display: block; /* without "block" there's extra space after */
 }
+
  /* 3x size font for emojis */
 #workskin .imessenger .emoji {
 	font-size: 3em;
@@ -132,7 +135,7 @@
 
 
 /*************************************************************************************
-																		 Snapchat
+* Snapchat
 *************************************************************************************/
 /*
  * wrapper
