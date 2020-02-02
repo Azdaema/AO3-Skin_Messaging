@@ -142,14 +142,17 @@
  */
 #workskin .snapchat {
   font-family: "Avenir Next", Avenir, Arial, sans-serif;
+  padding-bottom: 10px;
+	/* because there aren't bubbles with after-spacing here,
+	this is so the bottom border isn't right up agaist the last text */
 }
 
-/* Font style of names and dates */
+/* Names and dates have the same font style */
 #workskin .snapchat dt,
 #workskin .snapchat .day {
-  font-family: inherit;
+  font-family: inherit; /* font matches */
+  font-weight: normal; /* not bold */
   text-transform: uppercase;
-  font-weight: normal;
   letter-spacing: 1px;
   font-size: 0.75em;
   padding-top: 10px;
@@ -199,7 +202,7 @@
 
 
 /*
- * Icons
+ * Icon buttons
  */
 #workskin .snapchat .icon {
   display: block;
@@ -210,20 +213,20 @@
   background: rgba(255, 255, 255, 0.3);
   padding: 0.5em 0;
 }
-/* Hidden backup */
+/* Hidden backup for icon buttons */
 #workskin .snapchat .icon i {
   display: none;
 }
 
 /* Icon image */
 #workskin .snapchat .icon:before {
+  content: "";
   float: left;
   display: inline-block;
   margin: 0.5em;
   background-size: 1em 1em;
   width: 1em;
   height: 1em;
-  content: "";
 }
 /* Icon text */
 #workskin .snapchat .icon:after {
@@ -250,7 +253,7 @@
 #workskin .snapchat .out .icon.opened.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_blue.png");
 }
-/* Incoming (arrow) */
+/* Incoming (box) */
 #workskin .snapchat .in .icon.opened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_red.png");
 }
