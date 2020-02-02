@@ -144,6 +144,7 @@
   font-family: "Avenir Next", Avenir, Arial, sans-serif;
 }
 
+/* Font style of names and dates */
 #workskin .snapchat dt,
 #workskin .snapchat .day {
   font-family: inherit;
@@ -151,18 +152,16 @@
   font-weight: normal;
   letter-spacing: 1px;
   font-size: 0.75em;
-}
-
-#workskin .snapchat .day {
-  text-align: center;
-  color: #7B7C80;
   padding-top: 10px;
 }
 
-#workskin .snapchat dt {
-  margin-top: 10px;
+/* Day */
+#workskin .snapchat .day {
+  text-align: center;
+  color: #7B7C80;
 }
 
+/* Shared properties of all texts */
 #workskin .snapchat dd {
   margin: 0;
   margin-left: 2px;
@@ -170,26 +169,38 @@
   border-left: solid 2px;
 }
 
+/*
+ * Outgoing/red
+ */
 #workskin .snapchat .out dt {
   color: #e74057;
 }
-
 #workskin .snapchat .out dd {
   border-color: #e74057;
 }
 
+/*
+ * Incoming/blue
+ */
 #workskin .snapchat .in dt {
   color: #10a7f0;
 }
-
 #workskin .snapchat .in dd {
   border-color: #10a7f0;
 }
 
+
+/*
+ * Big emojis
+ */
 #workskin .snapchat .emoji {
   font-size: 3em;
 }
 
+
+/*
+ * Icons
+ */
 #workskin .snapchat .icon {
   display: block;
   width: 100%;
@@ -199,11 +210,12 @@
   background: rgba(255, 255, 255, 0.3);
   padding: 0.5em 0;
 }
-
+/* Hidden backup */
 #workskin .snapchat .icon i {
   display: none;
 }
 
+/* Icon image */
 #workskin .snapchat .icon:before {
   float: left;
   display: inline-block;
@@ -213,7 +225,7 @@
   height: 1em;
   content: "";
 }
-
+/* Icon text */
 #workskin .snapchat .icon:after {
   float: left;
   display: inline-block;
@@ -222,96 +234,97 @@
   line-height: 1em;
 }
 
+/*
+ * Opened
+ */
 #workskin .snapchat .icon.opened:after {
   content: "Opened";
 }
-
+/* Outgoing (arrow) */
 #workskin .snapchat .out .icon.opened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_red.png");
 }
-
 #workskin .snapchat .out .icon.opened.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_purple.png");
 }
-
 #workskin .snapchat .out .icon.opened.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_blue.png");
 }
-
+/* Incoming (arrow) */
 #workskin .snapchat .in .icon.opened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_red.png");
 }
-
 #workskin .snapchat .in .icon.opened.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_purple.png");
 }
-
 #workskin .snapchat .in .icon.opened.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_blue.png");
 }
 
+/*
+ * Unopened
+ */
 #workskin .snapchat .icon.unopened:after {
   content: "Delivered";
 }
-
+/* Outgoing (arrow) */
 #workskin .snapchat .out .icon.unopened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_red.png");
 }
-
 #workskin .snapchat .out .icon.unopened.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_purple.png");
 }
-
 #workskin .snapchat .out .icon.unopened.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");
 }
-
+/* Incoming (box) */
 #workskin .snapchat .in .icon.unopened:after {
   content: "Press and hold to view";
 }
-
 #workskin .snapchat .in .icon.unopened:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");
 }
-
 #workskin .snapchat .in .icon.unopened.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_purple.png");
 }
-
 #workskin .snapchat .in .icon.unopened.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_blue.png");
 }
 
+/*
+ * Screenshot
+ */
 #workskin .snapchat .icon.screenshot:after {
   content: "Screenshot!";
 }
-
 #workskin .snapchat .icon.screenshot:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_red.png");
 }
-
 #workskin .snapchat .icon.screenshot.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_purple.png");
 }
-
 #workskin .snapchat .icon.screenshot.blue:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_blue.png");
 }
 
+/*
+ * Replay
+ */
 #workskin .snapchat .icon.replay:after {
   content: "Replay!";
 }
-
 #workskin .snapchat .icon.replay:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_red.png");
 }
-
 #workskin .snapchat .icon.replay.purple:before {
   background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_purple.png");
 }
 
-#workskin .nonudes .icon:active:after {
-  opacity: 0.5;
+
+/*
+ * Icon message if clicked
+ */
+#workskin .snapchat.nonudes .icon:active:after {
   font-size: 0.8em;
   content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
 }
