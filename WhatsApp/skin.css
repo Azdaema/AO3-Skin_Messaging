@@ -38,28 +38,35 @@
   border-radius: 20px;
 }
 
+/*
+ * Outgoing texts
+ */
 #workskin .whatsapp .out dd {
   float: right;
-  background: #E1FFC7;
+  background: #FFFFFF;
 }
-
 #workskin .whatsapp .out dd:last-child:after {
-  border-color: #E1FFC7;
+  border-color: #FFFFFF;
   transform: rotate(240deg);
   right: -16px;
 }
 
+/*
+ * Incoming texts
+ */
 #workskin .whatsapp .in dd {
   float: left;
-  background: #fbfbfb;
+  background: #DCF8C6;
 }
-
 #workskin .whatsapp .in dd:last-child:after {
-  border-color: #fbfbfb;
+  border-color: #DCF8C6;
   transform: rotate(-240deg);
   left: -16px;
 }
 
+/*
+ * Timestamps
+ */
 #workskin .whatsapp .day,
 #workskin .whatsapp dd sub {
   font-family: inherit;
