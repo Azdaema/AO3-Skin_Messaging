@@ -110,10 +110,11 @@ I _think_ these are the colors used for each part.
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
 | `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)`
+| `secondaryLabel` | ![#3c3c4399](https://placehold.it/15/3c3c4399?text=+) `rgba(60,60,67, 0.6)` | ![#ebebf599](https://placehold.it/15/ebebf599?text=+) `rgba(235,235,245, 0.6)`
 
 ### Header
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `secondarySystemBackground` (aka `systemGray6`) | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) [`rgba(242,242,247, 1.0)`](https://www.colorhexa.com/1c1c1e) | ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) [`rgba(28,28,30, 1.0)`](https://www.colorhexa.com/1c1c1e)
-| `link` | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0984ff](https://placehold.it/15/0984ff?text=+) [`rgba(9,132,255, 1.0)`](https://www.colorhexa.com/0984ff)
-| `secondaryLabel` | ![#8a8a8e](https://placehold.it/15/8a8a8e?text=+) `rgba(60,60,67, 0.6)` | ![#f3f3f9](https://placehold.it/15/f3f3f9?text=+) `rgba(235,235,245, 0.6)`
+| `systemGray6` | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) [`rgba(242,242,247, 1.0)`](https://www.colorhexa.com/1c1c1e) | ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) [`rgba(28,28,30, 1.0)`](https://www.colorhexa.com/1c1c1e)
+| `link`        | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0984ff](https://placehold.it/15/0984ff?text=+) [`rgba(9,132,255, 1.0)`](https://www.colorhexa.com/0984ff)
+| `separator`   | ![#3c3c4349](https://placehold.it/15/3c3c4349?text=+) `rgba(60,60,67, 0.29)` | ![#54545899](https://placehold.it/15/54545899?text=+) `rgba(84,84,88, 0.6)`
