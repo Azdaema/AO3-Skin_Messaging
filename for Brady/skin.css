@@ -31,7 +31,7 @@
 	clear: both; /* no stacking it on the same line as other stuff */
 	font-family: inherit; /* font match */
 	font-weight: normal; /* not bold */
-	color: #7B7C80;
+	color: #8e8e93;
 	font-size: 0.75em;
 	text-align: center;
 	padding: 10px 0; /* 10px before and after */
@@ -87,13 +87,13 @@
  */
 #workskin .imessenger .in dd {
 	float: left;
-	background: #e9e9eb;
+	background: #e9e9ea;
 	color: #000;
 }
 /* tail */
 #workskin .imessenger .in dd:last-child:after {
 	left: -10px;
-	border-right: 10px solid #e9e9eb;
+	border-right: 10px solid #e9e9ea;
 	border-bottom-right-radius: 20px 10px;
 }
 
@@ -175,20 +175,20 @@
  * Outgoing/red
  */
 #workskin .snapchat .out dt {
-	color: #e74057;
+  color: #e92754;
 }
 #workskin .snapchat .out dd {
-	border-color: #e74057;
+  border-color: #e92754;
 }
 
 /*
  * Incoming/blue
  */
 #workskin .snapchat .in dt {
-	color: #10a7f0;
+  color: #3cb2e2;
 }
 #workskin .snapchat .in dd {
-	border-color: #10a7f0;
+  border-color: #3cb2e2;
 }
 
 
