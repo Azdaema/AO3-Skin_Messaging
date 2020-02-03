@@ -99,10 +99,10 @@ iOS colors: iOS documentation [here](https://developer.apple.com/design/human-in
 
 I _think_ these are the colors used for each part:
 * Labels: systemGray
-	* **Light & dark mode:** [`rgb(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93)
+	* **Light & dark mode:** ![#8e8e93](https://placehold.it/15/8e8e93/000000?text=+) [`rgb(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93)
 * Outgoing texts: systemBlue
-	* **Light mode:** [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff)
-	* **Dark mode:** [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
+	* **Light mode:** ![#007aff](https://placehold.it/15/007aff/000000?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff)
+	* **Dark mode:** ![#0a84ff](https://placehold.it/15/0a84ff/000000?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
 * Incoming texts: systemGray5
-	* **Light mode:** [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea)
-	* **Dark mode:** [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
+	* **Light mode:** ![#e5e5ea](https://placehold.it/15/e5e5ea/000000?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea)
+	* **Dark mode:** ![#2c2c2e](https://placehold.it/15/2c2c2e/000000?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
