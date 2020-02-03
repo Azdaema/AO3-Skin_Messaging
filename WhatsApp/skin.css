@@ -19,23 +19,23 @@
   position: relative;
   color: #000000;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 2px 5px;
   margin: 1px 15px;
   border-bottom: 1px solid rgba(0,0,0, 0.2);
+  z-index: 1;
 }
-
 #workskin .whatsapp dd:last-child {
   margin-bottom: 10px;
 }
-
 #workskin .whatsapp dd:last-child:after {
   content: "";
   position: absolute;
   width: 25px;
-  height: 15px;
-  bottom: 7px;
+  height: 14px;
+  bottom: 5px;
   border-top: 9px solid;
   border-radius: 20px;
+  z-index: -1;
 }
 
 /*
