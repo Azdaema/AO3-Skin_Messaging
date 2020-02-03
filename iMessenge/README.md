@@ -104,11 +104,10 @@ I _think_ these are the colors used for each part.
 | `systemBlue`  | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
 | `systemGreen` | ![#34c759](https://placehold.it/15/34c759?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
 
-### Text
+### Time
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
 | `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)`
-| `secondaryLabel` | ![#3c3c4399](https://placehold.it/15/3c3c4399?text=+) `rgba(60,60,67, 0.6)` | ![#ebebf599](https://placehold.it/15/ebebf599?text=+) `rgba(235,235,245, 0.6)`
 
 ### Header
 |               | light mode | dark mode |
