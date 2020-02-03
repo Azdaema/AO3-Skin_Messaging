@@ -48,16 +48,13 @@ If you're sending an image plus a text with it, it's:
 </div>
 ```
 
-Where are if you're _only_ sending a picture, without any text, the class is `class="pic solo"`. This makes it so that the timestamp is in the corner of the image.
+Where are if you're _only_ sending a picture without any text, the class is `class="pic solo"`. This makes it so that the timestamp is in the corner of the image.
 
 ```html
-<div class="out">
-  <dt>Aulus Agerius</dt>
-  <dd class="pic solo">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" />
-    <sub>4:16 PM</sub>
-  </dd>
-</div>
+<dd class="pic solo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" />
+  <sub>4:16 PM</sub>
+</dd>
 ```
 
 # Colors
