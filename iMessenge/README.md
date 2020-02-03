@@ -108,3 +108,5 @@ I _think_ these are the colors used for each part:
 | `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea) | ![#2c2c2e](https://placehold.it/15/2c2c2e?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
 | `systemBlue`  | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
 | `systemGreen` | ![#34c759](https://placehold.it/15/34c759?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
+| `link`        | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0984ff](https://placehold.it/15/0984ff?text=+) [`rgba(9,132,255, 1.0)`](https://www.colorhexa.com/0984ff)
+| `secondaryLabel` | ![#8a8a8e](https://placehold.it/15/8a8a8e?text=+) `rgba(60,60,67, 0.6)` | ![#f3f3f9](https://placehold.it/15/f3f3f9?text=+) `rgba(235,235,245, 0.6)`
