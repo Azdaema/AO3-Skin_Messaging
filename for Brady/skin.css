@@ -8,7 +8,7 @@
 	margin: 15px auto;
 		/* Auto margin on the sides = centers your thing in the middle of the screen
 		(plus 15px on the top and bottom, so the bordered sections don't touch each other) */
-	border: 1px solid #7B7C80;
+	border: 1px solid rgba(50, 50, 50, 0.5);
 	padding: 0 10px; /* We don't want the contents TOUCHING the border, so little padding on the sides */
 	box-sizing: border-box; /* so padding doesn't mess up the width on small screen (ie phones) */
 }
@@ -87,13 +87,13 @@
  */
 #workskin .imessenger .in dd {
 	float: left;
-	background: #e5e5ea;
+	background: #e9e9eb;
 	color: #000;
 }
 /* tail */
 #workskin .imessenger .in dd:last-child:after {
 	left: -10px;
-	border-right: 10px solid #e5e5ea;
+	border-right: 10px solid #e9e9eb;
 	border-bottom-right-radius: 20px 10px;
 }
 
