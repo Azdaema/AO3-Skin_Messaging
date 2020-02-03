@@ -95,10 +95,14 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 Could also be used with a `<dt></dt>` tag or something, depending on how you prefer it to look in "Hide Creator's Style" mode.
 
 # Colors
-iOS uses [these colors](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/).
-* Incoming texts: systemGray5
-	* **Light mode:** `rgb(0,122,255)`, `#007aff`
-	* **Dark mode:** `rgb(10,132,255)`, `#0a84ff`
+iOS colors: iOS documentation [here](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/), or more extensive documentation [here](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/).
+
+I _think_ these are the colors used for each part:
+* Labels: systemGray
+	* **Light & dark mode:** [`rgb(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93)
 * Outgoing texts: systemBlue
-	* **Light mode:** `rgb(229,229,234)`, `#e5e5ea`
-	* **Dark mode:** `rgb(44,44,46)`, `#2c2c2e`
+	* **Light mode:** [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff)
+	* **Dark mode:** [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
+* Incoming texts: systemGray5
+	* **Light mode:** [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea)
+	* **Dark mode:** [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
