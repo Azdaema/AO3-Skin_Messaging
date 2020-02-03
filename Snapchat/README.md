@@ -31,3 +31,14 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 ```
 
 The wrapper for this is `class="snapchat nonudes"`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic, which is gen, where they're sending each other pictures of their dogs, and you don't want to use it there.
+
+
+
+# Colors
+[Snapchat brand standards](https://docs.snapchat.com/docs/design-guidelines/)
+
+|          | hex       | swatch |
+| -------: | :-------- | :----- |
+| Chat     | `#3cb2e2` | ![#3cb2e2](https://placehold.it/15/3cb2e2/000000?text=+)
+| Memories | `#e92754` | ![#e92754](https://placehold.it/15/e92754/000000?text=+)
+| Stories  | `#9b55a0` | ![#9b55a0](https://placehold.it/15/9b55a0/000000?text=+)
