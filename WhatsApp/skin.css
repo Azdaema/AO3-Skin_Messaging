@@ -94,31 +94,30 @@
   margin: 0;
 }
 
+/* checkmarks */
 #workskin .whatsapp .out dd sub:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
   margin-left: 3px;
 }
-
 #workskin .whatsapp .out dd sub.received:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
 }
-
 #workskin .whatsapp .out dd sub.notreceived:after {
   content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
+/*
+ * Big emojis
+ */
 #workskin .whatsapp dd.emoji1 {
   font-size: 2.5em;
 }
-
 #workskin .whatsapp dd.emoji2 {
   font-size: 2em;
 }
-
 #workskin .whatsapp dd.emoji3 {
   font-size: 1.5em;
 }
-
 #workskin .whatsapp dd.emoji1 sub,
 #workskin .whatsapp dd.emoji2 sub,
 #workskin .whatsapp dd.emoji3 sub {
@@ -127,18 +126,16 @@
   text-align: right;
   padding: 0 !important;
 }
-
 #workskin .whatsapp dd.emoji1 sub {
   font-size: 0.3em;
 }
-
 #workskin .whatsapp dd.emoji2 sub {
   font-size: 0.375em;
 }
-
 #workskin .whatsapp dd.emoji3 sub {
   font-size: 0.5em;
 }
+
 
 /*
  * Pictures
@@ -151,7 +148,6 @@
   width: 100%;
   display: block;
 }
-
 /* Timestamp white and in image corner */
 #workskin .whatsapp .pic.solo sub {
   color: #ffffff;
