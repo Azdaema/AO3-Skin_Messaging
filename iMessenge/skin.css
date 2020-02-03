@@ -149,9 +149,8 @@
  * Contact header
  */
 #workskin .imessenge .contact {
-  background: #eee;
-  border: 1px solid #ccc;
-  border-bottom: 1px solid #bbb;
+  background: #f2f2f7;
+  border: 1px solid rgba(60,60,67, 0.29);
   box-shadow: 0 1px 2px rgba(1,1,1,0.2);
   height: 60px;
   line-height: 58px;
@@ -160,19 +159,17 @@
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
+  position: relative;
 }
-
-/* Back arrow */
-#workskin .imessenge .contact .arrow {
-  float: left;
-  padding: 22px 15px;
-}
-#workskin .imessenge .contact .arrow:after {
+/* back arrow */
+#workskin .imessenge .contact:before {
   content: "";
   position: absolute;
-  height: 14px;
+  top: 22px;
+  left: 15px;
   width: 14px;
-  border-left: 3px solid #007aff;
-  border-bottom: 3px solid #007aff;
+  height: 14px;
+  border-left: 2.5px solid #007aff;
+  border-bottom: 2.5px solid #007aff;
   transform: rotate(45deg);
 }
