@@ -74,10 +74,8 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 
 ### Contact header
 ```html
-<h1 class="contact"><span class="arrow"></span>Momo</h1>
+<h1 class="contact">Momo</h1>
 ```
-
-`<span class="arrow"></span>` creates the "back" arrow, and is optional.
 
 ### Time
 ```html
