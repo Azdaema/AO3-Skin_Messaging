@@ -168,11 +168,11 @@
   padding: 22px 15px;
 }
 #workskin .imessenge .contact .arrow:after {
+  content: "";
   position: absolute;
-  border-left: 3px solid #2095FE;
-  border-bottom: 3px solid #2095FE;
-  content: " ";
   height: 14px;
   width: 14px;
+  border-left: 3px solid #007aff;
+  border-bottom: 3px solid #007aff;
   transform: rotate(45deg);
 }
