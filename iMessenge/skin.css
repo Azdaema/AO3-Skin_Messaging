@@ -124,6 +124,7 @@
   font-size: 0.75em;
 }
 
+/* time label */
 #workskin .imessenge .time {
   text-align: center;
   padding: 10px 0;
@@ -149,17 +150,16 @@
  * Contact header
  */
 #workskin .imessenge .contact {
+  position: relative;
   background: #f2f2f7;
   border: 1px solid rgba(60,60,67, 0.29);
-  box-shadow: 0 1px 2px rgba(1,1,1,0.2);
   height: 60px;
-  line-height: 58px;
-  font-family: inherit;
   text-align: center;
+  line-height: 58px;
   font-size: 20px;
+  font-family: inherit;
   font-weight: bold;
   white-space: nowrap;
-  position: relative;
 }
 /* back arrow */
 #workskin .imessenge .contact:before {
