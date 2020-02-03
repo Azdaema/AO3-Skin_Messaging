@@ -93,3 +93,12 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 <p class="read"><b>Read</b> 5:55 PM</p>
 ```
 Could also be used with a `<dt></dt>` tag or something, depending on how you prefer it to look in "Hide Creator's Style" mode.
+
+# Colors
+iOS uses [these colors](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/).
+* Incoming texts: systemGray5
+	* **Light mode:** `rgb(0,122,255)`, `#007aff`
+	* **Dark mode:** `rgb(10,132,255)`, `#0a84ff`
+* Outgoing texts: systemBlue
+	* **Light mode:** `rgb(229,229,234)`, `#e5e5ea`
+	* **Dark mode:** `rgb(44,44,46)`, `#2c2c2e`
