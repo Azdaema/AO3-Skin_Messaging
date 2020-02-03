@@ -116,4 +116,4 @@ I _think_ these are the colors used for each part.
 ### Header
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `secondarySystemBackground` (aka `systemGray6`) | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) [`rgba(242,242,247, 1.0)`](https://www.colorhexa.com/1c1c1e) ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) [`rgba(28,28,30, 1.0)`](https://www.colorhexa.com/1c1c1e)
+| `secondarySystemBackground` (aka `systemGray6`) | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) [`rgba(242,242,247, 1.0)`](https://www.colorhexa.com/1c1c1e) | ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) [`rgba(28,28,30, 1.0)`](https://www.colorhexa.com/1c1c1e)
