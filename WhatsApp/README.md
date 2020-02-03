@@ -1,3 +1,11 @@
+# Wrapper
+Wrap your whole texting section in this:
+```html
+<dl class="whatsapp">
+
+</dl>
+```
+
 # Timestamps
 In WhatsApp, every single text has a timestamp attached to it, and they're always visable.
 
@@ -10,6 +18,12 @@ In WhatsApp, every single text has a timestamp attached to it, and they're alway
 </div>
 ```
 
+### Days
+The label for what day it is is:
+```html
+<h4 class="day">Today</h4>
+```
+
 # Emojis
 ```html
 <div class="in">
@@ -20,16 +34,15 @@ In WhatsApp, every single text has a timestamp attached to it, and they're alway
 </div>
 ```
 
-
 # Colors
 [WhatsApp brand standards](https://whatsappbrand.com/)
 
 |                      | hex       | swatch |
 | -------------------: | :-------- | :----- |
-| Teal Green           | `#075E54` | ![#075E54](https://placehold.it/15/075E54/000000?text=+)
-|                      | `#128C7E` | ![#128C7E](https://placehold.it/15/128C7E/000000?text=+)
-| Light Green          | `#25D366` | ![#25D366](https://placehold.it/15/25D366/000000?text=+)
-| White                | `#FFFFFF` | ![#FFFFFF](https://placehold.it/15/FFFFFF/000000?text=+)
-| Outgoing Chat Bubble | `#DCF8C6` | ![#DCF8C6](https://placehold.it/15/DCF8C6/000000?text=+)
-| Checkmark Blue       | `#34B7F1` | ![#34B7F1](https://placehold.it/15/34B7F1/000000?text=+)
-| Chat Background      | `#ECE5DD` | ![#ECE5DD](https://placehold.it/15/ECE5DD/000000?text=+)
+| Teal Green           | `#075E54` | ![#075E54](https://placehold.it/15/075E54?text=+)
+|                      | `#128C7E` | ![#128C7E](https://placehold.it/15/128C7E?text=+)
+| Light Green          | `#25D366` | ![#25D366](https://placehold.it/15/25D366?text=+)
+| White                | `#FFFFFF` | ![#FFFFFF](https://placehold.it/15/FFFFFF?text=+)
+| Outgoing Chat Bubble | `#DCF8C6` | ![#DCF8C6](https://placehold.it/15/DCF8C6?text=+)
+| Checkmark Blue       | `#34B7F1` | ![#34B7F1](https://placehold.it/15/34B7F1?text=+)
+| Chat Background      | `#ECE5DD` | ![#ECE5DD](https://placehold.it/15/ECE5DD?text=+)
