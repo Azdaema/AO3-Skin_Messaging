@@ -37,10 +37,10 @@ The wrapper for this is `class="snapchat nonudes"`. This is so this feature can 
 # Colors
 [Snapchat brand standards](https://docs.snapchat.com/docs/design-guidelines/)
 
-|          | hex       | swatch |
-| -------: | :-------- | :----- |
-| Yellow   | `#fffc00` | ![#fffc00](https://placehold.it/15/fffc00/000000?text=+)
-| Chat     | `#3cb2e2` | ![#3cb2e2](https://placehold.it/15/3cb2e2/000000?text=+)
-| Memories | `#e92754` | ![#e92754](https://placehold.it/15/e92754/000000?text=+)
-| Stories  | `#9b55a0` | ![#9b55a0](https://placehold.it/15/9b55a0/000000?text=+)
-| N/A      | `#03a588` | ![#03a588](https://placehold.it/15/03a588/000000?text=+)
+|                 | hex       | swatch |
+| --------------: | :-------- | :----- |
+| Snapchat Yellow | `#fffc00` | ![#fffc00](https://placehold.it/15/fffc00/000000?text=+)
+| Chat            | `#3cb2e2` | ![#3cb2e2](https://placehold.it/15/3cb2e2/000000?text=+)
+| Memories        | `#e92754` | ![#e92754](https://placehold.it/15/e92754/000000?text=+)
+| Stories         | `#9b55a0` | ![#9b55a0](https://placehold.it/15/9b55a0/000000?text=+)
+| N/A             | `#03a588` | ![#03a588](https://placehold.it/15/03a588/000000?text=+)
