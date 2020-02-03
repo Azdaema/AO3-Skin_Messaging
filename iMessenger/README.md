@@ -99,10 +99,10 @@ iOS colors: iOS documentation [here](https://developer.apple.com/design/human-in
 
 |               | Light mode | Dark mode |
 | ------------: | :--------: | :-------: |
-| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93/000000?text=+) `rgba(142,142,147, 1.0)` | ![#8e8e93](https://placehold.it/15/8e8e93/000000?text=+) `rgba(142,142,147, 1.0)`
+| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93/000000?text=+) [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93/000000?text=+) `rgba(142,142,147, 1.0)`
 | `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea/000000?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea) | ![#2c2c2e](https://placehold.it/15/2c2c2e/000000?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
-| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff/000000?text=+) | ![#0a84ff](https://placehold.it/15/0a84ff/000000?text=+)
-| `systemGreen` | ![#34c759](https://placehold.it/15/34c759/000000?text=+) | ![#30d158](https://placehold.it/15/30d158/000000?text=+)
+| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff/000000?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff/000000?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
+| `systemGreen` | ![#34c759](https://placehold.it/15/34c759/000000?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158/000000?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
 
 I _think_ these are the colors used for each part:
 * Labels: systemGray
@@ -111,8 +111,8 @@ I _think_ these are the colors used for each part:
 	* **Light mode:** ![#e5e5ea](https://placehold.it/15/e5e5ea/000000?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea)
 	* **Dark mode:** ![#2c2c2e](https://placehold.it/15/2c2c2e/000000?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
 	
-	* **Light mode:** ![#007aff](https://placehold.it/15/007aff/000000?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff)
-	* **Dark mode:** ![#0a84ff](https://placehold.it/15/0a84ff/000000?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
+	* **Light mode:** ![#007aff](https://placehold.it/15/007aff/000000?text=+) 
+	* **Dark mode:** ![#0a84ff](https://placehold.it/15/0a84ff/000000?text=+) 
 * Outgoing texts: systemGreen
-	* **Light mode:** ![#34c759](https://placehold.it/15/34c759/000000?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759)
-	* **Dark mode:** ![#30d158](https://placehold.it/15/30d158/000000?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
+	* **Light mode:** ![#34c759](https://placehold.it/15/34c759/000000?text=+) 
+	* **Dark mode:** ![#30d158](https://placehold.it/15/30d158/000000?text=+) 
