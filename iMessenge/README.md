@@ -100,18 +100,18 @@ I _think_ these are the colors used for each part.
 ### Bubbles
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea) | ![#2c2c2e](https://placehold.it/15/2c2c2e?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
-| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
-| `systemGreen` | ![#34c759](https://placehold.it/15/34c759?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
+| `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea?text=+) `rgba(229,229,234, 1.0)` | ![#2c2c2e](https://placehold.it/15/2c2c2e?text=+) `rgba(44,44,46, 1.0)`
+| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff?text=+) `rgba(0,122,255, 1.0)` | ![#0a84ff](https://placehold.it/15/0a84ff?text=+) `rgba(10,132,255, 1.0)`
+| `systemGreen` | ![#34c759](https://placehold.it/15/34c759?text=+) `rgba(52,199,89, 1.0)` | ![#30d158](https://placehold.it/15/30d158?text=+) `rgba(48,209,88, 1.0)`
 
 ### Time
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)`
+| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)` | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)`
 
 ### Header
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `systemGray6` | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) [`rgba(242,242,247, 1.0)`](https://www.colorhexa.com/f2f2f7) | ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) [`rgba(28,28,30, 1.0)`](https://www.colorhexa.com/1c1c1e)
-| `link`        | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0984ff](https://placehold.it/15/0984ff?text=+) [`rgba(9,132,255, 1.0)`](https://www.colorhexa.com/0984ff)
+| `systemGray6` | ![#f2f2f7](https://placehold.it/15/f2f2f7?text=+) `rgba(242,242,247, 1.0)` | ![#1c1c1e](https://placehold.it/15/1c1c1e?text=+) `rgba(28,28,30, 1.0)`
+| `link`        | ![#007aff](https://placehold.it/15/007aff?text=+) `rgba(0,122,255, 1.0)` | ![#0984ff](https://placehold.it/15/0984ff?text=+) `rgba(9,132,255, 1.0)`
 | `separator`   | ![#c6c6c8](https://placehold.it/15/c6c6c8?text=+) `rgba(60,60,67, 0.29)` | ![#38383a](https://placehold.it/15/38383a?text=+) `rgba(84,84,88, 0.6)`
