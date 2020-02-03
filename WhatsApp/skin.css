@@ -139,3 +139,23 @@
 #workskin .whatsapp dd.emoji3 sub {
   font-size: 0.5em;
 }
+
+/*
+ * Pictures
+ */
+#workskin .whatsapp .pic {
+  padding: 3px;
+}
+#workskin .whatsapp .pic img {
+  border-radius: 3px;
+  width: 100%;
+  display: block;
+}
+
+/* Timestamp white and in image corner */
+#workskin .whatsapp .pic.solo sub {
+  color: #ffffff;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
