@@ -104,7 +104,7 @@ I _think_ these are the colors used for each part:
 
 |               | light mode | dark mode |
 | ------------: | :--------- | :-------- |
-| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93) | [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93) | `rgba(142,142,147, 1.0)`
-| `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea) | [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea) | ![#2c2c2e](https://placehold.it/15/2c2c2e) | [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
-| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff) | [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff) | [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
-| `systemGreen` | ![#34c759](https://placehold.it/15/34c759) | [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158) | [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
+| `systemGray`  | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) [`rgba(142,142,147, 1.0)`](https://www.colorhexa.com/8e8e93) | ![#8e8e93](https://placehold.it/15/8e8e93?text=+) `rgba(142,142,147, 1.0)`
+| `systemGray5` | ![#e5e5ea](https://placehold.it/15/e5e5ea?text=+) [`rgba(229,229,234, 1.0)`](https://www.colorhexa.com/e5e5ea) | ![#2c2c2e](https://placehold.it/15/2c2c2e?text=+) [`rgba(44,44,46, 1.0)`](https://www.colorhexa.com/2c2c2e)
+| `systemBlue`  | ![#007aff](https://placehold.it/15/007aff?text=+) [`rgba(0,122,255, 1.0)`](https://www.colorhexa.com/007aff) | ![#0a84ff](https://placehold.it/15/0a84ff?text=+) [`rgba(10,132,255, 1.0)`](https://www.colorhexa.com/0a84ff)
+| `systemGreen` | ![#34c759](https://placehold.it/15/34c759?text=+) [`rgba(52,199,89, 1.0)`](https://www.colorhexa.com/34c759) | ![#30d158](https://placehold.it/15/30d158?text=+) [`rgba(48,209,88, 1.0)`](https://www.colorhexa.com/30d158)
