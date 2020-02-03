@@ -44,20 +44,20 @@
  * Outgoing/red
  */
 #workskin .snapchat .out dt {
-  color: #e74057;
+  color: #e92754;
 }
 #workskin .snapchat .out dd {
-  border-color: #e74057;
+  border-color: #e92754;
 }
 
 /*
  * Incoming/blue
  */
 #workskin .snapchat .in dt {
-  color: #10a7f0;
+  color: #3cb2e2;
 }
 #workskin .snapchat .in dd {
-  border-color: #10a7f0;
+  border-color: #3cb2e2;
 }
 
 
