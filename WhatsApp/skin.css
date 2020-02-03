@@ -43,10 +43,10 @@
  */
 #workskin .whatsapp .out dd {
   float: right;
-  background: #FFFFFF;
+  background: #DCF8C6;
 }
 #workskin .whatsapp .out dd:last-child:after {
-  border-color: #FFFFFF;
+  border-color: #DCF8C6;
   transform: rotate(240deg);
   right: -16px;
 }
@@ -56,10 +56,10 @@
  */
 #workskin .whatsapp .in dd {
   float: left;
-  background: #DCF8C6;
+  background: #FFFFFF;
 }
 #workskin .whatsapp .in dd:last-child:after {
-  border-color: #DCF8C6;
+  border-color: #FFFFFF;
   transform: rotate(-240deg);
   left: -16px;
 }
