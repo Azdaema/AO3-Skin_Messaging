@@ -5,6 +5,27 @@ AO3 throws `#workskin` in front of everything, so that's what that's about.
 
 AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So then you're falling back on the original characteristics of the tags. In that case, you still want it to be clear who is sending which texts. That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be revealed.
 
+# Features
+* iMessage
+	- [x] Contact header
+	- [x] Group chat
+	- [x] Pictures
+	- [x] Emojis
+* iMessage Retro
+	- [x] Contact header
+	- [ ] Group chat
+	- [ ] Pictures
+* WhatsApp
+	- [ ] Contact header
+	- [ ] Group chat
+	- [x] Pictures
+	- [x] Emojis
+* Snapchat
+	- [ ] Contact header
+	- [ ] Group chat
+	- [x] Snap icons
+	- [x] Emojis
+
 # Using it
 They all have the basic structure of:
 * `<dt></dt>` for the characters' names
