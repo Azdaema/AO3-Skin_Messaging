@@ -155,3 +155,39 @@
   bottom: 2px;
   right: 5px;
 }
+
+
+/*
+ * Contact header
+ */
+#workskin .whatsapp .contact {
+  position: relative;
+  background: #075E54;
+  margin: 0;
+  padding: 10px;
+  font-family: inherit;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: left;
+}
+/* avatar circle */
+#workskin .whatsapp .contact:before {
+  content: "";
+  float: left;
+  width: 35px;
+  height: 35px;
+  background-image: url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
+  background-size: 100%;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+/* Online status */
+#workskin .whatsapp .contact.online:after {
+  content: "Online";
+  display: block;
+  padding-top: 7px;
+  font-size: 13px;
+  font-weight: normal;
+}
