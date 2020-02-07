@@ -20,7 +20,7 @@ AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So 
 	- [x] Emojis
 * Snapchat
 	- [x] Snap icons
-	- [ ] Contact header
+	- [x] Contact header
 	- [ ] Group chat
 	- [x] Emojis
 
