@@ -101,27 +101,25 @@
 /*
  * No-bubble texts
  */
-#workskin .ios .pic,
-#workskin .ios .emoji {
-  background: none !important;/* !important = override the other rule that says to have a background */
-  padding: 0;
+.imessage dd.pic,
+.imessage dd.emoji {
+	background: none !important; /* !important = override other rule */
+	padding: 0;
+	overflow: hidden; /* hide the corner bits */
 }
-#workskin .ios dd.emoji:after,
-#workskin .ios dd.pic:after {
-  content: none !important; /* no tail */
-}
-
-/* images and iframes (aka embeded stuff) in pic class */
-#workskin .ios .pic img,
-#workskin .ios .pic iframe {
-  border-radius: 20px; /* rounded corners */
-  width: 100%;
-  display: block; /* without "block" there's extra space after */
+.imessage dd.emoji:after,
+.imessage dd.pic:after {
+	content: none !important;
 }
 
- /* 3x size font for emojis */
-#workskin .ios .emoji {
-  font-size: 3em;
+.imessage .pic img,
+.imessage .pic iframe {
+	width: 100%;
+	display: block; /* without "block" there's extra space after */
+}
+
+.imessage .emoji {
+	font-size: 3em; /* 3x font for emojis */
 }
 
 
