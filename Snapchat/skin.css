@@ -1,6 +1,4 @@
-/*
- * Wrapper
- */
+/* Wrapper */
 .snapchat {
 	width: 100%;
 	max-width: 320px;
@@ -26,6 +24,10 @@
 	color: #d9d9d9;
 }
 
+
+/**************************************************
+*		Texts
+**************************************************/
 /* Names */
 .snapchat dt {
 	margin-top: 10px;
@@ -39,10 +41,7 @@
 	border-left: solid 2px;
 }
 
-
-/*
- * Outgoing/red
- */
+/* Outgoing/red */
 .snapchat .out dt {
 	color: #e92754;
 }
@@ -50,9 +49,7 @@
 	border-color: #e92754;
 }
 
-/*
- * Incoming/blue
- */
+/* Incoming/blue */
 .snapchat .in dt {
 	color: #3cb2e2;
 }
@@ -60,18 +57,16 @@
 	border-color: #3cb2e2;
 }
 
-
-/*
- * 3x emoji
- */
+/**************************************************
+*		Big emojis
+**************************************************/
 .snapchat .emoji {
 	font-size: 3em;
 }
 
-
-/*
- * Icons
- */
+/**************************************************
+*		Icons
+**************************************************/
 .snapchat .icon {
 	display: block;
 	width: 100%;
@@ -80,11 +75,8 @@
 	border: 1px solid #d9d9d9;
 	padding: 0.5em 0;
 }
-/* Hidden backup */
-.snapchat .icon i {
-	display: none;
-}
 
+/* Image part */
 .snapchat .icon:before {
 	float: left;
 	display: inline-block;
@@ -95,12 +87,19 @@
 	content: "";
 }
 
+/* Text part */
 .snapchat .icon:after {
 	float: left;
 	display: inline-block;
 	font-weight: bold;
 	padding: 0.5em 0;
 	line-height: 1em;
+}
+
+
+/* Hidden backup */
+.snapchat .icon i {
+	display: none;
 }
 
 /*
