@@ -1,9 +1,9 @@
-# [Icons](https://support.snapchat.com/en-US/a/friends-screen-icon-guide)
-Red is the default. Purple and blue need to be specified.
+# Features
+### [Icons](https://support.snapchat.com/en-US/a/friends-screen-icon-guide)
+* Red is the default. Purple and blue need to be specified.
+* The `opened` and `unopened` ones are either a square or an arrow, based on if it's in `in` or `out`.
+* The itatics sandwiched in the middle is the hidden backup, for when the skin is turned off.
 
-The `opened` and `unopened` ones are either a square or an arrow, based on if it's in `in` or `out`.
-
-The itatics sandwiched in the middle is the hidden backup, for when the skin is turned off.
 ```html
 <dd><span class="icon opened"><i>Snap (without audio) sent and opened</i></span></dd>
 <dd><span class="icon opened purple"><i>Snap (with audio) sent and opened</i></span></dd>
@@ -21,7 +21,12 @@ The itatics sandwiched in the middle is the hidden backup, for when the skin is 
 <dd><span class="icon replay purple"><i>Snap (with audio) has been replayed</i></span></dd>
 ```
 
-# Optional shitpost addition:
+### Day
+```html
+<h4 class="day">Febuary 6th</h4>
+```
+
+### "No nudes"
 The wrapper for this is `class="snapchat nonudes"`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic, which is gen, where they're sending each other pictures of their dogs, and you don't want to use it there.
 
 # Colors
