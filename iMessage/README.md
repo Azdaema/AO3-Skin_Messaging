@@ -6,42 +6,12 @@ Wrap your whole texting section in this:
 </dl>
 ```
 
-### Group texts
-In a group text situation, incoming texts will show the sender's name.
-```html
-<dl class="imessage grouptext">
-
-</dl>
-```
-
 # Texts
-* `<dt></dt>` is for the characters' names. They will he hidden unless a reader turns off the work skin. Then they will show up, so it's still clear who is sending which messages.
-* `<dd></dd>` is for texts themselves.
-
-Classes:
 * `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
 * `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
   * `class="out gr"` is for green outgoing texts.
 
-```html
-<dl class="imessage">
-
-  <div class="in">
-    <dt>Alice</dt>
-    <dd>are you there yet?</dd>
-    <dd>Where are you?</dd>
-  </div>
-
-  <div class="out">
-    <dt>Bob</dt>
-    <dd>I'm waiting outside</dd>
-    <dd>wait I can see you now</dd>
-  </div>
-
-</dl>
-```
-
-## Texts without bubbles
+# Features
 ### Photos and rich links
 `class="pic"` is for pictures and rich links (that thing where you send a youtube video link, and then there's a little video thingy rather than a link).
 
@@ -68,15 +38,6 @@ Classes:
 </div>
 ```
 
-
-# Other things
-I use header tags for these, so than when someone clicks "Hide Creator's Style", they are still clearly distinct from the body of the conversation.
-
-### Contact header
-```html
-<h1 class="contact">Momo</h1>
-```
-
 ### Time
 ```html
 <h4 class="time"><b>Today,</b> 11:49 AM</h4>
@@ -91,6 +52,19 @@ I use header tags for these, so than when someone clicks "Hide Creator's Style",
 <p class="read"><b>Read</b> 5:55 PM</p>
 ```
 Could also be used with a `<dt></dt>` tag or something, depending on how you prefer it to look in "Hide Creator's Style" mode.
+
+### Group texts
+In a group text situation, incoming texts will show the sender's name.
+```html
+<dl class="imessage grouptext">
+
+</dl>
+```
+
+### Contact header
+```html
+<h1 class="contact">Momo</h1>
+```
 
 # Colors
 iOS colors: iOS documentation [here](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/), or more extensive documentation [here](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/).
