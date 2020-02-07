@@ -83,6 +83,14 @@
 	z-index: 0; 
 }
 
+
+/*
+ * Links
+ */
+.phone a {
+	word-break: break-all; /* linebreak when space runs out */
+}
+
 /*
  * Time (+ grouptext)
  */
