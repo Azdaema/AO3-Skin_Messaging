@@ -10,15 +10,17 @@
 }
 
 
+/* characters's names hidden */
 #workskin .imessage dt {
-	display: none; /* characters's names hidden */
+	display: none;
 }
 
 
 /*
  * All texts
  */
-#workskin .imessage dd {
+#workskin .imessage .in dd,
+#workskin .imessage .out dd {
 	margin: 0;
 	margin-bottom: 3px;
 	border-radius: 20px;
@@ -28,10 +30,12 @@
 	position: relative;
 }
 /* the last text in a series has more space after it, and a tail */
-#workskin .imessage dd:last-child {
+#workskin .imessage .in dd:last-child,
+#workskin .imessage .out dd:last-child {
 	margin-bottom: 10px;
 }
-#workskin .imessage dd:last-child:after {
+#workskin .imessage .in dd:last-child:after,
+#workskin .imessage .out dd:last-child:after {
 	content: "";
 	position: absolute;
 	bottom: 0;
