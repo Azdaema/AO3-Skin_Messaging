@@ -14,10 +14,9 @@
 	display: none;
 }
 
-
-/*
- * Texts
- */
+/**************************************************
+*		Texts
+**************************************************/
 .phone .in dd,
 .phone .out dd {
 	position: relative;
@@ -48,7 +47,7 @@
 	height: 12px;
 }
 
-/* outgoing texts */
+/* Outgoing texts */
 .phone .out dd {
 	float: right;
 	background: linear-gradient(to top, #d3f8ff 0%, transparent 0.75em) #99c9ff;
@@ -66,9 +65,9 @@
 	background: linear-gradient(to top, #f5f5f5 0%, transparent 0.75em) #dddddd;
 }
 
-/*
- * Pictures
- */
+/**************************************************
+*		Pictures
+**************************************************/
 .phone dd.pic {
 	padding: 0;
 	overflow: hidden; /* curve corners */
@@ -83,17 +82,17 @@
 	z-index: 0; 
 }
 
-
-/*
- * Links
- */
+/**************************************************
+*		Links
+**************************************************/
 .phone a {
 	word-break: break-all; /* linebreak when space runs out */
 }
 
-/*
- * Time (+ grouptext)
- */
+/**************************************************
+*		Time + grouptext
+**************************************************/
+/* shared font style */
 .phone .time,
 .phone.grouptext .in dt {
 	clear: both;
@@ -105,21 +104,22 @@
 	margin: 0;
 }
 
+/* Time */
 .phone .time {
 	text-align: center;
 	padding: 5px 0;
 }
 
+/* Grouptext */
 .phone.grouptext .in dt {
 	padding-left: 15px;
 	padding-top: 10px;
 	display: table !important;
 }
 
-
-/*
- * Contact header
- */
+/**************************************************
+*		Contact header
+**************************************************/
 .phone .contact {
 	position: relative;
 	background: linear-gradient(to bottom, #b2bdcc, #8a9cb4 50%, #7c91ad 50%, #6e85a3);
