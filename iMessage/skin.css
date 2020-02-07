@@ -84,10 +84,11 @@
 /*
  * No-bubble texts
  */
-.imessage .pic,
-.imessage .emoji {
+.imessage dd.pic,
+.imessage dd.emoji {
 	background: none !important;
 	padding: 0;
+	overflow: hidden; /* curve corners */
 }
 .imessage dd.emoji:after,
 .imessage dd.pic:after {
@@ -96,7 +97,6 @@
 
 .imessage .pic img,
 .imessage .pic iframe {
-	border-radius: 20px; /* rounded corners */
 	width: 100%;
 	display: block; /* without "block" there's extra space after */
 }
