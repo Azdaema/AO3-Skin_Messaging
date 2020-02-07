@@ -4,8 +4,6 @@
 	max-width: 320px;
 	margin: auto;
 	font-family: "Avenir Next", Avenir, Arial, sans-serif;
-	background: white;
-	padding: 10px;
 }
 
 /* Matching font style of both names and dates */
@@ -24,7 +22,6 @@
 	color: #d9d9d9;
 }
 
-
 /**************************************************
 *		Texts
 **************************************************/
@@ -42,20 +39,23 @@
 }
 
 /* Outgoing/red */
-.snapchat .out dt {
-	color: #e92754;
-}
-.snapchat .out dd {
-	border-color: #e92754;
-}
+.snapchat .out dt {color: #e92754;}
+.snapchat .out dd {border-color: #e92754;}
 
 /* Incoming/blue */
-.snapchat .in dt {
-	color: #3cb2e2;
-}
-.snapchat .in dd {
-	border-color: #3cb2e2;
-}
+.snapchat .in dt {color: #3cb2e2;}
+.snapchat .in dd {border-color: #3cb2e2;}
+
+/**************************************************
+*		Groupchat additional colors
+**************************************************/
+/* green */
+.snapchat .gr dt {color: #a3db6e;}
+.snapchat .gr dd {border-color: #a3db6e;}
+
+/* yellow */
+.snapchat .p3 yl {color: #ffd257;}
+.snapchat .p3 yl {border-color: #ffd257;}
 
 /**************************************************
 *		Big emojis
@@ -130,7 +130,7 @@
 .snapchat .out .icon.unopened.blue:before {  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");}
 /* Incoming (box) */
 .snapchat .in .icon.unopened:after {
-	content: "Press and hold to view";
+	content: "Tap to view";
 }
 .snapchat .in .icon.unopened:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");}
 .snapchat .in .icon.unopened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_purple.png");}
@@ -160,5 +160,42 @@
  */
 .snapchat.nonudes .icon:active:after {
 	font-size: 0.8em;
-	content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
+	content: "[No actual nudes. Sorry. This is a fanfic.]";
+}
+
+
+/**************************************************
+*		Contact header
+**************************************************/
+.snapchat .contact {
+	position: relative;
+	background: linear-gradient(to right, #2ec9ff, #00a0f0), #3cb2e2; /* colors pulled from picture */
+	margin: 0;
+	padding: 12px;
+	font-family: inherit;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.snapchat .contact:before,
+.snapchat .contact:after {
+	content: "";
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/* menu (aka 3 lines) */
+.snapchat .contact:before {
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-bars.png");
+	float: left;
+	height: 1em;
+	width: 1em;
+}
+/* arrow */
+.snapchat .contact:after {
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-angle-right.png");
+	float: right;
+	height: 1em;
+	width: 0.6em;
 }
