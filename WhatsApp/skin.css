@@ -1,193 +1,193 @@
-#workskin .whatsapp {
-  width: 100%;
-  max-width: 320px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  display: table;
-  margin: auto;
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
-  background-repeat: repeat-y;
-  background-size: 100%;
+.whatsapp {
+	width: 100%;
+	max-width: 320px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: table;
+	margin: auto;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
 }
 
-#workskin .whatsapp dt {
-  display: none;
+.whatsapp dt {
+	display: none;
 }
 
-#workskin .whatsapp dd {
-  max-width: 65%;
-  clear: both;
-  position: relative;
-  color: #000000;
-  border-radius: 5px;
-  padding: 2px 5px;
-  margin: 1px 15px;
-  border-bottom: 1px solid rgba(0,0,0, 0.2);
-  z-index: 1;
+.whatsapp dd {
+	max-width: 65%;
+	clear: both;
+	position: relative;
+	color: #000000;
+	border-radius: 5px;
+	padding: 2px 5px;
+	margin: 1px 15px;
+	border-bottom: 1px solid rgba(0,0,0, 0.2);
+	z-index: 1;
 }
-#workskin .whatsapp dd:last-child {
-  margin-bottom: 10px;
+.whatsapp dd:last-child {
+	margin-bottom: 10px;
 }
-#workskin .whatsapp dd:last-child:after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 14px;
-  bottom: 5px;
-  border-top: 9px solid;
-  border-radius: 20px;
-  z-index: -1;
+.whatsapp dd:last-child:after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 14px;
+	bottom: 5px;
+	border-top: 9px solid;
+	border-radius: 20px;
+	z-index: -1;
 }
 
 /*
  * Outgoing texts
  */
-#workskin .whatsapp .out dd {
-  float: right;
-  background: #DCF8C6;
+.whatsapp .out dd {
+	float: right;
+	background: #DCF8C6;
 }
-#workskin .whatsapp .out dd:last-child:after {
-  border-color: #DCF8C6;
-  transform: rotate(240deg);
-  right: -16px;
+.whatsapp .out dd:last-child:after {
+	border-color: #DCF8C6;
+	transform: rotate(240deg);
+	right: -16px;
 }
 
 /*
  * Incoming texts
  */
-#workskin .whatsapp .in dd {
-  float: left;
-  background: #FFFFFF;
+.whatsapp .in dd {
+	float: left;
+	background: #FFFFFF;
 }
-#workskin .whatsapp .in dd:last-child:after {
-  border-color: #FFFFFF;
-  transform: rotate(-240deg);
-  left: -16px;
+.whatsapp .in dd:last-child:after {
+	border-color: #FFFFFF;
+	transform: rotate(-240deg);
+	left: -16px;
 }
 
 /*
  * Timestamps
  */
-#workskin .whatsapp .day,
-#workskin .whatsapp dd sub {
-  font-family: inherit;
-  font-size: 0.75em;
-  color: #999;
-  text-transform: uppercase;
+.whatsapp .day,
+.whatsapp dd sub {
+	font-family: inherit;
+	font-size: 0.75em;
+	color: #999;
+	text-transform: uppercase;
 }
 
-#workskin .whatsapp .day {
-  width: 100px;
-  background: #D4EAF4;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 10px auto;
-  text-align: center;
-  display: table;
+.whatsapp .day {
+	width: 100px;
+	background: #D4EAF4;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px auto;
+	text-align: center;
+	display: table;
 }
 
-#workskin .whatsapp dd sub {
-  display: inline-block;
-  float: right;
-  line-height: 1.3em;
-  padding-top: 0.5em;
-  padding-left: 1.5em;
-  margin: 0;
+.whatsapp dd sub {
+	display: inline-block;
+	float: right;
+	line-height: 1.3em;
+	padding-top: 0.5em;
+	padding-left: 1.5em;
+	margin: 0;
 }
 
 /* checkmarks */
-#workskin .whatsapp .out dd sub:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
-  margin-left: 3px;
+.whatsapp .out dd sub:after {
+	content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_read.png");
+	margin-left: 3px;
 }
-#workskin .whatsapp .out dd sub.received:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
+.whatsapp .out dd sub.received:after {
+	content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_received.png");
 }
-#workskin .whatsapp .out dd sub.notreceived:after {
-  content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
+.whatsapp .out dd sub.notreceived:after {
+	content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
 /*
  * Big emojis
  */
-#workskin .whatsapp dd.emoji1 {
-  font-size: 2.5em;
+.whatsapp dd.emoji1 {
+	font-size: 2.5em;
 }
-#workskin .whatsapp dd.emoji2 {
-  font-size: 2em;
+.whatsapp dd.emoji2 {
+	font-size: 2em;
 }
-#workskin .whatsapp dd.emoji3 {
-  font-size: 1.5em;
+.whatsapp dd.emoji3 {
+	font-size: 1.5em;
 }
-#workskin .whatsapp dd.emoji1 sub,
-#workskin .whatsapp dd.emoji2 sub,
-#workskin .whatsapp dd.emoji3 sub {
-  display: block;
-  float: none;
-  text-align: right;
-  padding: 0 !important;
+.whatsapp dd.emoji1 sub,
+.whatsapp dd.emoji2 sub,
+.whatsapp dd.emoji3 sub {
+	display: block;
+	float: none;
+	text-align: right;
+	padding: 0 !important;
 }
-#workskin .whatsapp dd.emoji1 sub {
-  font-size: 0.3em;
+.whatsapp dd.emoji1 sub {
+	font-size: 0.3em;
 }
-#workskin .whatsapp dd.emoji2 sub {
-  font-size: 0.375em;
+.whatsapp dd.emoji2 sub {
+	font-size: 0.375em;
 }
-#workskin .whatsapp dd.emoji3 sub {
-  font-size: 0.5em;
+.whatsapp dd.emoji3 sub {
+	font-size: 0.5em;
 }
 
 
 /*
  * Pictures
  */
-#workskin .whatsapp .pic {
-  padding: 3px;
+.whatsapp .pic {
+	padding: 3px;
 }
-#workskin .whatsapp .pic img {
-  border-radius: 3px;
-  width: 100%;
-  display: block;
+.whatsapp .pic img {
+	border-radius: 3px;
+	width: 100%;
+	display: block;
 }
 /* Timestamp white and in image corner */
-#workskin .whatsapp .pic.solo sub {
-  color: #ffffff;
-  position: absolute;
-  bottom: 2px;
-  right: 5px;
+.whatsapp .pic.solo sub {
+	color: #ffffff;
+	position: absolute;
+	bottom: 2px;
+	right: 5px;
 }
 
 
 /*
  * Contact header
  */
-#workskin .whatsapp .contact {
-  position: relative;
-  background: #075E54;
-  margin: 0;
-  padding: 10px;
-  font-family: inherit;
-  color: #FFFFFF;
-  font-size: 15px;
-  font-weight: bold;
-  text-transform: capitalize;
-  text-align: left;
+.whatsapp .contact {
+	position: relative;
+	background: #075E54;
+	margin: 0;
+	padding: 10px;
+	font-family: inherit;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: left;
 }
 /* avatar circle */
-#workskin .whatsapp .contact:before {
-  content: "";
-  float: left;
-  width: 35px;
-  height: 35px;
-  background-image: url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
-  background-size: 100%;
-  border-radius: 100%;
-  margin-right: 10px;
+.whatsapp .contact:before {
+	content: "";
+	float: left;
+	width: 35px;
+	height: 35px;
+	background-image: url("https://t3.ftcdn.net/jpg/00/64/67/80/240_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg");
+	background-size: 100%;
+	border-radius: 100%;
+	margin-right: 10px;
 }
 /* Online status */
-#workskin .whatsapp .contact.online:after {
-  content: "Online";
-  display: block;
-  padding-top: 7px;
-  font-size: 13px;
-  font-weight: normal;
+.whatsapp .contact.online:after {
+	content: "Online";
+	display: block;
+	padding-top: 7px;
+	font-size: 13px;
+	font-weight: normal;
 }
