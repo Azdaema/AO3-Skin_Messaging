@@ -1,6 +1,4 @@
-/*
- * wrapper
- */
+/* wrapper */
 .imessage {
 	width: 100%;
 	max-width: 320px;
@@ -9,16 +7,14 @@
 	margin: auto;
 }
 
-
 /* characters's names hidden */
 .imessage dt {
 	display: none;
 }
 
-
-/*
- * All texts
- */
+/**************************************************
+*		Texts
+**************************************************/
 .imessage .in dd,
 .imessage .out dd {
 	margin: 0;
@@ -43,10 +39,7 @@
 	height: 20px;
 }
 
-
-/*
- * Outgoing texts
- */
+/* Outgoing texts */
 .imessage .out dd {
 	float: right;
 	background: #007aff;
@@ -66,9 +59,7 @@
 	border-color: #34c759;
 }
 
-/*
- * Incoming texts
- */
+/* Incoming texts */
 .imessage .in dd {
 	float: left;
 	background: #e5e5ea;
@@ -80,10 +71,9 @@
 	border-bottom-right-radius: 20px 10px;
 }
 
-
-/*
- * No-bubble texts
- */
+/**************************************************
+*		No-bubble texts
+**************************************************/
 .imessage dd.pic,
 .imessage dd.emoji {
 	background: none !important;
@@ -105,19 +95,17 @@
 	font-size: 3em; /* 3x font for emojis */
 }
 
-
-/*
- * Links
- */
+/**************************************************
+*		Links
+**************************************************/
 .imessage a {
 	word-break: break-all; /* linebreak when space runs out */
 	color: inherit; /* color match */
 }
 
-
-/*
- * Time receipts
- */
+/**************************************************
+*		Time + grouptext
+**************************************************/
 .imessage .time,
 .imessage.grouptext .in dt,
 .imessage .read {
@@ -149,10 +137,9 @@
 	margin-top: -8px;
 }
 
-
-/*
- * Contact header
- */
+/**************************************************
+*		Contact header
+**************************************************/
 .imessage .contact {
 	position: relative;
 	background: #f2f2f7;
