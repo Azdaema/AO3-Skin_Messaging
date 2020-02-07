@@ -11,8 +11,8 @@ AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So 
 	- [x] Emojis
 * iMessage Retro
 	- [x] Contact header
-	- [ ] Group chat
-	- [ ] Pictures
+	- [x] Group chat
+	- [X] Pictures
 * WhatsApp
 	- [x] Contact header
 	- [ ] Group chat
