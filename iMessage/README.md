@@ -1,7 +1,7 @@
 # Wrapper
 Wrap your whole texting section in this:
 ```html
-<dl class="imessenge">
+<dl class="imessage">
 
 </dl>
 ```
@@ -9,7 +9,7 @@ Wrap your whole texting section in this:
 ### Group texts
 In a group text situation, incoming texts will show the sender's name.
 ```html
-<dl class="imessenge grouptext">
+<dl class="imessage grouptext">
 
 </dl>
 ```
@@ -24,7 +24,7 @@ Classes:
   * `class="out gr"` is for green outgoing texts.
 
 ```html
-<dl class="imessenge">
+<dl class="imessage">
 
   <div class="in">
     <dt>Alice</dt>
