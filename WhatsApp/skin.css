@@ -1,3 +1,4 @@
+/* wrapper */
 .whatsapp {
 	width: 100%;
 	max-width: 320px;
@@ -9,10 +10,14 @@
 	background-size: 100%;
 }
 
+/* characters's names hidden */
 .whatsapp dt {
 	display: none;
 }
 
+/**************************************************
+*		Texts
+**************************************************/
 .whatsapp dd {
 	max-width: 65%;
 	clear: both;
@@ -38,9 +43,7 @@
 	z-index: -1;
 }
 
-/*
- * Outgoing texts
- */
+/* Outgoing texts */
 .whatsapp .out dd {
 	float: right;
 	background: #DCF8C6;
@@ -51,9 +54,7 @@
 	right: -16px;
 }
 
-/*
- * Incoming texts
- */
+/* Incoming texts */
 .whatsapp .in dd {
 	float: left;
 	background: #FFFFFF;
@@ -64,9 +65,9 @@
 	left: -16px;
 }
 
-/*
- * Timestamps
- */
+/**************************************************
+*		Time
+**************************************************/
 .whatsapp .day,
 .whatsapp dd sub {
 	font-family: inherit;
@@ -106,9 +107,9 @@
 	content: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/Checkmark_no-received.png");
 }
 
-/*
- * Big emojis
- */
+/**************************************************
+*		Big emojis
+**************************************************/
 .whatsapp dd.emoji1 {
 	font-size: 2.5em;
 }
@@ -136,10 +137,9 @@
 	font-size: 0.5em;
 }
 
-
-/*
- * Pictures
- */
+/**************************************************
+*		Pictures
+**************************************************/
 .whatsapp .pic {
 	padding: 3px;
 }
@@ -156,10 +156,9 @@
 	right: 5px;
 }
 
-
-/*
- * Contact header
- */
+/**************************************************
+*		Contact header
+**************************************************/
 .whatsapp .contact {
 	position: relative;
 	background: #075E54;
