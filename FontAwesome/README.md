@@ -6,6 +6,7 @@ https://fontawesome.com/license
 * [fa-chevron-right](https://fontawesome.com/icons/chevron-right?style=solid)
 * [fa-chevron-left](https://fontawesome.com/icons/chevron-left?style=solid)
 
+
 <table class="text-white bg-gray-dark mb-2">
   <tr>
       <th>name</th>
