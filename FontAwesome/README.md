@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css"
+
 https://fontawesome.com/license
 
 ### Arrows
@@ -10,3 +12,5 @@ https://fontawesome.com/license
 * [fa-bars](https://fontawesome.com/icons/bars?style=solid)
 * [fa-camera](https://fontawesome.com/icons/camera?style=solid)
 * [fa-user-circle](https://fontawesome.com/icons/user-circle?style=solid)
+
+<i class="fas fa-camera" aria-hidden="true"></i>
