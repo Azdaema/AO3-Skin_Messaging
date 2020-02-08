@@ -50,19 +50,19 @@
 /* Outgoing texts */
 .phone .out dd {
 	float: right;
-	background: linear-gradient(to top, #d3f8ff 0%, transparent 0.75em) #99c9ff;
+	background: linear-gradient(to top, #d3f8ff 0%, #99c9ff 0.75em);
 	filter: hue-rotate(-10deg);
 }
 
 /* Green outgoing texts */
 .phone .out.gr dd {
-	background: linear-gradient(to top, #e7f585 0%, transparent 0.75em) #8fd13e;
+	background: linear-gradient(to top, #e7f585 0%, #8fd13e 0.75em);
 }
 
 /* Incoming texts */
 .phone .in dd {
 	float: left;
-	background: linear-gradient(to top, #f5f5f5 0%, transparent 0.75em) #dddddd;
+	background: linear-gradient(to top, #f5f5f5 0%, #dddddd 0.75em);
 }
 
 /**************************************************
