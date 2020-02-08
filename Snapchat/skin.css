@@ -175,27 +175,35 @@
 	font-family: inherit;
 	color: #ffffff;
 	font-size: 15px;
-	text-align: center;
 	font-weight: normal;
+/* text overflow */
+	text-align: center;
+	padding-left: 2.5em;
+	padding-right: 1.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .snapchat .contact:before,
 .snapchat .contact:after {
 	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	width: 1.5em;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: auto 1em;
 }
 /* menu (aka 3 lines) */
 .snapchat .contact:before {
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-bars.png");
-	float: left;
-	height: 1em;
-	width: 1em;
+	left: 10px;
+	background-position: left;
 }
 /* arrow */
 .snapchat .contact:after {
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-angle-right.png");
-	float: right;
-	height: 1em;
-	width: 0.6em;
+	right: 10px;
+	background-position: right;
 }
