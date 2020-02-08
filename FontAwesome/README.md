@@ -6,11 +6,37 @@ https://fontawesome.com/license
 * [fa-chevron-right](https://fontawesome.com/icons/chevron-right?style=solid)
 * [fa-chevron-left](https://fontawesome.com/icons/chevron-left?style=solid)
 
-![fa-angle-right][./fa-angle-right.png]
-
-| name | img |
-| ---: | :-- |
-| fa-angle-right | 
+<table>
+  <tr>
+      <th>name</th>
+      <th width="100px">img</th>
+  </tr>
+  <tr>
+    <td>fa-angle-right</td>
+    <td><img src="./fa-angle-right.png"/></td>
+  </tr>
+  <tr>
+    <td>fa-angle-left</td>
+    <td><img src="./fa-angle-left.png"/></td>
+  </tr>
+  <tr>
+    <td>fa-chevron-right</td>
+    <td><img src="./fa-chevron-right.png"/></td>
+  </tr>
+  <tr>
+    <td>fa-chevron-left</td>
+    <td><img src="./fa-chevron-left.png"/></td>
+  </tr>
+  <tr>
+    <td>fa-arrow-right</td>
+    <td><img src="./fa-arrow-right.png"/></td>
+  </tr>
+  <tr>
+    <td>fa-arrow-left</td>
+    <td><img src="./fa-arrow-left.png"/></td>
+  </tr>
+ </table>
+  
 
 ### Miscellaneous
 * [fa-bars](https://fontawesome.com/icons/bars?style=solid)
