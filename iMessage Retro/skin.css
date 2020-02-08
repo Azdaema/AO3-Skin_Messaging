@@ -126,12 +126,18 @@
 	border-bottom: 1px solid #000000;
 	margin: 0;
 	padding: 12px;
-	text-align: center;
 	font-size: 18px;
 	font-family: inherit;
 	color: #ffffff;
 	font-weight: bold;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.53);
+	text-align: center;
+	padding-left: 90px;
+	padding-right: 75px;
+	max-width: 155px; /* 320 - (90 + 75) = 155 */
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 /* buttons */
