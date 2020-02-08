@@ -66,6 +66,9 @@ Although each one has small alterations, depending on how that app works.
 * **Snapchat** is pretty much a wholecloth original.
 
 # Other
+https://www.messengerpeople.com/wp-content/uploads/2019/07/statistik-messenger-apps-top-by-country-en-stand-2019-09.png
+Most popular app by country, circa 2017
+
 * LINE
   * https://archiveofourown.org/works/19150123/chapters/45514369
   * https://archiveofourown.org/works/17489243
