@@ -9,7 +9,7 @@ https://fontawesome.com/license
 
 <table class="text-white bg-gray-dark mb-2">
   <tr>
-      <th width="200px>name</th>
+      <th>name</th>
       <th width="100px">img</th>
   </tr>
   <tr>
