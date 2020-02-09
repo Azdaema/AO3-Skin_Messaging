@@ -25,13 +25,13 @@ In WhatsApp, _every single text_ has a timestamp attached to it.
 </div>
 ```
 
-### Days
-The label for what day it is is:
+### Day
+`<h4>` and `<h5>` are good for this.
 ```html
 <h4 class="day">Today</h4>
 ```
 
-### Emojis
+### Big emojis
 Emojis' size depends on how many of them there are.
 
 ```html
