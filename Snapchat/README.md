@@ -14,6 +14,7 @@ Wrap your whole texting section in this:
 ```
 
 ### Day
+`<h4>` and `<h5>` are good for this.
 ```html
 <h4 class="day">Febuary 6th</h4>
 ```
