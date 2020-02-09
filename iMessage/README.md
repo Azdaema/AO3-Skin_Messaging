@@ -56,8 +56,8 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 <div class="gr out">
 	<dt>Mimi</dt>
 	<dd>Can I copy your homework?</dd>
-	<p class="read"><b>Read</b> 5:55 PM</p>
 </div>
+	<p class="read"><b>Read</b> 5:55 PM</p>
 ```
 
 ### Group texts
