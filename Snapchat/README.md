@@ -7,7 +7,18 @@ Wrap your whole texting section in this:
 ```
 
 # Features
-### [Icons](https://support.snapchat.com/en-US/a/friends-screen-icon-guide)
+### Contact header
+`<h1>` and `<h2>` are good for this.
+```html
+<h1 class="contact">Momo</h1>
+```
+
+### Day
+```html
+<h4 class="day">Febuary 6th</h4>
+```
+
+### [Snapchat icons](https://support.snapchat.com/en-US/a/friends-screen-icon-guide)
 * Red is the default. Purple and blue need to be specified.
 * The `opened` and `unopened` ones are either a square or an arrow, based on if it's in `in` or `out`.
 * The itatics sandwiched in the middle is the hidden backup, for when the skin is turned off.
@@ -29,18 +40,14 @@ Wrap your whole texting section in this:
 <dd><span class="icon replay purple"><i>Snap (with audio) has been replayed</i></span></dd>
 ```
 
-### Day
-```html
-<h4 class="day">Febuary 6th</h4>
-```
+If the wrapper is `<dl class="snapchat nonudes">`, if you click on an icon the text changes to `[No actual nudes. Sorry. This is a fanfic.]`
 
-### Emoji
+I set it up like this so the feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic where they're sending each other pictures of their dogs, and you don't want to use it there.
+
+### Big emojis
 ```html
 <dd class="emoji">💖</dd>
 ```
-
-### "No nudes"
-The wrapper for this is `<dl class="snapchat nonudes">`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic where they're sending each other pictures of their dogs, and you don't want to use it there.
 
 # Colors
 [Snapchat brand standards](https://docs.snapchat.com/docs/design-guidelines/)
