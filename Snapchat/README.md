@@ -6,6 +6,14 @@ Wrap your whole texting section in this:
 </dl>
 ```
 
+# Texts
+* `class="out"` is for outgoing texts, being sent from from phone. Red.
+* `class="in"` is for incoming texts, being sent from another phone. Blue.
+
+Extra colors, for group texts:
+* `class="out gr"` is for green texts.
+* `class="out yl"` is for yellow texts.
+
 # Features
 ### Contact header
 `<h1>` and `<h2>` are good for this.
