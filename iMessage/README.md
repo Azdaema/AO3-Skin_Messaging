@@ -12,9 +12,8 @@ Wrap your whole texting section in this:
   * `class="out gr"` is for green outgoing texts.
 
 # Features
-### Photos and rich links
-`class="pic"` is for pictures and rich links (that thing where you send a youtube video link, and then there's a little video thingy rather than a link).
-
+### Photos
+`class="pic"` is for pictures.
 ```html
 <div class="out">
   <dt>Aulus Agerius</dt>
@@ -22,6 +21,7 @@ Wrap your whole texting section in this:
   <dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
 </div>
 ```
+It also works with embedded videos, to simulate rich links. Rich links are that thing where you send a youtube video link, and then there's a little video thingy rather than a link.
 ```html
 <div class="in">
   <dt>Ricky</dt>
