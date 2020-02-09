@@ -24,8 +24,8 @@ Wrap your whole texting section in this:
 <h4 class="time"><b>Today,</b> 11:49 AM</h4>
 ```
 
-### Photos
-`<dd class="pic"?` is for pictures.
+### Pictures
+`<dd class="pic">` is for pictures.
 ```html
 <div class="out">
 	<dt>Aulus Agerius</dt>
