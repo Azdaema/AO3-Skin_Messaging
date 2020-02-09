@@ -1,6 +1,20 @@
+# Wrapper
+Wrap your whole texting section in this:
+```html
+<dl class="whatsapp">
+
+</dl>
+```
+
 # Features
+### Contact header
+`<h1>` and `<h2>` are good for this.
+```html
+<h1 class="contact">Momo</h1>
+```
+
 ### Timestamps
-In WhatsApp, every single text has a timestamp attached to it, and they're always visable.
+In WhatsApp, _every single text_ has a timestamp attached to it.
 
 ```html
 <div class="out">
