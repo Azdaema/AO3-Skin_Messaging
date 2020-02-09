@@ -69,8 +69,8 @@ Where are if you're _only_ sending a picture without any text, the class is `cla
 
 |                      | hex       | swatch |
 | -------------------: | :-------- | :----- |
-| Teal Green           | `#075E54` | ![#075E54](https://placehold.it/15/075E54?text=+)
-|                      | `#128C7E` | ![#128C7E](https://placehold.it/15/128C7E?text=+)
+| Teal Green #1        | `#075E54` | ![#075E54](https://placehold.it/15/075E54?text=+)
+| Teal Green #2        | `#128C7E` | ![#128C7E](https://placehold.it/15/128C7E?text=+)
 | Light Green          | `#25D366` | ![#25D366](https://placehold.it/15/25D366?text=+)
 | White                | `#FFFFFF` | ![#FFFFFF](https://placehold.it/15/FFFFFF?text=+)
 | Outgoing Chat Bubble | `#DCF8C6` | ![#DCF8C6](https://placehold.it/15/DCF8C6?text=+)
