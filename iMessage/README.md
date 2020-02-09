@@ -9,49 +9,56 @@ Wrap your whole texting section in this:
 # Texts
 * `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
 * `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
-  * `class="out gr"` is for green outgoing texts.
+	* `class="out gr"` is for green outgoing texts.
 
 # Features
+### Contact header
+`<h1>` and `<h2>` are good for this.
+```html
+<h1 class="contact">Momo</h1>
+```
+
+### Time
+`<h4>` and `<h5>` are good for this.
+```html
+<h4 class="time"><b>Today,</b> 11:49 AM</h4>
+```
+
 ### Photos
-`class="pic"` is for pictures.
+`<dd class="pic"?` is for pictures.
 ```html
 <div class="out">
-  <dt>Aulus Agerius</dt>
-  <dd>Look what they're selling at the forum</dd>
-  <dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
+	<dt>Aulus Agerius</dt>
+	<dd>Look what they're selling at the forum</dd>
+	<dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
 </div>
 ```
 It also works with embedded videos, to simulate rich links. Rich links are that thing where you send a youtube video link, and then there's a little video thingy rather than a link.
 ```html
 <div class="in">
-  <dt>Ricky</dt>
-  <dd class="pic"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe></dd>
+	<dt>Ricky</dt>
+	<dd class="pic"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe></dd>
 </div>
 ```
 
 ### Emojis
-`class="emoji"` is for up to 3 large emojis.
+`<dd class="emoji">` is for up to 3 large emojis.
 ```html
 <div class="in">
-  <dt>Mabel</dt>
-  <dd class="emoji">💖💖💖</dd>
+	<dt>Mabel</dt>
+	<dd class="emoji">💖💖💖</dd>
 </div>
-```
-
-### Time
-```html
-<h4 class="time"><b>Today,</b> 11:49 AM</h4>
 ```
 
 ### Read receipts
+`<p>`, `<dt>`, and `<dd>` all work for this, depending on how you prefer it to look in "Hide Creator's Style" mode.
 ```html
 <div class="gr out">
-  <dt>Mimi</dt>
-  <dd>Can I copy your homework?</dd>
+	<dt>Mimi</dt>
+	<dd>Can I copy your homework?</dd>
+	<p class="read"><b>Read</b> 5:55 PM</p>
 </div>
-<p class="read"><b>Read</b> 5:55 PM</p>
 ```
-Could also be used with a `<dt></dt>` tag or something, depending on how you prefer it to look in "Hide Creator's Style" mode.
 
 ### Group texts
 In a group text situation, incoming texts will show the sender's name.
@@ -59,11 +66,6 @@ In a group text situation, incoming texts will show the sender's name.
 <dl class="imessage grouptext">
 
 </dl>
-```
-
-### Contact header
-```html
-<h1 class="contact">Momo</h1>
 ```
 
 # Colors
