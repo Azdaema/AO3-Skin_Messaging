@@ -13,6 +13,12 @@ Wrap your whole texting section in this:
 <h1 class="contact">Momo</h1>
 ```
 
+### Day
+The blue day labels. `<h4>` and `<h5>` are good for this.
+```html
+<h4 class="day">Today</h4>
+```
+
 ### Timestamps
 In WhatsApp, _every single text_ has a timestamp attached to it.
 
@@ -23,12 +29,6 @@ In WhatsApp, _every single text_ has a timestamp attached to it.
   <dd>double gray checkmark <sub class="received">4:13 PM</sub></dd>
   <dd>single gray checkmark <sub class="notreceived">4:14 PM</sub></dd>
 </div>
-```
-
-### Day
-`<h4>` and `<h5>` are good for this.
-```html
-<h4 class="day">Today</h4>
 ```
 
 ### Big emojis
