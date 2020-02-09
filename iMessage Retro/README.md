@@ -1,7 +1,7 @@
 # Wrapper
 Wrap your whole texting section in this:
 ```html
-<dl class="phone">
+<dl class="imessageorig">
 
 </dl>
 ```
@@ -36,7 +36,7 @@ Wrap your whole texting section in this:
 ### Group texts
 In group text mode, incoming texts will show the sender's name.
 ```html
-<dl class="phone grouptext">
+<dl class="imessageorig grouptext">
 
 </dl>
 ```
