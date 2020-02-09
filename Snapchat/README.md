@@ -1,3 +1,11 @@
+# Wrapper
+Wrap your whole texting section in this:
+```html
+<dl class="snapchat">
+
+</dl>
+```
+
 # Features
 ### [Icons](https://support.snapchat.com/en-US/a/friends-screen-icon-guide)
 * Red is the default. Purple and blue need to be specified.
@@ -32,7 +40,7 @@
 ```
 
 ### "No nudes"
-The wrapper for this is `class="snapchat nonudes"`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic, which is gen, where they're sending each other pictures of their dogs, and you don't want to use it there.
+The wrapper for this is `<dl class="snapchat nonudes">`. This is so this feature can be applied selectively. For example, maybe you have one fic which _is_ sexting, and you want to use it _there_, but you've got another fic where they're sending each other pictures of their dogs, and you don't want to use it there.
 
 # Colors
 [Snapchat brand standards](https://docs.snapchat.com/docs/design-guidelines/)
