@@ -32,6 +32,8 @@ The label for what day it is is:
 ```
 
 ### Emojis
+Emojis' size depends on how many of them there are.
+
 ```html
 <div class="in">
   <dt>Mabel</dt>
