@@ -19,11 +19,20 @@ In a group text situation, incoming texts will show the sender's name.
 
 </dl>
 ```
+### Green
+Green outgoing texts, as opposed to the blue default, can be set for the conversation as a whole.
+```html
+<dl class="imessage gr">
 
-# Texts
-* `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
-* `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
-Green outgoing texts, as opposed to the blue default, can be set for specific texts (`<div class="out gr">`), or for the conversation as a whole (`<dl class="imessage gr">`).
+</dl>
+```
+It can also be done only for specific texts, with the other texts being blue.
+```html
+<div class="out gr">
+	<dt>Aulus Agerius</dt>
+	<dd>Look what they're selling at the forum</dd>
+</div>
+```
 
 # Header and footer
 ### Contact header
