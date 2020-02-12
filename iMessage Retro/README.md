@@ -5,11 +5,27 @@ Wrap your whole texting section in this:
 
 </dl>
 ```
+### Grouptext
+In a group text situation, incoming texts will show the sender's name.
+```html
+<dl class="imessageorig grouptext">
 
-# Texts
-* `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
-* `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
-	* `class="out gr"` is for green outgoing texts.
+</dl>
+```
+### Green
+Green outgoing texts, as opposed to the blue default, can be set for the conversation as a whole.
+```html
+<dl class="imessageorig gr">
+
+</dl>
+```
+It can also be done only for specific texts, with the other texts being blue.
+```html
+<div class="out gr">
+	<dt>Aulus Agerius</dt>
+	<dd>Look what they're selling at the forum</dd>
+</div>
+```
 
 # Features
 ### Contact header
@@ -33,10 +49,12 @@ Wrap your whole texting section in this:
 </div>
 ```
 
-### Group texts
-In group text mode, incoming texts will show the sender's name.
-```html
-<dl class="imessageorig grouptext">
+# Creative decisions
+iMessage circa 2012.
 
-</dl>
-```
+Things I wasn't able to do:
+* The left end of the "Messages" button is supposed to be arrow shaped
+* I couldn't combine bubble tails with the gradient and outline
+
+### Colors
+I was unable to find any documentation of the colors and gradients, so the colors are just grabbed from pictures.
