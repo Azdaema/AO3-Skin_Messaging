@@ -9,20 +9,30 @@ AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So 
 	- [x] Group chat
 	- [x] Pictures
 	- [x] Emojis
+	- [x] Typing footer
 * iMessage Retro
 	- [x] Contact header
 	- [x] Group chat
 	- [X] Pictures
+	- [x] Typing footer
 * WhatsApp
 	- [x] Contact header
 	- [ ] Group chat
 	- [x] Pictures
 	- [x] Emojis
+	- [x] Typing footer
 * Snapchat
 	- [x] Contact header
 	- [x] Snap icons
 	- [x] Group chat
 	- [x] Emojis
+	- [ ] Typing footer
+* LINE
+	- [x] Contact header
+	- [ ] Group chat
+	- [x] Pictures
+	- [x] Emojis
+	- [ ] Typing footer
 
 # Using it
 They all have the basic structure of:
