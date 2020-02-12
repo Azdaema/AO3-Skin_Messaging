@@ -89,7 +89,14 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 	<p class="read"><b>Read</b> 5:55 PM</p>
 ```
 
-# Colors
+# Creative decisions
+It's a bit of a mashup of iMessage over the years.
+
+The contact header is circa 2015, because that was the last one without a contact image, and I'm guessing most people won't want to go find an image for this. However, it doesn't have the ":arrow_left: Messages" and "Details" buttons like circa 2015, but the minimalistic just a back arrow of circa 2019.
+
+The footer only has a camera icon, like before they added the Apple store icon alongside it.
+
+### Colors
 iOS colors: iOS documentation [here](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/), or more extensive documentation [here](https://noahgilmore.com/blog/dark-mode-uicolor-compatibility/).
 
 I _think_ these are the colors used for each part.
