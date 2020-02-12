@@ -65,10 +65,13 @@
 /**************************************************
 *		Pictures
 **************************************************/
-.line .pic {
+.line .pic,
+.line .emoji {
 	padding: 0;
+	background: none !important;
 }
-.line .pic:before{
+.line .pic:before,
+.line .emoji:before {
 	content: none;
 }
 
@@ -77,6 +80,13 @@
 	border-radius: 0.5em;
 	width: 100%;
 	display: block; /* without "block" there's extra space after */
+}
+
+.line .emoji {
+	font-size: 3em; /* 3x font for emojis */
+}
+.line .emoji sub {
+	font-size: 0.2em;
 }
 
 /**************************************************
