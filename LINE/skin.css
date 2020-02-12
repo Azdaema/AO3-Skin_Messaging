@@ -1,0 +1,162 @@
+/* wrapper */
+.line {
+	width: 100%;
+	max-width: 320px;
+	font-family: Roboto, Arial, sans-serif;
+	display: table;
+	margin: auto;
+	background: #7294c2;
+/*	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
+	background-repeat: repeat-y;
+	background-size: 100%;*/
+}
+
+/* characters's names hidden */
+.line dt {
+	display: none;
+}
+
+
+/**************************************************
+*		Texts
+**************************************************/
+.line dd {
+	max-width: 65%;
+	clear: both;
+	position: relative;
+	color: #000000;
+  border-radius: 1.5em;
+  margin: 0 10px 0.5em;
+  padding: 0.5em 1em;
+	z-index: 1;
+}
+.line dd:before {
+  content: "";
+  position: absolute;
+  top: -.75em;
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.5em solid #FFFFFF;
+	z-index: -1;
+}
+
+/* Outgoing texts */
+.line .out dd {
+	float: right;
+	background: #72de54;
+}
+.line .out dd:before {
+  right: -.25em;
+  border-color: #72de54;
+  border-bottom-right-radius: 0.5em 1em;
+}
+
+/* Incoming texts */
+.line .in dd {
+	float: left;
+	background: #FFFFFF;
+}
+.line .in dd:before {
+  left: -.25em;
+  border-color: #FFFFFF;
+  border-bottom-left-radius: 0.5em 1em;
+}
+
+/**************************************************
+*		Pictures
+**************************************************/
+.line .pic {
+	padding: 0;
+}
+.line .pic:before{
+	content: none;
+}
+
+.line .pic img,
+.line .pic iframe {
+	border-radius: 0.5em;
+	width: 100%;
+	display: block; /* without "block" there's extra space after */
+}
+
+/**************************************************
+*		Time
+**************************************************/
+.line dd sub {
+	position: absolute;
+	width: 5em;
+	bottom: 0.25em;
+	color: white;
+	font-size: 0.6em;
+}
+.line .in dd sub {
+	right: -5.5em;
+	text-align: left;
+}
+.line .out dd sub {
+	left: -5.5em;
+	text-align: right;
+}
+.line .out dd sub:before {
+	display: Block;
+	content: "Read";
+}
+
+/* Day header */
+.line .day {
+  border-radius: 1.5em;
+  margin: 1em auto;
+  padding: 0.5em 1em;
+	text-align: center;
+	display: table;
+	background: rgba(0,0,0, 0.2);
+	color: white;
+	font-weight: normal;
+	font-size: 0.75em;
+}
+
+/**************************************************
+*		Contact header
+**************************************************/
+.line .contact {
+	position: relative;
+	display: block;
+	background: #24304a;
+	margin: 0;
+	padding: 0.5em;
+	line-height: 2em;
+	font-size: inherit;
+	font-family: inherit;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 2.5em;
+	padding-right: 7.5em;
+}
+
+/* back arrow */
+.line .contact:before {
+	content: "";
+	position: absolute;
+	top: 1.25em;
+	left: 1em;
+	width: 0.75em;
+	height: 0.75em;
+	border-left: 1.5px solid white;
+	border-bottom: 1.5px solid white;
+	transform: rotate(45deg);
+}
+
+/* 3 icons after name */
+.line .contact:after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	right: 10px;
+	width: 6em;
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-search.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-bars.png");
+	background-repeat: no-repeat;
+	background-position: left, center, right;
+	background-size: auto 1em, auto 1em, auto 1em;
+}
