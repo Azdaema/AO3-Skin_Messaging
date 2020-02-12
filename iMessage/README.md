@@ -5,19 +5,39 @@ Wrap your whole texting section in this:
 
 </dl>
 ```
+### Border
+If you want the phone-area to be outlined:
+```html
+<dl class="imessage border">
+
+</dl>
+```
+### Grouptext
+In a group text situation, incoming texts will show the sender's name.
+```html
+<dl class="imessage grouptext">
+
+</dl>
+```
 
 # Texts
 * `class="in"` is for incoming texts: the ones on the lefthand side, being sent from another phone.
 * `class="out"` is for outgoing texts: the ones on the righthand side, being sent from from phone.
-	* `class="out gr"` is for green outgoing texts.
+Green outgoing texts, as opposed to the blue default, can be set for specific texts (`<div class="out gr">`), or for the conversation as a whole (`<dl class="imessage gr">`).
 
-# Features
+# Header and footer
 ### Contact header
 `<h1>` and `<h2>` are good for this.
 ```html
 <h1 class="contact">Momo</h1>
 ```
+### Unsent text footer
+```html
+<kbd class="typebar">I'm in love with you</kbd>
+```
+The send button can be made green via `<dl class="imessage gr">` or `<kbd class="typebar gr">`.
 
+# Other features
 ### Time
 `<h4>` and `<h5>` are good for this.
 ```html
@@ -58,14 +78,6 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 	<dd>Can I copy your homework?</dd>
 </div>
 	<p class="read"><b>Read</b> 5:55 PM</p>
-```
-
-### Group texts
-In a group text situation, incoming texts will show the sender's name.
-```html
-<dl class="imessage grouptext">
-
-</dl>
 ```
 
 # Colors
