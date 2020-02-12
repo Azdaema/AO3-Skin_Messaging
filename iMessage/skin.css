@@ -7,9 +7,28 @@
 	margin: auto;
 }
 
+.imessage .in,
+.imessage .out {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 /* characters's names hidden */
 .imessage dt {
 	display: none;
+}
+
+/**************************************************
+*		border
+**************************************************/
+.imessage.border {
+	border: 1px solid rgba(60,60,67, 0.2);
+}
+
+.imessage.border .contact {
+	border-top: none;
+	border-left: none;
+	border-right: none;
 }
 
 /**************************************************
@@ -18,9 +37,9 @@
 .imessage .in dd,
 .imessage .out dd {
 	margin: 0;
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 	border-radius: 20px;
-	padding: 8px 15px;
+	padding: 0.5em 1em;
 	max-width: 70%;
 	clear: both;
 	position: relative;
@@ -52,10 +71,12 @@
 }
 
 /* Green outgoing texts */
-.imessage .out.gr dd {
+.imessage .out.gr dd,
+.imessage.gr .out dd {
 	background: #34c759;
 }
-.imessage .out.gr dd:last-child:after {
+.imessage .out.gr dd:last-child:after,
+.imessage.gr .out dd:last-child:after {
 	border-color: #34c759;
 }
 
@@ -118,13 +139,15 @@
 
 /* time label */
 .imessage .time {
+	display: block;
 	text-align: center;
-	padding: 10px 0;
+	margin: 0;
+	padding: 1em;
 }
 
 /* Show the names with incoming texts for grouptext mode */
 .imessage.grouptext .in dt {
-	padding-left: 10px;
+	padding-left: 1em;
 	display: table !important;
 }
 
@@ -133,7 +156,7 @@
 	float: right;
 	display: table !important;
 	padding: 0;
-	margin: 0;
+	margin: 0 10px;
 	margin-top: -8px;
 }
 
@@ -144,14 +167,16 @@
 	position: relative;
 	background: #f2f2f7;
 	border: 1px solid rgba(60,60,67, 0.29);
+	margin: 0;
 	height: 60px;
 	text-align: center;
 	line-height: 58px;
-	font-size: 20px;
+	font-size: 1em;
 	font-family: inherit;
 	font-weight: bold;
 	white-space: nowrap;
 }
+
 /* back arrow */
 .imessage .contact:before {
 	content: "";
@@ -163,4 +188,57 @@
 	border-left: 2.5px solid #007aff;
 	border-bottom: 2.5px solid #007aff;
 	transform: rotate(45deg);
+}
+
+/**************************************************
+*		footer
+**************************************************/
+.imessage .typebar {
+	clear: both;
+	position: relative;
+	display: block;
+	border: 1px solid rgba(60,60,67, 0.2);
+	box-sizing: border-box;
+	background: rgba(255,255,255, 0.3);
+	border-radius: 20px;
+	margin: 0.25em;
+	margin-left: 3em;
+	padding: 0.25em 1em;
+	padding-right: 2.5em;
+	font-family: inherit;
+	line-height: 1.5em;
+}
+
+/* camera icon */
+.imessage .typebar:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: -2.75em;
+	height: 2em;
+	width: 2.5em;
+	background: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/black/fa-camera.png") no-repeat center;
+	background-size: auto 1.25em;
+	opacity: 0.5;
+}
+
+/* send arrow */
+.imessage .typebar:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0.2em;
+	height: 1.6em;
+	width: 1.6em;
+	border-radius: 100%;
+	background: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-up.png") no-repeat center, #007aff;
+	background-size: auto 0.8em;
+}
+
+/* green send-arrow */
+.imessage .typebar.gr:after,
+.imessage.gr .typebar:after {
+	background: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-up.png") no-repeat center #34c759;
+	background-size: auto 0.8em;
 }
