@@ -66,6 +66,12 @@ Where are if you're _only_ sending a picture without any text, the class is `cla
 </dd>
 ```
 
+# Credits
+This draws upon:
+* [ran_a_dom's](https://archiveofourown.org/works/15842043/chapters/36893073)
+* [Benni's](https://codepen.io/8eni/pen/YWoRGm)
+* [Rumbiiha swaibu's](https://codepen.io/swaibu/pen/QxJjwN)
+
 # Colors
 [WhatsApp brand standards](https://whatsappbrand.com/)
 
