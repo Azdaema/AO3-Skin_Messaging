@@ -20,3 +20,7 @@ For a theme, you generally want something like:
 .line.themename .out dd sub,
 .line.themename .in dd sub {color: FILL_IN;}
 ```
+
+https://creator.line.me/en/guideline/theme/
+
+https://store.line.me/themeshop/showcase/top
