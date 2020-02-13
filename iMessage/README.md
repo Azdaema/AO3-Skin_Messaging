@@ -80,13 +80,13 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 ```
 
 ### Read receipts
-`<p>`, `<dt>`, and `<dd>` all work for this, depending on how you prefer it to look in "Hide Creator's Style" mode.
+`<p>` and `<dt>` both work for this, depending on how you prefer it to look in "Hide Creator's Style" mode. Basically anything except `<dd>`.
 ```html
 <div class="gr out">
 	<dt>Mimi</dt>
 	<dd>Can I copy your homework?</dd>
-</div>
 	<p class="read"><b>Read</b> 5:55 PM</p>
+</div>
 ```
 
 # Creative decisions
