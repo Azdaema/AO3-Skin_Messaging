@@ -1,0 +1,133 @@
+/* wrapper */
+.facebookmessenger {
+  width: 100%;
+  max-width: 320px;
+  font-family: "Segoe UI", "San Francisco", Roboto, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+.facebookmessenger .in,
+.facebookmessenger .out {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* characters's names hidden */
+.facebookmessenger dt {
+  display: none;
+}
+
+/**************************************************
+*   border
+**************************************************/
+.facebookmessenger.border {
+  border: 1px solid rgba(60,60,67, 0.2);
+}
+
+.facebookmessenger.border .contact {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/**************************************************
+*   Texts
+**************************************************/
+.facebookmessenger .in dd,
+.facebookmessenger .out dd {
+  margin: 0;
+  margin-bottom: 2px;
+  border-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 70%;
+  clear: both;
+  position: relative;
+}
+/* the last text in a series has more space after it */
+.facebookmessenger .in dd:last-child,
+.facebookmessenger .out dd:last-child {
+  margin-bottom: 0.5em;
+}
+
+/* Outgoing texts */
+.facebookmessenger .out dd {
+  float: right;
+  background: #007aff;
+  color: #FFF;
+  border-top-left-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
+}
+/* first and last text's curved edges */
+.facebookmessenger .out dd:first-of-type {border-top-right-radius: 1.5em;}
+.facebookmessenger .out dd:last-of-type {border-bottom-right-radius: 1.5em;}
+
+/* Incoming texts */
+.facebookmessenger .in dd {
+  float: left;
+  background: #e5e5ea;
+  color: #000;
+  border-top-right-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+}
+/* first and last text's curved edges */
+.facebookmessenger .in dd:first-of-type {border-top-left-radius: 1.5em;}
+.facebookmessenger .in dd:last-of-type {border-bottom-left-radius: 1.5em;}
+
+/**************************************************
+*   No-bubble texts
+**************************************************/
+.facebookmessenger dd.pic,
+.facebookmessenger dd.emoji {
+  background: none !important;
+  padding: 0;
+  overflow: hidden; /* curve corners */
+}
+.facebookmessenger dd.emoji:after,
+.facebookmessenger dd.pic:after {
+  content: none !important;
+}
+
+.facebookmessenger .pic img,
+.facebookmessenger .pic iframe {
+  width: 100%;
+  display: block; /* without "block" there's extra space after */
+}
+
+.facebookmessenger .emoji {
+  font-size: 3em; /* 3x font for emojis */
+}
+
+/**************************************************
+*   Links
+**************************************************/
+.facebookmessenger a {
+  word-break: break-all; /* linebreak when space runs out */
+  color: inherit; /* color match */
+}
+
+/**************************************************
+*   Time + grouptext
+**************************************************/
+.facebookmessenger .time,
+.facebookmessenger.grouptext .in dt {
+  clear: both;
+  font-family: inherit; /* font match */
+  font-weight: normal;
+  color: #8e8e93;
+  font-size: 0.75em;
+}
+
+/* time label */
+.facebookmessenger .time {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 1em;
+}
+
+/* Show the names with incoming texts for grouptext mode */
+.facebookmessenger.grouptext .in dt {
+  padding-left: 1em;
+  display: table !important;
+}
