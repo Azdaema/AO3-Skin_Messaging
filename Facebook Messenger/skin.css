@@ -44,7 +44,7 @@
   clear: both;
   position: relative;
 }
-/* the last text in a series has more space after it */
+/* the last text in a series has more space after it, and a tail */
 .facebookmessenger .in dd:last-child,
 .facebookmessenger .out dd:last-child {
   margin-bottom: 0.5em;
@@ -58,7 +58,6 @@
   border-top-left-radius: 1.5em;
   border-bottom-left-radius: 1.5em;
 }
-/* first and last text's curved edges */
 .facebookmessenger .out dd:first-of-type {border-top-right-radius: 1.5em;}
 .facebookmessenger .out dd:last-of-type {border-bottom-right-radius: 1.5em;}
 
@@ -70,7 +69,6 @@
   border-top-right-radius: 1.5em;
   border-bottom-right-radius: 1.5em;
 }
-/* first and last text's curved edges */
 .facebookmessenger .in dd:first-of-type {border-top-left-radius: 1.5em;}
 .facebookmessenger .in dd:last-of-type {border-bottom-left-radius: 1.5em;}
 
@@ -81,11 +79,10 @@
 .facebookmessenger dd.emoji {
   background: none !important;
   padding: 0;
-  overflow: hidden; /* curve corners */
 }
-.facebookmessenger dd.emoji:after,
-.facebookmessenger dd.pic:after {
-  content: none !important;
+
+.facebookmessenger dd.pic {
+  overflow: hidden; /* curve corners */
 }
 
 .facebookmessenger .pic img,
