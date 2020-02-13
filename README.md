@@ -39,25 +39,6 @@ Each section is wrapped in a `<div>`
 ```
 Although each one has small alterations, depending on how that app works.
 
-# Credits
-* **iMessage** draws upon:
-  * [CodenameCarrot and La_Temperanza's](https://archiveofourown.org/works/6434845/chapters/14729722)
-  * [Mark Swardstrom's](https://codepen.io/swards/pen/gxQmbj)
-  * [2ne's header](https://codepen.io/2ne/pen/osvpj)
-* **iMessage Retro** draws upon:
-  * [Sean Thomas Burke's memebro](https://gist.github.com/seantomburke/3381999)
-  * [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/)
-* **WhatsApp** draws upon:
-  * [ran_a_dom's](https://archiveofourown.org/works/15842043/chapters/36893073)
-  * [Benni's](https://codepen.io/8eni/pen/YWoRGm)
-  * [Rumbiiha swaibu's](https://codepen.io/swaibu/pen/QxJjwN)
-* **Snapchat** is pretty much a wholecloth original.
-* **LINE** draws upon:
-  * [ran_a_dom's](https://archiveofourown.org/works/19150123/chapters/45514369)
-  * [associate's](https://archiveofourown.org/works/17489243)
-* **Facebook Messenger** draws upon:
-  * [ran_a_dom's](https://archiveofourown.org/works/19249828)
-
 # Other
 Most popular app by country:
 * circa 2017 https://www.messengerpeople.com/wp-content/uploads/2019/07/statistik-messenger-apps-top-by-country-en-stand-2019-09.png
@@ -69,3 +50,4 @@ Most popular app by country:
 * https://archiveofourown.org/works/21099596/chapters/50203892 tumblr
 
 <!-- https://www.viget.com/articles/equating-color-and-transparency/ -->
+<!-- [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/) -->
