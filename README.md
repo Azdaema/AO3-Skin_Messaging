@@ -4,10 +4,10 @@ These are designed ot be used as [AO3 skins](https://archiveofourown.org/admin_p
 AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So then you're falling back on the original characteristics of the tags. In that case, you still want it to be clear who is sending which texts. That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be revealed.
 
 # Features
-|                | iMessage           | iMessage<br>Retro  | WhatsApp                         | Snapchat           | LINE               |
-|---------------:|:------------------:|:------------------:|:--------------------------------:|:------------------:|:------------------:|
-| Contact header | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :heavy_check_mark: | :heavy_check_mark: |
-| Typing footer  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :no_entry_sign:    | :no_entry_sign:    |
+|                | iMessage | iMessage<br>Retro  | WhatsApp | Snapchat | LINE | Facebook<br>Messenger |
+|---------------:|:--------:|:------------------:|:--------:|:--------:|:----:|:---------------------:|
+| Contact header | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign: |
+| Typing footer  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :no_entry_sign:    | :no_entry_sign:    | :no_entry_sign: |
 | Group chat     | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:                  | :no_entry_sign:    | :heavy_check_mark: |
 | Pictures       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: / :wavy_dash: | :heavy_check_mark: | :heavy_check_mark: |
 | Emojis         | :heavy_check_mark: | :wavy_dash:        | :heavy_check_mark:               | :heavy_check_mark: | :heavy_check_mark: |
