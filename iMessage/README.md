@@ -42,7 +42,9 @@ It can also be done only for specific texts, with the other texts being blue.
 ```
 ### Unsent text footer
 ```html
-<kbd class="typebar">I'm in love with you</kbd>
+<div class="footer">
+	<kbd class="typebar">I'm in love with you</kbd>
+</div>
 ```
 The send button can be made green via `<dl class="imessage gr">` or `<kbd class="typebar gr">`.
 
