@@ -6,8 +6,8 @@
 	display: table;
 	margin: auto;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/LINE/images/background_to_repeat.png");
-	background-repeat: repeat-y;
-	background-size: 100%;
+	background-attachment: fixed;
+  background-position: center;
 }
 
 /* characters's names hidden */
@@ -94,7 +94,7 @@
 .line dd sub {
 	position: absolute;
 	width: 5em;
-	bottom: 0.25em;
+	bottom: 1em;
 	color: white;
 	font-size: 0.6em;
 }
@@ -107,8 +107,13 @@
 	text-align: right;
 }
 .line .out dd sub:before {
-	display: Block;
+	position: absolute;
+	top: -1.2em;
+	right: 0;
 	content: "Read";
+}
+.line .out dd.unread sub:before {
+	content: "";
 }
 
 /* Day header */
@@ -121,6 +126,7 @@
 	background: rgba(0,0,0, 0.2);
 	color: white;
 	font-weight: normal;
+	font-family: inherit;
 	font-size: 0.75em;
 }
 
@@ -147,7 +153,7 @@
 .line .contact:before {
 	content: "";
 	position: absolute;
-	top: 1.25em;
+	top: 1em;
 	left: 1em;
 	width: 0.75em;
 	height: 0.75em;
