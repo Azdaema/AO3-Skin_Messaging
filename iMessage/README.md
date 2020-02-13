@@ -91,6 +91,12 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 </div>
 ```
 
+# Credits
+This draws upon:
+* [CodenameCarrot and La_Temperanza's](https://archiveofourown.org/works/6434845/chapters/14729722)
+* [Mark Swardstrom's](https://codepen.io/swards/pen/gxQmbj)
+* [2ne's header](https://codepen.io/2ne/pen/osvpj)
+  
 # Creative decisions
 It's a bit of a mashup of iMessage over the years.
 
