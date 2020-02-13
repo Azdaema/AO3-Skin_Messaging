@@ -58,6 +58,9 @@ I set it up like this so the feature can be applied selectively. For example, ma
 <dd class="emoji">💖</dd>
 ```
 
+# Credits
+This one is pretty much a wholecloth original of mine.
+
 # Colors
 [Snapchat brand standards](https://docs.snapchat.com/docs/design-guidelines/)
 
