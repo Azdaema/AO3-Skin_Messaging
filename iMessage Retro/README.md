@@ -49,6 +49,10 @@ It can also be done only for specific texts, with the other texts being blue.
 </div>
 ```
 
+# Credits
+This draws upon:
+* [Sean Thomas Burke's memebro](https://gist.github.com/seantomburke/3381999)
+
 # Creative decisions
 iMessage circa 2012.
 
