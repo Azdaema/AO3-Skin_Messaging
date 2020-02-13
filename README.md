@@ -4,35 +4,13 @@ These are designed ot be used as [AO3 skins](https://archiveofourown.org/admin_p
 AO3 has an "Hide Creator's Style" option, which basically turns off the CSS. So then you're falling back on the original characteristics of the tags. In that case, you still want it to be clear who is sending which texts. That is why I designed all these based around a `<dl>` list. The basic setup is that `<dt>` is the people's names, and `<dd>` is the texts themselves. The names may or may not be hidden, depending on the app, but if the CSS is turn off, they will always be revealed.
 
 # Features
-* iMessage
-	- [x] Contact header
-	- [x] Group chat
-	- [x] Pictures
-	- [x] Emojis
-	- [x] Typing footer
-* iMessage Retro
-	- [x] Contact header
-	- [x] Group chat
-	- [X] Pictures
-	- [x] Typing footer
-* WhatsApp
-	- [x] Contact header
-	- [ ] Group chat
-	- [x] Pictures
-	- [x] Emojis
-	- [x] Typing footer
-* Snapchat
-	- [x] Contact header
-	- [x] Snap icons
-	- [x] Group chat
-	- [x] Emojis
-	- [ ] Typing footer
-* LINE
-	- [x] Contact header
-	- [ ] Group chat
-	- [x] Pictures
-	- [x] Emojis
-	- [ ] Typing footer
+|                | iMessage           | iMessage<br>Retro  | WhatsApp                         | Snapchat           | LINE               |
+|---------------:|:------------------:|:------------------:|:--------------------------------:|:------------------:|:------------------:|
+| Contact header | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :heavy_check_mark: | :heavy_check_mark: |
+| Typing footer  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:               | :no_entry_sign:    | :no_entry_sign:    |
+| Group chat     | :heavy_check_mark: | :heavy_check_mark: | :no_entry_sign:                  | :no_entry_sign:    | :heavy_check_mark: |
+| Pictures       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: / :wavy_dash: | :heavy_check_mark: | :heavy_check_mark: |
+| Emojis         | :heavy_check_mark: | :wavy_dash:        | :heavy_check_mark:               | :heavy_check_mark: | :heavy_check_mark: |
 
 # Using it
 They all have the basic structure of:
@@ -74,15 +52,15 @@ Although each one has small alterations, depending on how that app works.
   * [Benni's](https://codepen.io/8eni/pen/YWoRGm)
   * [Rumbiiha swaibu's](https://codepen.io/swaibu/pen/QxJjwN)
 * **Snapchat** is pretty much a wholecloth original.
+* **LINE** draws upon:
+  * [ran_a_dom's](https://archiveofourown.org/works/19150123/chapters/45514369)
+  * [associate's](https://archiveofourown.org/works/17489243)
 
 # Other
 Most popular app by country:
 * circa 2017 https://www.messengerpeople.com/wp-content/uploads/2019/07/statistik-messenger-apps-top-by-country-en-stand-2019-09.png
 * circa 2019 https://i.redd.it/cmh3gex4x0531.png
 
-* LINE
-  * https://archiveofourown.org/works/19150123/chapters/45514369
-  * https://archiveofourown.org/works/17489243
 * https://archiveofourown.org/works/19249828 Facebook Messenger Chat
 * https://archiveofourown.org/works/12142470 Discord
 * https://archiveofourown.org/works/8631214/chapters/20774911 android
