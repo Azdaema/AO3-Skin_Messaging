@@ -73,7 +73,7 @@
 	height: 2em;
 	border-radius: 4px;
 	border: 1px solid rgba(0,0,0, 0.15);
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255,255,255, 0.3);
 	padding: 0.5em 0;
 }
 
@@ -176,7 +176,8 @@
 	color: #ffffff;
 	font-size: 15px;
 	font-weight: normal;
-/* text overflow */
+	
+	/* text overflow */
 	text-align: center;
 	padding-left: 2.5em;
 	padding-right: 1.5em;
@@ -197,13 +198,27 @@
 }
 /* menu (aka 3 lines) */
 .snapchat .contact:before {
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-bars.png");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-bars.png");
 	left: 10px;
 	background-position: left;
 }
 /* arrow */
 .snapchat .contact:after {
-	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/fa-angle-right.png");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-angle-right.png");
 	right: 10px;
 	background-position: right;
+}
+
+/**************************************************
+*		border
+**************************************************/
+.snapchat.border {
+	border: 1px solid rgba(60,60,67, 0.2);
+	padding-bottom: 10px;
+}
+
+.snapchat.border .in,
+.snapchat.border .out {
+	margin-left: 10px;
+	margin-right: 10px;
 }
