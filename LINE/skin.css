@@ -7,7 +7,7 @@
 	margin: auto;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/LINE/images/background_to_repeat.png");
 	background-attachment: fixed;
-  background-position: center;
+	background-position: center;
 }
 
 /* characters's names hidden */
@@ -24,18 +24,18 @@
 	clear: both;
 	position: relative;
 	color: #000000;
-  border-radius: 1.5em;
-  margin: 0 10px 0.5em;
-  padding: 0.5em 1em;
+	border-radius: 1.5em;
+	margin: 0 10px 0.5em;
+	padding: 0.5em 1em;
 	z-index: 1;
 }
 .line dd:before {
-  content: "";
-  position: absolute;
-  top: -.75em;
-  width: 1em;
-  height: 1em;
-  border-bottom: 0.5em solid #FFFFFF;
+	content: "";
+	position: absolute;
+	top: -.75em;
+	width: 1em;
+	height: 1em;
+	border-bottom: 0.5em solid #FFFFFF;
 	z-index: -1;
 }
 
@@ -45,9 +45,9 @@
 	background: #72de54;
 }
 .line .out dd:before {
-  right: -.25em;
-  border-color: #72de54;
-  border-bottom-right-radius: 0.5em 1em;
+	right: -.25em;
+	border-color: #72de54;
+	border-bottom-right-radius: 0.5em 1em;
 }
 
 /* Incoming texts */
@@ -56,9 +56,9 @@
 	background: #FFFFFF;
 }
 .line .in dd:before {
-  left: -.25em;
-  border-color: #FFFFFF;
-  border-bottom-left-radius: 0.5em 1em;
+	left: -.25em;
+	border-color: #FFFFFF;
+	border-bottom-left-radius: 0.5em 1em;
 }
 
 /**************************************************
@@ -118,9 +118,9 @@
 
 /* Day header */
 .line .day {
-  border-radius: 1.5em;
-  margin: 1em auto;
-  padding: 0.5em 1em;
+	border-radius: 1.5em;
+	margin: 1em auto;
+	padding: 0.5em 1em;
 	text-align: center;
 	display: table;
 	background: rgba(0,0,0, 0.2);
@@ -149,29 +149,28 @@
 	padding-right: 7.5em;
 }
 
-/* back arrow */
-.line .contact:before {
+.line .contact:before,
+.line .contact:after {
 	content: "";
 	position: absolute;
-	top: 1em;
-	left: 1em;
-	width: 0.75em;
-	height: 0.75em;
-	border-left: 1.5px solid white;
-	border-bottom: 1.5px solid white;
-	transform: rotate(45deg);
+	top: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: auto 1em;
+}
+
+/* back arrow */
+.line .contact:before {
+	left: 0.5em;
+	width: 1em;
+	background-image: url(https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-chevron-left.png);
+	background-position: right;
 }
 
 /* 3 icons after name */
 .line .contact:after {
-	content: "";
-	position: absolute;
-	top: 10px;
-	bottom: 10px;
-	right: 10px;
+	right: 1em;
 	width: 6em;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-search.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-bars.png");
-	background-repeat: no-repeat;
 	background-position: left, center, right;
-	background-size: auto 1em, auto 1em, auto 1em;
 }
