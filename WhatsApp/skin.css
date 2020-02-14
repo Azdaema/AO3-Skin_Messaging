@@ -203,7 +203,7 @@
 .whatsapp .contact:before {
 	left: 5px;
 	width: 50px;
-	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-arrow-left.png?raw=true"), url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-user-circle.png?raw=true");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-arrow-left.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-user-circle.png");
 	background-position: left, right;
 	background-size: auto 15px, 30px;
 }
@@ -212,7 +212,7 @@
 .whatsapp .contact:after {
 	right: 10px;
 	width: 100px;
-	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-video.png?raw=true"), url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-phone-alt.png?raw=true"), url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-ellipsis-v.png?raw=true");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-video.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-phone-alt.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-ellipsis-v.png");
 	background-position: 0, 46px, 90px;
 	background-size: 20px auto, auto 16px, auto 16px;
 }
@@ -221,7 +221,7 @@
 *		Footer
 **************************************************/
 .whatsapp .footer {
-  display: table;
+	display: table;
 	position: relative;
 	clear: both;
 	width: 100%;
@@ -240,7 +240,7 @@
 	border-radius: 100%;
 	background: #128C7E;
 	background-repeat: no-repeat;
-	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-microphone.png?raw=true");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-microphone.png");
 	background-position: center;
 	background-size: 0.5em auto;
 }
@@ -262,7 +262,7 @@
 	right: 0.5em;
 	bottom: 0.3em;
 	height: 1.8em;
-	background: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/black/fa-grin.png?raw=true"), url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/black/fa-camera.png?raw=true");
+	background: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/black/fa-grin.png"), url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/black/fa-camera.png");
 	background-repeat: no-repeat;
 	background-size: 1em auto;
 	background-position: left , right;
