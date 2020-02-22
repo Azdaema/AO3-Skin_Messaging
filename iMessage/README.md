@@ -22,19 +22,35 @@ In a group text situation, incoming texts will show the sender's name.
 ### Green
 Green outgoing texts, as opposed to the blue default, can be set for the conversation as a whole.
 ```html
-<dl class="imessage gr">
+<dl class="imessage green">
 
 </dl>
 ```
 It can also be done only for specific texts, with the other texts being blue.
 ```html
-<div class="out gr">
+<div class="out green">
 	<dt>Aulus Agerius</dt>
 	<dd>Look what they're selling at the forum</dd>
 </div>
 ```
 
 # Header and footer
+### Time
+`<h4>` and `<h5>` are good for this.
+```html
+<h4 class="time"><b>Today,</b> 11:49 AM</h4>
+```
+
+### Read receipts
+`<p>` and `<dt>` both work for this, depending on how you prefer it to look in "Hide Creator's Style" mode. Basically anything except `<dd>`.
+```html
+<div class="gr out">
+	<dt>Mimi</dt>
+	<dd>Can I copy your homework?</dd>
+	<p class="read"><b>Read</b> 5:55 PM</p>
+</div>
+```
+
 ### Contact header
 `<h1>` and `<h2>` are good for this.
 ```html
@@ -46,14 +62,8 @@ It can also be done only for specific texts, with the other texts being blue.
 	<kbd class="typebar">I'm in love with you</kbd>
 </div>
 ```
-The send button can be made green via `<dl class="imessage gr">` or `<kbd class="typebar gr">`.
 
-# Other features
-### Time
-`<h4>` and `<h5>` are good for this.
-```html
-<h4 class="time"><b>Today,</b> 11:49 AM</h4>
-```
+# Different kinds of text content
 
 ### Pictures
 `<dd class="pic">` is for pictures.
@@ -62,13 +72,6 @@ The send button can be made green via `<dl class="imessage gr">` or `<kbd class=
 	<dt>Aulus Agerius</dt>
 	<dd>Look what they're selling at the forum</dd>
 	<dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
-</div>
-```
-It also works with embedded videos, to simulate rich links. Rich links are that thing where you send a youtube video link, and then there's a little video thingy rather than a link.
-```html
-<div class="in">
-	<dt>Ricky</dt>
-	<dd class="pic"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe></dd>
 </div>
 ```
 
@@ -81,14 +84,38 @@ It also works with embedded videos, to simulate rich links. Rich links are that 
 </div>
 ```
 
-### Read receipts
-`<p>` and `<dt>` both work for this, depending on how you prefer it to look in "Hide Creator's Style" mode. Basically anything except `<dd>`.
+### Rich links
+Rich links are that thing where you send a youtube video link, and then there's a little video thingy rather than a link. You can use either images, or embedded videos.
+
 ```html
-<div class="gr out">
-	<dt>Mimi</dt>
-	<dd>Can I copy your homework?</dd>
-	<p class="read"><b>Read</b> 5:55 PM</p>
+<div class="in">
+	<dt>Ricky</dt>
+	<dd class="richlink">
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+			<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+			<span class="caption"><b>Rick Astley - Never Gonna Give You Up (Video)</b> youtube.com</span>
+		</a>
+	</dd>
 </div>
+```
+
+Remove all the fluff from an embedded video: just the guts. You can, however, give the iframe `class="SD"` to give it a 4:3 aspect ratio rather than a 16:9 one. This aspect ratio is sometimes found in older videos.
+```html
+<dd class="richlink">
+	<a href="https://vimeo.com/148751763">
+		<iframe class="SD" src="https://player.vimeo.com/video/148751763"></iframe>
+		<span class="caption"><b>Rick Astley - Never Gonna Give You Up</b> vimeo.com</span>
+	</a>
+</dd>
+```
+
+### Typing icon
+```
+<dd class="typing">
+	<div></div>
+	<div></div>
+	<div></div>
+</dd>
 ```
 
 # Credits
