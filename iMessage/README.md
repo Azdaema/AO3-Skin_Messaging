@@ -33,8 +33,7 @@ It can also be done only for specific texts, with the other texts being blue.
 	<dd>Are you there yet?</dd>
 </div>
 ```
-
-# Header and footer
+# Timing
 ### Time
 `<h4>` and `<h5>` are good for this.
 ```html
@@ -51,20 +50,7 @@ It can also be done only for specific texts, with the other texts being blue.
 </div>
 ```
 
-### Contact header
-`<h1>` and `<h2>` are good for this.
-```html
-<h1 class="contact">Momo</h1>
-```
-### Unsent text footer
-```html
-<div class="footer">
-	<kbd class="typebar">I'm in love with you</kbd>
-</div>
-```
-
 # Different kinds of text content
-
 ### Pictures
 `<dd class="pic">` is for pictures.
 ```html
@@ -116,6 +102,19 @@ Remove all the fluff from an embedded video: just the guts. You can, however, gi
 	<div></div>
 	<div></div>
 </dd>
+```
+
+# Header and footer
+### Contact header
+`<h1>` and `<h2>` are good for this.
+```html
+<h1 class="contact">Momo</h1>
+```
+### Unsent text footer
+```html
+<div class="footer">
+	<kbd class="typebar">I'm in love with you</kbd>
+</div>
 ```
 
 # Credits
