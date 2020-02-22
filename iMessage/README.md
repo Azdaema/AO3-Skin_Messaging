@@ -29,8 +29,8 @@ Green outgoing texts, as opposed to the blue default, can be set for the convers
 It can also be done only for specific texts, with the other texts being blue.
 ```html
 <div class="out green">
-	<dt>Aulus Agerius</dt>
-	<dd>Look what they're selling at the forum</dd>
+	<dt>Ricky</dt>
+	<dd>Are you there yet?</dd>
 </div>
 ```
 
@@ -69,7 +69,7 @@ It can also be done only for specific texts, with the other texts being blue.
 `<dd class="pic">` is for pictures.
 ```html
 <div class="out">
-	<dt>Aulus Agerius</dt>
+	<dt>Aulus</dt>
 	<dd>Look what they're selling at the forum</dd>
 	<dd class="pic"><img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Uncrossed_gladius.jpg" /></dd>
 </div>
@@ -110,7 +110,7 @@ Remove all the fluff from an embedded video: just the guts. You can, however, gi
 ```
 
 ### Typing icon
-```
+```html
 <dd class="typing">
 	<div></div>
 	<div></div>
