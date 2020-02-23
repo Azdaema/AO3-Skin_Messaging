@@ -44,7 +44,7 @@
 	border-radius: 1rem;
 	padding: 0.5rem 1rem;
 	max-width: 70%;
-	clear: both;/* no stacking it on the same line as other stuff */
+	clear: both;
 	position: relative;
 	z-index: 1;
 }
@@ -58,7 +58,8 @@
 	height: 1rem;
 	z-index: -1;
 }
-/* the last part in a text series has more space after it */
+/* the last part in a text series has more space after it
+ * (not necessarily a text, could be a read receipt) */
 .ios .in dd:last-child,
 .ios .out dd:last-child {
 	margin-bottom: 1rem;
@@ -251,7 +252,7 @@
 	width: 100%;
 	box-sizing: border-box;
 	border-radius: 4px;
-	border: 1px solid rgba(60, 60, 67, 0.29);
+	border: 0.5px solid rgba(60, 60, 67, 0.29);
 	background: white;
 }
 
