@@ -1,330 +1,331 @@
-/* Properties of both wrappers */
+/**************************************************
+* wrappers
+**************************************************/
 .ios,
 .snapchat {
-  width: 100%;
-  max-width: 320px;
-    /* On phones less than 320px, it's the full width wide.
-    On larger screens than that, it's 320px. */
-  margin: 15px auto;
-    /* Auto margin on the sides = centers your thing in the middle of the screen
-    (plus 15px on the top and bottom, so the bordered sections don't touch each other) */
-  border: 1px solid #8e8e93;
-  padding: 0 10px; /* We don't want the contents TOUCHING the border, so little padding on the sides */
-  box-sizing: border-box; /* so padding doesn't mess up the width on small screen (ie phones) */
+	width: 100%;
+	max-width: 320px;
+		/* If it's viewed n a phone that's less than 320px wide, it's whatever the full 100% of the width is */
+	display: grid;
+	border: 1px solid rgba(60, 60, 67, 0.29);
+	margin: 1em auto;
+		/* Auto margin on the sides = centers your thing in the middle of the screen
+		(plus 1em on the top and bottom, so the bordered sections don't touch each other) */
 }
 
-
-/*************************************************************************************
-*                    iOS
-*************************************************************************************/
-/* wrapper */
 .ios {
-  display: table; /* So the bubbles stack correctly */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.snapchat {
+	font-family: "Avenir Next", Avenir, sans-serif;
+	padding: 0.5rem 0;
+		/* bit of extra space at the top and bottom so it looks better */
 }
 
-
-/*
- * Time receipts
- */
-.ios .time {
-  clear: both; /* no stacking it on the same line as other stuff */
-  font-family: inherit; /* font match */
-  font-weight: normal; /* not bold */
-  color: #8e8e93;
-  font-size: 0.75em;
-  text-align: center;
-  padding: 10px 0; /* 10px before and after */
+/* Everything takes on the font */
+.ios *,
+.snapchat * {
+	font-family: inherit;
+	border: none;
 }
-
 
 /* characters's names hidden */
 .ios dt {
-  display: none;
+	display: none;
 }
 
-/* Shared properties of all texts */
-.ios dd {
-  position: relative;
-  clear: both;
-    /* no stacking small bubbles on the same line */
-  border-radius: 20px; /* rounded corners */
-  max-width: 70%;
-  margin: 0;
-  margin-bottom: 3px;
-  padding: 8px 15px;
-}
-/* the last text in a series has more space after it */
-.ios dd:last-child {
-  margin-bottom: 10px;
-}
-/* Shared properties of both tails for both*/
-.ios dd:last-child:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 10px;
-  height: 20px;
-}
-
-/*
- * Outgoing texts
- */
+/**************************************************
+* iOS
+**************************************************/
+/* shared incoming/outgoing text features */
+.ios .in dd,
 .ios .out dd {
-  float: right;
-  background: #1289fe;
-  color: #FFF;
+	margin: 1px 0.625rem;
+	border-radius: 1rem;
+	padding: 0.5rem 1rem;
+	max-width: 70%;
+	clear: both;/* no stacking it on the same line as other stuff */
+	position: relative;
+	z-index: 1;
 }
-/* tail */
-.ios .out dd:last-child:after {
-  right: -10px;
-  border-left: 10px solid #1289fe;
-  border-bottom-left-radius: 20px 10px;
+/* tails */
+.ios .in dd:last-of-type::after,
+.ios .out dd:last-of-type::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0.625rem;
+	height: 1rem;
+	z-index: -1;
+}
+/* the last part in a text series has more space after it */
+.ios .in dd:last-child,
+.ios .out dd:last-child {
+	margin-bottom: 1rem;
 }
 
-/*
- * Incoming texts
- */
+/* outgoing texts */
+.ios .out dd {
+	float: right;
+	background: #007aff;
+	color: white;
+}
+.ios .out dd:last-of-type::after {
+	right: -0.625rem;
+	border-left: 0.625rem solid #007aff;
+	border-bottom-left-radius: 1.25rem 0.625rem;
+}
+
+/* incoming texts */
 .ios .in dd {
-  float: left;
-  background: #e9e9ea;
-  color: #000;
+	float: left;
+	background: #e5e5ea;
 }
-/* tail */
-.ios .in dd:last-child:after {
-  left: -10px;
-  border-right: 10px solid #e9e9ea;
-  border-bottom-right-radius: 20px 10px;
+.ios .in dd:last-of-type::after {
+	left: -0.625rem;
+	border-right: 0.625rem solid #e5e5ea;
+	border-bottom-right-radius: 1.25rem 0.625rem;
 }
 
+/* no tail */
+.ios dd.pic::after,
+.ios dd.emoji::after {
+	display: none;
+}
 
-/*
- * No-bubble texts
- */
-.ios dd.pic,
+/* 3x emoji */
 .ios dd.emoji {
-	background: none !important; /* !important = override other rule */
+	background: none;
+	font-size: 3rem;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* pictures */
+.ios dd.pic {
+	background: none;
 	padding: 0;
-	overflow: hidden; /* hide the corner bits */
+	overflow: hidden;
 }
-.ios dd.emoji:after,
-.ios dd.pic:after {
-	content: none !important;
-}
-
-.ios .pic img,
-.ios .pic iframe {
-	width: 100%;
-	display: block; /* without "block" there's extra space after */
+.ios dd.pic img {
+	max-width: 100%;
+	display: block;
 }
 
-.ios .emoji {
-	font-size: 3em; /* 3x font for emojis */
+/* rich link */
+.ios dd.richlink {
+	padding: 0;
+	color: black;
+	background: #e5e5ea !important;
+}
+.ios dd.richlink::after {
+	border-color: #e5e5ea !important;
+}
+
+.ios dd.richlink a {
+	display: table;
+	font-size: 0.75rem;
+	text-decoration: none;/* not underlined */
+	border: none;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	overflow: hidden;
+}
+
+.ios dd.richlink a iframe,
+.ios dd.richlink a img {
+	display: table-row;
+	border: none;
+	max-width: 100%;
+}
+.ios dd.richlink a iframe {/* default aspect ratio, 16:9 */
+	width: 210px;
+	height: 118px;
+}
+.ios dd.richlink a iframe[class="SD" i] {/* aspect ratio 4:3 */
+	width: 210px;
+	height: 157px;
+}
+.ios dd.richlink a img {
+	max-height: 250px;/* tall narrow images can't be THAT big */
+}
+
+.ios dd.richlink a .caption {
+	display: table-caption;
+	caption-side: bottom;
+	position: relative;
+	margin: 1em 1.5em;
+	color: #8e8e93;
+}
+.ios dd.richlink a .caption b {
+	display: block;
+	margin-bottom: 0.5em;
+	color: black;
+}
+
+/* arrow, if it's a video */
+.ios dd.richlink a iframe + .caption {
+	margin-right: 2.5em;
+}
+.ios dd.richlink a iframe + .caption::after {
+	content: "";
+	position: absolute;
+	right: -1em;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 0.75em;
+	height: 0.75em;
+	border-right: 1.5px solid #8e8e93;
+	border-bottom: 1.5px solid #8e8e93;
+	transform: rotate(-45deg);
+}
+
+/* time */
+.ios .time{
+	clear: both;
+	font-weight: normal;
+	color: #8e8e93;
+	font-size: 0.75rem;
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 1rem;
 }
 
 
-/*
- * Links
- */
-.ios a {
-  word-break: break-all; /* linebreak when space runs out */
-  color: inherit; /* color match */
-}
-
-
-/*************************************************************************************
-*                    Snapchat
-*************************************************************************************/
-/*
- * wrapper
- */
-.snapchat {
-  font-family: "Avenir Next", Avenir, Arial, sans-serif;
-  padding-bottom: 10px; /* because there aren't bubbles with built-in after-spacing in snapchat,
-    this is so the bottom border isn't right up agaist the last text */
-}
-
-/* Names and dates have the same font style */
+/**************************************************
+* Snapchat
+**************************************************/
+/* shared text style */
 .snapchat dt,
 .snapchat .day {
-  font-family: inherit; /* font matches */
-  font-weight: normal; /* not bold */
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.75em;
-  padding-top: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 0.75em;
 }
 
-/* Day */
 .snapchat .day {
-  text-align: center;
-  color: #8e8e93;
+	color: rgba(60, 60, 67, 0.29);
+	margin: auto;
+	margin-top: 0.5em;
 }
 
-/* Shared properties of all texts */
-.snapchat dd {
-  margin: 0;
-  margin-left: 2px;
-  padding: 4px 10px;
-  border-left: solid 2px;
+.snapchat .in,
+.snapchat .out {
+	position: relative;
+	margin: 0.25rem 0.75rem;
+	margin-top: 1.5rem;/* space for name*/
+	border-left: solid 2px;
+	padding-left: 0.75rem;
 }
-
-/*
- * Outgoing/red
- */
+/* name labels */
+.snapchat .in dt,
 .snapchat .out dt {
-  color: #e92754;
+	position: absolute;
+	top: -1rem;
+	left: -3px;
 }
+/* messages */
+.snapchat .in dd,
 .snapchat .out dd {
-  border-color: #e92754;
+	position: relative;
+	margin: 0;
+	padding: 0.25rem 0;
+}
+.snapchat .out dt {color: #e92754;}
+.snapchat .out {border-color: #e92754;}
+.snapchat .in dt {color: #3cb2e2;}
+.snapchat .in {border-color: #3cb2e2;}
+
+.snapchat dd.emoji {
+	font-size: 3em;
 }
 
-/*
- * Incoming/blue
- */
-.snapchat .in dt {
-  color: #3cb2e2;
-}
-.snapchat .in dd {
-  border-color: #3cb2e2;
-}
-
-
-/*
- * Big emojis
- */
-.snapchat .emoji {
-  font-size: 3em;
-}
-
-
-/*
- * Icon buttons
- */
+/************** Icons **************/
 .snapchat .icon {
-  display: block;
-  width: 100%;
-  height: 2em;
-  border-radius: 4px;
-  border: 1px solid rgba(0,0,0, 0.15);
-  background: rgba(255, 255, 255, 0.3);
-  padding: 0.5em 0;
+	display: table;
+	height: 2em;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 1px solid rgba(60, 60, 67, 0.29);
+	background: white;
 }
-/* Hidden backup for icon buttons */
+
+/* hidden backup */
 .snapchat .icon i {
-  display: none;
+	display: none;
 }
 
-/* Icon image */
-.snapchat .icon:before {
-  content: "";
-  float: left;
-  display: inline-block;
-  margin: 0.5em;
-  background-size: 1em 1em;
-  width: 1em;
-  height: 1em;
+/* icon part */
+.snapchat .icon::before {
+	display: table-cell;
+	content: "";
+	width: 3rem;
+	background-repeat: no-repeat;
+	background-size: auto 1rem;
+	background-position: center;
 }
-/* Icon text */
-.snapchat .icon:after {
-  float: left;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.5em 0;
-  line-height: 1em;
+/* text part */
+.snapchat .icon::after {
+	display: table-cell;
+	font-weight: bold;
+	padding: 0.5rem;
+	padding-left: 0;
 }
 
-/*
- * Opened
- */
+/* if clicked */
+.snapchat.nonudes .icon:active {
+	transform: scale(1.05);
+	transform-origin: center;
+}
+.snapchat.nonudes .icon:active::after {
+	content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
+}
+
+/* Opened */
 .snapchat .icon.opened:after {
-  content: "Opened";
+	content: "Opened";
 }
 /* Outgoing (arrow) */
-.snapchat .out .icon.opened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_red.png");
-}
-.snapchat .out .icon.opened.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_purple.png");
-}
-.snapchat .out .icon.opened.blue:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_blue.png");
-}
+.snapchat .out .icon.opened:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_red.png");}
+.snapchat .out .icon.opened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_purple.png");}
+.snapchat .out .icon.opened.blue:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_blue.png");}
 /* Incoming (box) */
-.snapchat .in .icon.opened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_red.png");
-}
-.snapchat .in .icon.opened.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_purple.png");
-}
-.snapchat .in .icon.opened.blue:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_blue.png");
-}
+.snapchat .in .icon.opened:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_red.png");}
+.snapchat .in .icon.opened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_purple.png");}
+.snapchat .in .icon.opened.blue:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/viewed_blue.png");}
 
-/*
- * Unopened
- */
+/* Unopened */
 .snapchat .icon.unopened:after {
-  content: "Delivered";
+	content: "Delivered";
 }
 /* Outgoing (arrow) */
-.snapchat .out .icon.unopened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_red.png");
-}
-.snapchat .out .icon.unopened.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_purple.png");
-}
-.snapchat .out .icon.unopened.blue:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");
-}
+.snapchat .out .icon.unopened:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_red.png");}
+.snapchat .out .icon.unopened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_purple.png");}
+.snapchat .out .icon.unopened.blue:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");}
 /* Incoming (box) */
 .snapchat .in .icon.unopened:after {
-  content: "Press and hold to view";
+	content: "Press and hold to view";
 }
-.snapchat .in .icon.unopened:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");
-}
-.snapchat .in .icon.unopened.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_purple.png");
-}
-.snapchat .in .icon.unopened.blue:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_blue.png");
-}
+.snapchat .in .icon.unopened:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");}
+.snapchat .in .icon.unopened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_purple.png");}
+.snapchat .in .icon.unopened.blue:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_blue.png");}
 
-/*
- * Screenshot
- */
+/* Screenshot */
 .snapchat .icon.screenshot:after {
-  content: "Screenshot!";
+	content: "Screenshot!";
 }
-.snapchat .icon.screenshot:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_red.png");
-}
-.snapchat .icon.screenshot.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_purple.png");
-}
-.snapchat .icon.screenshot.blue:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_blue.png");
-}
+.snapchat .icon.screenshot:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_red.png");}
+.snapchat .icon.screenshot.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_purple.png");}
+.snapchat .icon.screenshot.blue:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_blue.png");}
 
-/*
- * Replay
- */
+/* Replay */
 .snapchat .icon.replay:after {
-  content: "Replay!";
+	content: "Replay!";
 }
-.snapchat .icon.replay:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_red.png");
-}
-.snapchat .icon.replay.purple:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_purple.png");
-}
-
-
-/*
- * Icon message if clicked
- */
-.snapchat.nonudes .icon:active:after {
-  font-size: 0.8em;
-  content: "[No actual nudes. Sorry. This is a fanfic.]" !important;
-}
+.snapchat .icon.replay:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_red.png");}
+.snapchat .icon.replay.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_purple.png");}
