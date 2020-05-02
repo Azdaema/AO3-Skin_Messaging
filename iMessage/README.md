@@ -85,7 +85,11 @@ Rich links are that thing where you send a youtube video link, and then there's 
 </div>
 ```
 
-Remove all the fluff from an embedded video: just the guts. You can, however, give the iframe `class="SD"` to give it a 4:3 aspect ratio rather than a 16:9 one. This aspect ratio is sometimes found in older videos.
+Videos default to a 16:9 aspect ratio.
+> _"Aspect Ratio of 16:9 ("Sixteen-by-Nine" and "Sixteen-to-Nine") which is also known as High Definition (HD) became leading aspect ratio since the start of the 21st century. It is the international standard format of HDTV, non-HD digital television and analog widescreen television PALplus."_ **[aspectratiocalculator.com](https://www.aspectratiocalculator.com/16-9.html)**
+
+Youtube forces everything into modern 16:9 in embedding, but Vimeo keeps whatever the aspect ratio of the video actually is. If you're (for example) embeding an 80's music video from Vimeo, give the iframe `class="SD"` to reflect that.
+
 ```html
 <dd class="richlink">
 	<a href="https://vimeo.com/148751763">
@@ -94,6 +98,9 @@ Remove all the fluff from an embedded video: just the guts. You can, however, gi
 	</a>
 </dd>
 ```
+
+Other aspect ratio resource: https://andrew.hedges.name/experiments/aspect_ratio/
+
 
 ### Typing icon
 ```html
