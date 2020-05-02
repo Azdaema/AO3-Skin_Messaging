@@ -51,3 +51,11 @@ Most popular app by country:
 
 <!-- https://www.viget.com/articles/equating-color-and-transparency/ -->
 <!-- [Craig Buckler's other way of sizing absolute elements](https://www.sitepoint.com/css-sizing-absolute-position/) -->
+
+
+# imessage
+https://www.theverge.com/2011/12/13/2612736/ios-history-iphone-ipad
+
+old: up until ios 6
+
+new: ios 7 and onward
