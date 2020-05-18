@@ -84,6 +84,7 @@
 .imessage .in dd {
 	float: left;
 	background: #e5e5ea;
+	color: black;
 }
 .imessage .in dd:last-of-type::after {
 	left: -0.625rem;
