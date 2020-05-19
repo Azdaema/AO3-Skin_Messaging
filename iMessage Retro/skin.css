@@ -200,8 +200,7 @@
 	background: linear-gradient(to bottom, #86c0e8 0%, #096fba 50%);
 }
 
-.imessageorig.gr .footer:after,
-.imessageorig .footer.gr:after {
+.imessageorig.sms .footer:after {
 	background: linear-gradient(to bottom, #abd06f 0%, #6eaf35 50%, #59a21e 50%);
 }
 
