@@ -163,7 +163,7 @@
 	height: 118px;
 }
 /* aspect ratio 4:3 */
-.imessage dd.richlink a iframe[class="SD" i] {
+.imessage dd.richlink a iframe.SD {
 	width: 210px;
 	height: 157px;
 }
@@ -222,7 +222,7 @@
 	height: 0.625rem;
 }
 .imessage .in dd.typing::before {
-	bottom: -0.2083333333rem;
+	bottom: -0.2rem;
 	left: -0.3125rem;
 	width: 0.3125rem;
 	height: 0.3125rem;
