@@ -376,20 +376,20 @@
 /**************************************************
 *		SMS mode (aka green)
 **************************************************/
-.imessage.green .out dd,
-.imessage .out.green dd {
+.imessage.sms .out dd,
+.imessage .out.sms dd {
 	background: #34c759;
 }
-.imessage.green .out dd::after,
-.imessage .out.green dd::after {
+.imessage.sms .out dd::after,
+.imessage .out.sms dd::after {
 	border-color: #34c759;
 }
 
 /* send button */
-.imessage.green .typebar::before {
+.imessage.sms .typebar::before {
 	background-color: #34c759;
 }
 /* filler text */
-.imessage.green .typebar:empty::after {
+.imessage.sms .typebar:empty::after {
 	content: "Text Message";
 }
