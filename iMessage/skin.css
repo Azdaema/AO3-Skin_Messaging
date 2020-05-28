@@ -38,16 +38,17 @@
 /* space for the tails */
 .imessage .in,
 .imessage .out {
-	margin-left: 0.625rem;
-	margin-right: 0.625rem;
+	margin-left: 0.625em;
+	margin-right: 0.625em;
 }
 
 /* shared text features */
 .imessage .in dd,
 .imessage .out dd {
+	line-height: 1.3em;
 	margin: 1px 0;
-	border-radius: 1rem;
-	padding: 0.5rem 1rem;
+	border-radius: 1em;
+	padding: 0.4em 0.8em;
 	max-width: 70%;
 	clear: both;
 	position: relative;
@@ -59,8 +60,8 @@
 	content: "";
 	position: absolute;
 	bottom: 0;
-	width: 0.625rem;
-	height: 1rem;
+	width: 0.625em;
+	height: 1em;
 	z-index: -1;
 }
 /* the last part in a text series has more space after it
@@ -76,9 +77,9 @@
 	color: white;
 }
 .imessage .out dd:last-of-type::after {
-	right: -0.625rem;
-	border-left: 0.625rem solid #007aff;
-	border-bottom-left-radius: 1.25rem 0.625rem;
+	right: -0.625em;
+	border-left: 0.625em solid #007aff;
+	border-bottom-left-radius: 1.25em 0.625em;
 }
 
 .imessage .in dd {
@@ -87,9 +88,9 @@
 	color: black;
 }
 .imessage .in dd:last-of-type::after {
-	left: -0.625rem;
-	border-right: 0.625rem solid #e5e5ea;
-	border-bottom-right-radius: 1.25rem 0.625rem;
+	left: -0.625em;
+	border-right: 0.625em solid #e5e5ea;
+	border-bottom-right-radius: 1.25em 0.625em;
 }
 
 /**************************************************
@@ -105,9 +106,8 @@
 .imessage dd.emoji {
 	background: none;
 	border-radius: 0;
-	padding-left: 0;
-	padding-right: 0;
-	font-size: 3rem;
+	padding: 0.5rem 0;
+	font-size: 3em;
 }
 
 /* picture */
@@ -217,21 +217,21 @@
 }
 .imessage .in dd.typing::after {
 	bottom: 0;
-	left: -0.15625rem;
-	width: 0.625rem;
-	height: 0.625rem;
+	left: -0.15625em;
+	width: 0.625em;
+	height: 0.625em;
 }
 .imessage .in dd.typing::before {
-	bottom: -0.2rem;
-	left: -0.3125rem;
-	width: 0.3125rem;
-	height: 0.3125rem;
+	bottom: -0.2em;
+	left: -0.3125em;
+	width: 0.3125em;
+	height: 0.3125em;
 }
 
 /* dots */
 .imessage .in dd.typing div {
-	height: 0.625rem;
-	width: 0.625rem;
+	height: 0.625em;
+	width: 0.625em;
 	border-radius: 100%;
 	background: #8e8e93;
 	display: inline-block;
