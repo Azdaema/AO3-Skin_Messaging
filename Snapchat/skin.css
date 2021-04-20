@@ -1,25 +1,26 @@
 /* Wrapper */
 .snapchat {
-  width: 100%;
-  max-width: 320px;
-  margin: auto;
-  font-family: "Avenir Next", Avenir, Arial, sans-serif;
+	width: 100%;
+	max-width: 320px;
+	margin: auto;
+	font-family: "Avenir Next", Avenir, Arial, sans-serif;
+	display: table;
 }
 
 /* Matching font style of both names and dates */
 .snapchat dt,
 .snapchat .day {
-  font-family: inherit;
-  text-transform: uppercase;
-  font-weight: normal;
-  letter-spacing: 1px;
-  font-size: 0.75em;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-size: 0.75em;
 }
 
 /* Day */
 .snapchat .day {
-  text-align: center;
-  color: #d9d9d9;
+	text-align: center;
+	color: #d9d9d9;
 }
 
 /**************************************************
@@ -27,15 +28,15 @@
 **************************************************/
 /* Names */
 .snapchat dt {
-  margin-top: 10px;
+	margin-top: 0.7rem;
 }
 
 /* Texts */
 .snapchat dd {
-  margin: 0;
-  margin-left: 2px;
-  padding: 4px 10px;
-  border-left: solid 2px;
+	margin: 0;
+	margin-left: 2px;
+	padding: 0.25rem 0.6rem;
+	border-left: solid 2px;
 }
 
 /* Outgoing/red */
@@ -61,51 +62,53 @@
 *   Big emojis
 **************************************************/
 .snapchat .emoji {
-  font-size: 3em;
+	font-size: 3em;
 }
 
 /**************************************************
 *   Icons
 **************************************************/
 .snapchat .snap {
-  display: block;
-  width: 100%;
-  border-radius: 4px;
-  border: 1px solid rgba(0,0,0, 0.15);
-  background: rgba(255,255,255, 0.3);
+	display: table;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0, 0.15);
+	background: rgba(255,255,255, 0.3);
 }
 
 /* Image part */
 .snapchat .snap:before {
-  float: left;
-  display: inline-block;
-  margin: 0.5em;
-  background-size: 1em 1em;
-  width: 1em;
-  height: 1em;
-  content: "";
+	float: left;
+	display: inline-block;
+	margin: 0.5em;
+	background-size: 1em 1em;
+	width: 1em;
+	height: 1em;
+	content: "";
 }
 
 /* Text part */
 .snapchat .snap:after {
-  float: left;
-  display: inline-block;
-  font-weight: bold;
-  padding: 0.5em 0;
-  line-height: 1em;
+	float: left;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0.5em 0;
+	line-height: 1em;
 }
 
 
 /* Hidden backup */
 .snapchat .snap i {
-  display: none;
+	display: none;
 }
 
 /*
  * Opened
  */
 .snapchat .snap.opened:after {
-  content: "Opened";
+	content: "Opened";
 }
 /* Outgoing (arrow) */
 .snapchat .out .snap.opened:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/opened_red.png");}
@@ -120,7 +123,7 @@
  * Unopened
  */
 .snapchat .snap.unopened:after {
-  content: "Delivered";
+	content: "Delivered";
 }
 /* Outgoing (arrow) */
 .snapchat .out .snap.unopened:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_red.png");}
@@ -128,7 +131,7 @@
 .snapchat .out .snap.unopened.blue:before {  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/sent_blue.png");}
 /* Incoming (box) */
 .snapchat .in .snap.unopened:after {
-  content: "Tap to view";
+	content: "Tap to view";
 }
 .snapchat .in .snap.unopened:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_red.png");}
 .snapchat .in .snap.unopened.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/received_purple.png");}
@@ -138,7 +141,7 @@
  * Screenshot
  */
 .snapchat .snap.screenshot:after {
-  content: "Screenshot!";
+	content: "Screenshot!";
 }
 .snapchat .snap.screenshot:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_red.png");}
 .snapchat .snap.screenshot.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/screenshot_purple.png");}
@@ -148,7 +151,7 @@
  * Replay
  */
 .snapchat .snap.replay:after {
-  content: "Replay!";
+	content: "Replay!";
 }
 .snapchat .snap.replay:before {       background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_red.png");}
 .snapchat .snap.replay.purple:before {background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/Snapchat/icons/replay_purple.png");}
@@ -157,8 +160,7 @@
  * Icon message if clicked
  */
 .snapchat.nonudes .snap:active:after {
-  font-size: 0.8em;
-  content: "[No actual nudes. Sorry. This is a fanfic.]";
+	content: "[No actual nudes. Sorry. This is a fanfic.]";
 }
 
 
@@ -166,57 +168,57 @@
 *   Contact header
 **************************************************/
 .snapchat .contact {
-  position: relative;
-  background: linear-gradient(to right, #2ec9ff, #00a0f0), #3cb2e2; /* colors pulled from picture */
-  margin: 0;
-  padding: 12px;
-  font-family: inherit;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: normal;
-  
-  /* text overflow */
-  text-align: center;
-  padding-left: 2.5em;
-  padding-right: 1.5em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+	position: relative;
+	background: linear-gradient(to right, #2ec9ff, #00a0f0), #3cb2e2; /* colors pulled from picture */
+	margin: 0;
+	padding: 12px;
+	font-family: inherit;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: normal;
+	
+	/* text overflow */
+	text-align: center;
+	padding-left: 2.5em;
+	padding-right: 1.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .snapchat .contact:before,
 .snapchat .contact:after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  width: 1.5em;
-  background-repeat: no-repeat;
-  background-size: auto 1em;
+	content: "";
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	width: 1.5em;
+	background-repeat: no-repeat;
+	background-size: auto 1em;
 }
 /* menu (aka 3 lines) */
 .snapchat .contact:before {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-bars.png");
-  left: 10px;
-  background-position: left;
+	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-bars.png?raw=true");
+	left: 10px;
+	background-position: left;
 }
 /* arrow */
 .snapchat .contact:after {
-  background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-angle-right.png");
-  right: 10px;
-  background-position: right;
+	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-angle-right.png?raw=true");
+	right: 10px;
+	background-position: right;
 }
 
 /**************************************************
 *   border
 **************************************************/
 .snapchat.border {
-  border: 1px solid rgba(60,60,67, 0.2);
-  padding-bottom: 10px;
+	border: 1px solid rgba(60,60,67, 0.2);
+	padding-bottom: 10px;
 }
 
 .snapchat.border .in,
 .snapchat.border .out {
-  margin-left: 10px;
-  margin-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
