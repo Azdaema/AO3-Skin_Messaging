@@ -2,7 +2,7 @@
 .whatsapp {
 	width: 100%;
 	max-width: 320px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", system-ui;
 	display: table;
 	margin: auto;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/WhatsApp/images/WhatsApp_background.png");
@@ -221,16 +221,13 @@
 *		Footer
 **************************************************/
 .whatsapp .footer {
-	display: table;
-	position: relative;
 	clear: both;
-	width: 100%;
-	padding: 3px;
-	box-sizing: border-box;
+	position: relative;
+	margin: 0.25em;
 }
 
 /* Mic circle */
-.whatsapp .footer:after{
+.whatsapp .footer::after {
 	content: "";
 	position: absolute;
 	bottom: 3px;
@@ -245,8 +242,11 @@
 	background-size: 0.5em auto;
 }
 
-.footer .typebar {
+/*  the bit with a border where you type in the text  */
+.whatsapp .footer .typebar {
 	position: relative;
+	display: block;
+	font-size: 1rem;
 	background: #FFFFFF;
 	margin: 0;
 	margin-right: 2.5em;
@@ -269,9 +269,8 @@
 	opacity: 0.5;
 }
 
-
-/* blue cursor */
-.whatsapp .footer .typebar:after{
+/* blue caret */
+.whatsapp .footer .typebar::after {
 	content: "";
 	border-right: 2px solid #007aff;
 }
