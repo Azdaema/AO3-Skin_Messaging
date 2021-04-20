@@ -69,6 +69,14 @@
 	left: -16px;
 }
 
+/* spacing */
+.whatsapp div:first-of-type {
+	margin-top: 0.5em;
+}
+.whatsapp dd:last-child {
+	margin-bottom: 0.5em;
+}
+
 /**************************************************
 *		Time
 **************************************************/
