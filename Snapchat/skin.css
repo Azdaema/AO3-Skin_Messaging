@@ -198,13 +198,13 @@
 }
 /* menu (aka 3 lines) */
 .snapchat .contact:before {
-	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-bars.png?raw=true");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-bars.png");
 	left: 10px;
 	background-position: left;
 }
 /* arrow */
 .snapchat .contact:after {
-	background-image: url("https://github.com/Azdaema/AO3-Skin_Messaging/blob/master/FontAwesome/white/fa-angle-right.png?raw=true");
+	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/FontAwesome/white/fa-angle-right.png");
 	right: 10px;
 	background-position: right;
 }
