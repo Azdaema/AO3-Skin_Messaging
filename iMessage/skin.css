@@ -4,7 +4,7 @@
 .imessage {
 	width: 100%;
 	max-width: 320px;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, system-ui;
 	display: table;
 	margin: auto;
 }
