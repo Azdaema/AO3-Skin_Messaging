@@ -2,7 +2,7 @@
 .line {
 	width: 100%;
 	max-width: 320px;
-	font-family: Roboto, Arial, sans-serif;
+	font-family: Roboto, system-ui;
 	display: table;
 	margin: auto;
 	background-image: url("https://raw.githubusercontent.com/Azdaema/AO3-Skin_Messaging/master/LINE/images/background_to_repeat.png");
