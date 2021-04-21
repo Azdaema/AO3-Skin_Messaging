@@ -3,7 +3,7 @@
 	width: 100%;
 	max-width: 320px;
 	margin: auto;
-	font-family: "Avenir Next", Avenir, Arial, sans-serif;
+	font-family: "Avenir Next", Avenir, system-ui;
 	display: table;
 }
 
