@@ -2,7 +2,7 @@
 .facebookmessenger {
   width: 100%;
   max-width: 320px;
-  font-family: "Segoe UI", "San Francisco", Roboto, Arial, sans-serif;
+  font-family: "Segoe UI", "San Francisco", Roboto, system-ui;
   display: table;
   margin: auto;
 }
